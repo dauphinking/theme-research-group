@@ -1,6 +1,6 @@
 ---
 title: Yugeng XI
-role: Professor
+role: Chaired  Professor
 avatar_filename: 1705547412666_000066_01.jpg
 bio: ""
 interests:
