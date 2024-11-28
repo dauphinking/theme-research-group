@@ -26,7 +26,7 @@ social:
     icon: envelope
   - display:
       header: false
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.co.uk/citations?user=mLSocOwAAAAJ
     icon_pack: ai
     icon: google-scholar
 organizations:
