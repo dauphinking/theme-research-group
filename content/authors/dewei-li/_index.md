@@ -22,8 +22,8 @@ social:
   - display:
       header: false
     icon_pack: fas
-    link: "mail: dwli@sjtu.edu.cn"
-    icon: email
+    link: "mailto: dwli@sjtu.edu.cn"
+    icon: envelope
   - display:
       header: false
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
