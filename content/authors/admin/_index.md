@@ -46,16 +46,13 @@ highlight_name: false
 first_name: Nelson
 email: willing419@sjtu.edu.cn
 ---
-
-
-
 Yunwen Xu is an Associate Researcher at the Department of Automation, Shanghai Jiao Tong University. She earned her Ph.D. and M.S. in Control Science and Engineering from Shanghai Jiao Tong University and her B.S. in Automation from Nanjing University of Science and Technology. She was a visiting scholar at Purdue University and has held postdoctoral and research positions at Shanghai Jiao Tong University. Her research focuses on predictive control applications, intelligent transportation systems, robot control, embedded predictive control, and intelligent control of complex systems. She has published extensively in top journals and conferences and has been involved in several significant research projects.
 
 **Full Biography**
 
 Yunwen Xu is an Associate Researcher at the Department of Automation, Shanghai Jiao Tong University. She holds a Ph.D. and M.S. in Control Science and Engineering from Shanghai Jiao Tong University, where she was advised by Prof. Yugeng Xi. She completed her B.S. in Automation from Nanjing University of Science and Technology. From 2016 to 2017, she was a visiting scholar at the School of Civil Engineering, Purdue University, USA.
 
-After completing her Ph.D., Yunwen Xu served as a Postdoctoral Researcher at Shanghai Jiao Tong University from 2019 to 2021, co-advised by Prof. Dewei Li. She then transitioned to the role of Assistant Researcher from 2021 to 2023, and currently holds the position of Associate Researcher.
+After completing her Ph.D., Yunwen Xu served as a Postdoctoral Researcher at Shanghai Jiao Tong University from 2019 to 2021. She then transitioned to the role of Assistant Researcher from 2021 to 2023, and currently holds the position of Associate Researcher.
 
 Yunwen Xu's research interests include predictive control applications, intelligent transportation systems, robot control, embedded predictive control, and intelligent control of complex systems. She has made significant contributions to these fields through her publications in prestigious journals such as *IEEE Transactions on Industrial Electronics*, *IEEE Transactions on Vehicular Technology*, and *IET Intelligent Transport Systems*. Her work has been presented at major conferences, including the IFAC World Congress.
 
