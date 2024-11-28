@@ -37,20 +37,11 @@ superuser: false
 user_groups:
   - Researchers
 ---
-
-
-
 ## Professional Experience
 
 * **Professor:** Shanghai Jiao Tong University, Department of Automation (January 2019 - Present)
 * **Associate Researcher:** Shanghai Jiao Tong University, Department of Automation (April 2011 - December 2018)
 * **Assistant Researcher:** Hong Kong University of Science and Technology, Department of Chemical and Molecular Engineering (May 2011 - December 2011)
-* **Postdoctoral Researcher:** Shanghai Jiao Tong University, Department of Instrument Science and Engineering (April 2009 - April 2011)
-* **Engineer:** Sichuan Deyang Jiete Engineering Company (September 2002 - June 2004)
-* **Software Engineer:** Sichuan Dingtian Electronics Industry Co., Ltd. (May 1999 - September 2002)
-* **Sales Engineer:** Singapore Stardom Control Engineering Company, Chengdu Branch (June 1998 - May 1999)
-* **Electrical Engineer:** China Second Heavy Machinery Group Company Design Research Institute (October 1995 - June 1998)
-* **Assistant Engineer:** Shantou Ocean Group Company (July 1993 - October 1995)
 
 ## Research Projects
 
@@ -69,20 +60,20 @@ user_groups:
 
 ### Selected Publications (Last 5 Years)
 
-1. **Input-mapping based data-driven model predictive control for unknown linear systems with bounded disturbance.** Lingyi Yang, Aoyun Ma, Dewei Li*, Yugeng Xi. *Automatica*, 2023, 153: 111056.
-2. **Distributed MPC based on Robustly Controllable Sets for PWA Systems.** Ma, Aoyun; Dewei Li*, Yugeng Xi. *Automatica*, 2023, 154: 111078.
-3. **A co-design method of online learning SMC law via an input-mapping strategy.** Yu, Yaru; Li, Dewei*; Zhao, Dongya; Xi, Yugeng. *Automatica*, 2024.
+1. **Input-mapping based data-driven model predictive control for unknown linear systems with bounded disturbance.** Lingyi Yang, Aoyun Ma, Dewei Li*, Yugeng Xi.* Automatica*, 2023, 153: 111056.
+2. **Distributed MPC based on Robustly Controllable Sets for PWA Systems.** Ma, Aoyun; Dewei Li*, Yugeng Xi.* Automatica*, 2023, 154: 111078.
+3. **A co-design method of online learning SMC law via an input-mapping strategy.** Yu, Yaru; Li, Dewei*; Zhao, Dongya; Xi, Yugeng.* Automatica*, 2024.
 4. **Distributed Neighbor Selection in Multi-agent Networks.** Haibin Shao, Lulu Pan, Mehran Mesbahi, Yugeng Xi, Dewei Li. *IEEE Transactions on Automatic Control*, 2023, 68(11):6711-6726.
-5. **Data-Driven Optimal Synchronization Control for Leader-Follower Multi-Agent Systems.** Yuanqiang Zhou, Dewei Li*, Furong Gao. *IEEE Transactions on Systems, Man and Cybernetics: Systems*, 2023, 53(1): 495-503.
-6. **An Accelerated Distributed Gradient Method With Local Memory.** Xiaoxing Ren, Dewei Li*, Yugeng Xi, Haibin Shao. *Automatica*, 2022, 146: 110260.
+5. **Data-Driven Optimal Synchronization Control for Leader-Follower Multi-Agent Systems.** Yuanqiang Zhou, Dewei Li*, Furong Gao.* IEEE Transactions on Systems, Man and Cybernetics: Systems*, 2023, 53(1): 495-503.
+6. **An Accelerated Distributed Gradient Method With Local Memory.** Xiaoxing Ren, Dewei Li*, Yugeng Xi, Haibin Shao.* Automatica*, 2022, 146: 110260.
 7. **Characterizing bipartite consensus on signed matrix-weighted networks via balancing set.** Chongzhi Wang, Lulu Pan, Haibin Shao\*, Dewei Li\*, Yugeng Xi. *Automatica*, 2022, 141:110237.
 8. **Cluster consensus on matrix-weighted switching networks.** Lulu Pan, Haibin Shao, Mehran Mesbahi, Dewei Li, Yugeng Xi. *Automatica*, 2022, 141:110308.
-9. **Event-triggered distributed robust model predictive control for a class of nonlinear interconnected systems.** Yuanqiang Zhou, Dewei Li*, Yugeng Xi, Furong Gao. *Automatica*, 2022, 136:110039.
-10. **Distributed Global Optimization for a Class of Nonconvex Optimization With Coupled Constraints.** Xiaoxing Ren, Dewei Li*, Yugeng Xi, Haibin Shao. *IEEE Transactions on Automatic Control*, 2022, 67(8): 4322-4329.
+9. **Event-triggered distributed robust model predictive control for a class of nonlinear interconnected systems.** Yuanqiang Zhou, Dewei Li*, Yugeng Xi, Furong Gao.* Automatica*, 2022, 136:110039.
+10. **Distributed Global Optimization for a Class of Nonconvex Optimization With Coupled Constraints.** Xiaoxing Ren, Dewei Li*, Yugeng Xi, Haibin Shao.* IEEE Transactions on Automatic Control*, 2022, 67(8): 4322-4329.
 11. **Consensus on Matrix-weighted switching Networks.** Lulu Pan, Haibin Shao, Mehran Mesbahi, Yugeng Xi, Dewei Li. *IEEE Transactions on Automatic Control*, 2021, 66(12): 5990-5996.
-12. **Distributed Integrated Control of a Mixed Traffic Network With Urban and Freeway Networks.** Na Wu, Dewei Li*, Yugeng Xi. *IEEE Transactions on Control Systems Technology*, 2022, 30(1): 57-70.
-13. **Synthesis of ILC-MPC Controller With Data-Driven Approach for Constrained Batch Processes.** Dewei Li*, SY He, Yugeng Xi, Tao Liu, Furong Gao, Youqing Wang, Jingyi Lu. *IEEE Transactions on Industrial Electronics*, 2020, 67(4): 3116-3125.
-14. **Brain-Inspired Experience Reinforcement Model for Bin Packing in Varying Environments.** Linli Zhang, Dewei Li*, Jia Shuai, Haibin Shao. *IEEE Transactions on Neural Networks and Learning Systems*, 2022, 33(5): 2168-2180.
+12. **Distributed Integrated Control of a Mixed Traffic Network With Urban and Freeway Networks.** Na Wu, Dewei Li*, Yugeng Xi.* IEEE Transactions on Control Systems Technology*, 2022, 30(1): 57-70.
+13. **Synthesis of ILC-MPC Controller With Data-Driven Approach for Constrained Batch Processes.** Dewei Li*, SY He, Yugeng Xi, Tao Liu, Furong Gao, Youqing Wang, Jingyi Lu.* IEEE Transactions on Industrial Electronics*, 2020, 67(4): 3116-3125.
+14. **Brain-Inspired Experience Reinforcement Model for Bin Packing in Varying Environments.** Linli Zhang, Dewei Li*, Jia Shuai, Haibin Shao.* IEEE Transactions on Neural Networks and Learning Systems*, 2022, 33(5): 2168-2180.
 
 ## Awards and Honors
 
