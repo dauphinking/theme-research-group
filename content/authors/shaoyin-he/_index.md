@@ -30,7 +30,7 @@ education:
       institution: Shanghai Jiao Tong University
       year: 2019
 email: " heshaoying19941204@sjtu.edu.cn"
-superuser: true
+superuser: false
 user_groups:
   - PostDoctor
 ---
