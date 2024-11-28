@@ -1,7 +1,7 @@
 ---
 title: Dewei LI
 role: Professor
-avatar_filename: de-wei.jpg
+avatar_filename: avatar.jpg
 bio: Dewei LI has published over 300 papers in prestigious academic journals and
   conferences, including Automatica and IEEE Transactions on Automatic Control.
   He holds 10 patents, 11 software copyrights, and has authored one monograph
