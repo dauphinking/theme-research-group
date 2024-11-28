@@ -24,6 +24,11 @@ social:
     icon_pack: fas
     link: "mail: dwli@sjtu.edu.cn"
     icon: " https://hugoblox.com/docs/page-builder/#icons"
+  - display:
+      header: false
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    icon_pack: ai
+    icon: google-scholar
 education:
   courses:
     - course: " Ph.D. in Control Science and Engineering"
@@ -42,6 +47,8 @@ user_groups:
 * **Professor:** Shanghai Jiao Tong University, Department of Automation (January 2019 - Present)
 * **Associate Researcher:** Shanghai Jiao Tong University, Department of Automation (April 2011 - December 2018)
 * **Assistant Researcher:** Hong Kong University of Science and Technology, Department of Chemical and Molecular Engineering (May 2011 - December 2011)
+
+
 
 ## Research Projects
 
