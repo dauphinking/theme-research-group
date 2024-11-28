@@ -1,7 +1,7 @@
 ---
 title: Yugeng XI
 role: Chaired  Professor
-avatar_filename: 1705547412666_000066_01.jpg
+avatar_filename: avatar.jpg
 bio: ""
 interests:
   - 1. Model Predictive Control; 2. Control and Optimization of Large Scale
