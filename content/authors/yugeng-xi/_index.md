@@ -26,7 +26,7 @@ education:
       year: 1978
       institution: Harbin Institute of Technology
 email: ""
-superuser: false
+superuser: true
 user_groups:
   - Researchers
 ---
