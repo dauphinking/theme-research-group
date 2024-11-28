@@ -23,7 +23,7 @@ social:
       header: false
     icon_pack: fas
     link: "mail: dwli@sjtu.edu.cn"
-    icon: " https://hugoblox.com/docs/page-builder/#icons"
+    icon: email
   - display:
       header: false
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
