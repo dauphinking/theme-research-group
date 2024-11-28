@@ -1,21 +1,21 @@
 ---
-title: Shaoying HE
-role: Post Doctor
-avatar_filename: avatar.png
+title: Lulu PAN
+role: Associate Researcher
+avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - predictive control
-  - robot
-  - visual servoing
+  - Network Control  Learning
+  - Optimization
+  - Game Theory
 social:
   - display:
       header: false
     icon_pack: fas
-    link: "mailto:  heshaoying19941204@sjtu.edu.cn"
+    link: "mailto: llpan@sjtu.edu.cn"
     icon: envelope
   - display:
       header: false
-    link: https://scholar.google.com/citations?user=2KnlBvQAAAAJ
+    link: https://www.researchgate.net/profile/Lulu-Pan-3
     icon_pack: ai
     icon: google-scholar
 organizations:
@@ -23,16 +23,31 @@ organizations:
     url: https://automation.sjtu.edu.cn
 education:
   courses:
-    - course: " PhD. in engineering"
-      year: 2023
+    - course: " PhD. in Control Science and Engineering"
+      year: 2018
       institution: Shanghai Jiao Tong University
-    - course: M.S. in Automation
-      institution: Shanghai Jiao Tong University
-      year: 2019
-email: " heshaoying19941204@sjtu.edu.cn"
+email: llpan@sjtu.edu.cn
 superuser: true
 user_groups:
-  - PostDoctor
+  - Researchers
 ---
 
-Shaoying He was born in Hunan, China. He received the master's degree in automation from Shanghai Jiao Tong University, Shanghai, China, in 2019. He is currently a postdoctor with the Department of Automation, Shanghai Jiao Tong University.,His research interests include predictive control and robot
+
+
+## Research Achievements
+
+### Publications
+
+1. Lulu Pan, Haibin Shao, Yang Lu, Mehran Mesbahi, Dewei Li, Yugeng Xi. "Privacy-Preserving Average Consensus via Matrix-weighted Inter-Agent Coupling." *Automatica*, 2024. (To appear)
+2. Haibin Shao, Lulu Pan*, Mehran Mesbahi, Yugeng Xi, Dewei Li. "Distributed Neighbor Selection in Multi-agent Networks." *IEEE Transactions on Automatic Control*, 2023, 68(11): 6711-6726.
+3. Chongzhi Wang, Lulu Pan, Haibin Shao, Dewei Li, Yugeng Xi. "Characterizing bipartite consensus on signed matrix-weighted networks via balancing set." *Automatica*, 2022, 141, 110237.
+4. Lulu Pan, Haibin Shao, Mehran Mesbahi, Dewei Li, Yugeng Xi. "Cluster consensus on matrix-weighted switching networks." *Automatica*, 2022, 141, 110308.
+5. Lulu Pan, Haibin Shao, Mehran Mesbahi, Yugeng Xi, Dewei Li. "Consensus on matrix-weighted switching networks." *IEEE Transactions on Automatic Control*, 2021, 66(12): 5990-5996.
+6. Haibin Shao, Lulu Pan, Mehran Mesbahi, Yugeng Xi, Dewei Li. "Relative tempo of distributed averaging on networks." *Automatica*, 2019, 105: 159-166.
+
+### Research Grants
+
+1. **2019 Shanghai "Super Postdoctoral Fellow" Grant** (Principal Investigator)
+2. **National Natural Science Foundation of China (Youth Science Fund):** Research on Leader-Follower Control of Multi-Agent Systems on Matrix-Weighted Networks, 2022-2024. (Principal Investigator)
+3. **National Natural Science Foundation of China (General Program):** Research on Integrated Design Methods for Distributed Predictive Control of Large-Scale Hybrid Systems, 2020-2023. (Participant)
+4. **Shanghai Natural Science Foundation (Exploration Project):** Research on Decision Networks and Algorithms Based on Brain-like Learning Mechanisms, 2019-2022. (Participant)
