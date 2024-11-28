@@ -2,14 +2,12 @@
 title: Haibin Shao
 role: Associate Researcher
 avatar_filename: avatar.jpg
-bio: Prof. Shao is interested in the interplay between structure and dynamics of
-  complex systems.   In particular, swarm intelligence, multi-agent systems,
-  swarm robotics and complex networks.
+bio: ""
 interests:
-  - Optimization and Control of Complex Systems
-  - Intelligent Robotics
-  - Energy Internet
-  - Intelligent Transportation
+  - swarm intelligence
+  - multi-agent systems
+  - swarm robotics
+  - complex networks.
 social:
   - display:
       header: false
