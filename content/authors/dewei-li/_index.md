@@ -34,7 +34,7 @@ organizations:
     url: https://automation.sjtu.edu.cn
 education:
   courses:
-    - course: " Ph.D. in Control Science and Engineering"
+    - course: " PhD. in Control Science and Engineering"
       year: 2009
       institution: Shanghai Jiao Tong University
     - course: " BSc in Automation"
