@@ -1,14 +1,38 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
-date: 2020-12-01
+title: ACA Fellow Award Recipient, Congratulations to Professor Yugeng Xi
+subtitle: ""
+date: 2024-10-10T00:00:00.000Z
+image:
+  filename: 1720770425494_000004_01.png
+  focal_point: TOP
 ---
 
-Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
 
-<!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+## ACA Fellow Award Recipient
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
+We are thrilled to announce that Professor Yugeng Xi from the Department of Automation at Shanghai Jiao Tong University has been awarded the prestigious ACA Fellow Award!
 
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+## ASCC 2024 Highlights
+
+The 14th Asian Control Conference (ASCC 2024) recently concluded in Dalian, bringing together experts and scholars from the control science and engineering fields across the Asia-Pacific region. The conference provided a platform for discussing cutting-edge technologies and applications in control systems.
+
+During the closing ceremony, several awards were announced, including the ACA Fellow Award, ACA Outstanding Contribution Award, ACA Temasek Young Educator Award, and ACA Wook Hyun Kwon Education Award. Among the distinguished recipients, Professor Yugeng Xi was honored with the ACA Fellow Award.
+
+## About the ACA Fellow Award
+
+The ACA Fellow Award is established by the Asian Control Association (ACA) to recognize individuals who have made outstanding contributions to the fields of control, automation, artificial intelligence, robotics, and systems in the Asia-Oceania region. This award acknowledges excellence in theoretical research, technological innovation, engineering applications, and efforts in promoting academic exchange, talent cultivation, and international cooperation.
+
+This year marks the 30th anniversary of the Asian Control Organization and the ASCC. It is also the first time the ACA Fellow Award has been established and presented, with 21 renowned scholars receiving this honor.
+
+## Professor Yugeng Xi's Contributions
+
+Professor Yugeng Xi is a distinguished professor at Shanghai Jiao Tong University. He has been instrumental in advancing the development and academic activities of the Asian Control Organization. In 2000, he organized the 3rd Asian Control Conference (ASCC2000) in Shanghai, significantly fostering collaboration and exchange between control scientists in China and the Asia-Pacific region.
+
+Professor Xi served as the President of the Asian Control Professors Association (ACPA, the predecessor of ACA) from 2001 to 2002 and as the President of ACA from 2011 to 2012. He is currently a member of the ACA Advisory Committee.
+
+## Conclusion
+
+We extend our heartfelt congratulations to Professor Yugeng Xi on this well-deserved recognition. His dedication and contributions to the field of control science and engineering continue to inspire and drive progress in the academic community.
+
+once again, congratulations to Professor Yugeng Xi!
