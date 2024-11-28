@@ -29,6 +29,9 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
     icon_pack: ai
     icon: google-scholar
+organizations:
+  - name: Shanghai Jiao Tong University
+    url: https://automation.sjtu.edu.cn
 education:
   courses:
     - course: " Ph.D. in Control Science and Engineering"
@@ -38,7 +41,7 @@ education:
       year: 1993
       institution: Shanghai Jiao Tong University
 email: dwli@sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
   - Researchers
 ---
