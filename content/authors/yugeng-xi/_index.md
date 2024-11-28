@@ -9,7 +9,7 @@ interests:
 social:
   - display:
       header: false
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=JgHa2uYAAAAJ
     icon_pack: ai
     icon: google-scholar
 organizations:
