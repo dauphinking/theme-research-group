@@ -24,7 +24,7 @@ education:
   courses:
     - course: " PhD. in Control Science and Engineering"
       year: 2020
-      institution: Shanghai Jiao Tong University
+      institution: Beijing Institute of Technology
 email: aoyun_ma@sjtu.edu.cn
 superuser: true
 user_groups:
