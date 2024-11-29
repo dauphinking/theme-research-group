@@ -16,9 +16,21 @@ social:
 organizations:
   - name: Shanghai Bidi Technology Co., Ltd.
     url: https://www.biditech.cn
+education:
+  courses:
+    - course: M.S. in renewable energy
+      institution: Ecole Polytechnique, IP Paris
+      year: 2012
+    - course: M.S in robotics and embedded system
+      institution: ENSTA, IP Paris
+      year: 2011
+    - course: B.S. in Automation
+      institution: Shanghai Jiao Tong University
+      year: 2009
 email: bihui.jin@alumni.sjtu.edu.cn
 superuser: true
-user_groups: []
+user_groups:
+  - Researchers
 ---
 
 
