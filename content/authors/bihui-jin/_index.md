@@ -12,7 +12,7 @@ social:
       header: false
     link: mailto:bihui.jin@alumni.polytechnique.edu
     icon_pack: fas
-    icon: mail
+    icon: envelope
 organizations:
   - name: Shanghai Bidi Technology Co., Ltd.
     url: https://www.biditech.cn
