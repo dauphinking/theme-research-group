@@ -1,7 +1,7 @@
 ---
 title: Yunwen XU
 role: "Associate Professor "
-avatar_filename: avatar.jpg
+avatar_filename: ""
 bio: Yunwen Xu is an Associate Professor at the Department of Automation,
   Shanghai Jiao Tong University. She earned her Ph.D. and M.S. in Control
   Science and Engineering from Shanghai Jiao Tong University and her B.S. in
