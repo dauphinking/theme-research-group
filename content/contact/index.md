@@ -49,7 +49,7 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
+  <!-- - block: markdown
     content:
       title:
       subtitle: ''
@@ -67,5 +67,5 @@ sections:
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      css_class: fullscreen -->
 ---
