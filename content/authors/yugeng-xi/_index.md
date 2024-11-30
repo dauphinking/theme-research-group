@@ -30,28 +30,19 @@ superuser: true
 user_groups:
   - Researchers
 ---
-
-
-
 Professor Yugeng Xi is a distinguished scholar and leader in the field of automation and control systems.  
 
-
 **Honors**
-
-
 
 * National Outstanding Middle-Aged and Young Expert
 * Member of the State Council Academic Degrees Committee
 
-
-
 #### Work experience
 
 Since 1984 – Now Dept. of Automation, Shanghai Jiao Tong University
+
+
 Ass.Prof. (1985), Prof. (1988), Doctor Supervisor (1990)
-1970 – 1978 Electronic Equipment Factory
-
-
 
 
 #### Research
@@ -60,17 +51,11 @@ Host of more than 20 research projects from the NSFC, High Tech Plan (863), Mini
 of Education etc. Currently the host of the NSFC Key Project “ Theory and Efficient
 Algorithms of Model Predictive Control” (2010 – 2013)
 
-
-
-
 #### Awards and Honors
 
 Received the Awards for the Achievements in Science and Technology by the Chinese
 Ministry of Education and Shanghai Government eight times, and won the honorary
 titles of National Distinguished Teacher; National Distinguished Scientific Researcher, etc
-
-
-
 
 #### Publications
 
