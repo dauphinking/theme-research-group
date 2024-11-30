@@ -28,15 +28,12 @@ superuser: true
 user_groups:
   - Researchers
 ---
-
-
-
 ## Professional Experience
 
 * **Postdoctoral Researcher**
 
   * **Department of Automation, Shanghai Jiao Tong University**
-  * **Research Interests:** Predictive control, robotics
+  * **Research Interests:** Predictive control, Optimization in Water Plant
 * **Research Engineer**
 
   * **South Pump Industry (Subsidiary: South Smart Water Company)**
@@ -51,9 +48,6 @@ user_groups:
   * **Authors:** Yi XueNong, Caixia Fu, Chen Wang
   * **Publisher:** Chemical Industry Press, Beijing
   * **Date:** May 2021
-
-
-
 
 ### PhD Research Topics
 
@@ -73,9 +67,6 @@ user_groups:
 
 * **Advanced Chlorination Techniques:** Synergistic ultraviolet/chlorine catalytic chlorination for RO concentrate, electromagnetic synergistic technology for high-salt high-organic wastewater, ozone catalytic chlorination + SBR process for leachate wastewater.
 * **Mineral Water Preparation:** Used ultrafiltration, nanofiltration, and reverse osmosis to treat groundwater for the production of fluoride and silicon-rich mineral water.
-
-
-
 
 ### Key Projects
 
@@ -121,12 +112,6 @@ user_groups:
 
   * **Role:** Chief Technical Officer
   * **Duration:** 2018-2021
-
-
-
-
-
-
 
 ## Patents
 
