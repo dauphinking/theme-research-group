@@ -52,15 +52,19 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ $currentURL := .RelPermalink }}
-          <!-- 显示中英文选项 -->
+          <!-- 始终显示两个语言选项 -->
           {{ if in $currentURL "/zh/" }}
-            <!-- 当前在中文页面，显示英文选项 -->
-            {{ $enURL := replaceRE "^/zh/" "/" $currentURL }}
-            <a class="dropdown-item" href="{{ $enURL }}">English</a>
+            <!-- 当前在中文页面 -->
+            <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">English</a>
+            <a class="dropdown-item active" href="#">简体中文</a>
+          {{ else if in $currentURL "/en/" }}
+            <!-- 当前在英文页面 -->
+            <a class="dropdown-item active" href="#">English</a>
+            <a class="dropdown-item" href="{{ replaceRE "^/en/" "/zh/" $currentURL }}">简体中文</a>
           {{ else }}
-            <!-- 当前在英文页面或根路径，显示中文选项 -->
-            {{ $zhURL := printf "/zh%s" $currentURL }}
-            <a class="dropdown-item" href="{{ $zhURL }}">简体中文</a>
+            <!-- 当前在根路径 -->
+            <a class="dropdown-item active" href="#">English</a>
+            <a class="dropdown-item" href="/zh{{ $currentURL }}">简体中文</a>
           {{ end }}
         </div>
       </div>
