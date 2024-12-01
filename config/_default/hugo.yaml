@@ -104,3 +104,36 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
       disable: false
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+
+# 添加内容类型配置
+contentTypes:
+  people:
+    basedir: content
+    path: "{{.Lang}}/people"
+    title: "{{ .Title }}"
+    type: landing
+  contact:
+    basedir: content
+    path: "{{.Lang}}/contact"
+    title: "{{ .Title }}"
+    type: landing
+  project:
+    basedir: content
+    path: "{{.Lang}}/project"
+    title: "{{ .Title }}"
+    type: landing
+  post:
+    basedir: content
+    path: "{{.Lang}}/post"
+    title: "{{ .Title }}"
+    type: landing
+  tour:
+    basedir: content
+    path: "{{.Lang}}/tour"
+    title: "{{ .Title }}"
+    type: landing
+  publication:
+    basedir: content
+    path: "{{.Lang}}/publication"
+    title: "{{ .Title }}"
+    type: landing
