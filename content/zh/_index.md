@@ -1,5 +1,40 @@
 ---
-title: "主页"  # Chinese title
----
+# Leave the homepage title empty to use the site title
+title: ''
+date: 2022-10-24
+type: landing
 
-<!-- Chinese content here --> 
+sections:
+  - block: hero
+    content:
+      title: 复杂系统与控制实验室
+      image:
+        filename: welcome.jpg
+      text: |
+        **复杂系统与控制实验室** 致力于复杂系统的建模、分析与控制研究。
+    design:
+      background:
+        gradient_end: '#1976d2'
+        gradient_start: '#004ba0'
+        text_color_light: true
+  
+  - block: collection
+    content:
+      title: 最新动态
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+
+  # 其他部分可以根据需要继续添加... 

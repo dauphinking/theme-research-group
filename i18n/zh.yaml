@@ -163,43 +163,34 @@
   translation: 摘要
 
 - id: publication
-  translation: 出版物
+  translation: 发表论文
 
 - id: publication_type
-  translation: 类型
+  translation: 文章类型
 
-- id: date
-  translation: 日期
-
-- id: last_updated
-  translation: 最近更新于
-
-- id: event
-  translation: 事件
-
-- id: location
-  translation: 位置
+- id: publication_types
+  translation: 文章类型
 
 - id: pub_paper_conference
-  translation: 会议文章
+  translation: 会议论文
 
 - id: pub_article_journal
-  translation: 期刊文章
+  translation: 期刊论文
 
-- id: pub_article
+- id: pub_preprint
   translation: 预印本
 
 - id: pub_report
   translation: 报告
 
 - id: pub_book
-  translation: 书籍
+  translation: 专著
 
 - id: pub_chapter
   translation: 章节
 
 - id: pub_thesis
-  translation: 论文
+  translation: 学位论文
 
 - id: pub_patent
   translation: 专利

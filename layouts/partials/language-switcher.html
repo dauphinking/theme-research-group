@@ -1,16 +1,7 @@
-{{ if .Site.IsMultiLingual }}
-<div class="language-switcher">
-  {{ $siteLanguages := .Site.Languages }}
-  {{ $pageLang := .Page.Lang }}
-  {{ range .Site.Languages }}
-    {{ if ne $pageLang .Lang }}
-      {{ $pageURL := $.Permalink }}
-      {{ $targetLang := . }}
-      {{ $langURL := replaceRE (print "/" $pageLang "/") (print "/" .Lang "/") $pageURL }}
-      <a href="{{ $langURL }}" class="{{ .Lang }}-link">
-        {{ .LanguageName }}
-      </a>
-    {{ end }}
+{{ if .IsTranslated }}
+<div class="dropdown-menu">
+  {{ range .Translations }}
+  <a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
   {{ end }}
 </div>
 {{ end }} 
