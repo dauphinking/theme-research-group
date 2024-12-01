@@ -6,7 +6,7 @@ en:
   languageCode: en-us
   languageName: English
   contentDir: content/en
-  title: Complex Systems and Control
+  title: Complicated Systems and Control
   weight: 1
   params:
     description: A premier research facility dedicated to advancing the field of model predictive control.
