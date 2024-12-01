@@ -23,8 +23,8 @@ sections:
         country: China
         country_code: CN
       coordinates:
-        latitude: '121.447612'
-        longitude: '31.031875'
+        latitude: '31.031875'
+        longitude: '121.447612'
       directions: Room 305, Building 2, School of EE Building,
       office_hours:
         - '8:30 to 18:00'
