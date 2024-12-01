@@ -1,14 +1,12 @@
 ---
-title: Projects
-date: 2022-10-24
-
+title: Research Projects
 type: landing
 
 sections:
   - block: portfolio
     content:
       title: Research Projects
-      subtitle: Our Research Focus
+      subtitle: Our Main Research Directions and Projects
       text: ''
       filters:
         folders:
@@ -17,14 +15,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Complex Systems
-          tag: Complex Systems
-        - name: Control Theory
-          tag: Control Theory
-        - name: Other
-          tag: Other
+        - name: Predictive Control
+          tag: Predictive Control
+        - name: Autonomous Robot
+          tag: Autonomous Robot
+        - name: Intelligent Transport
+          tag: Intelligent Transport
     design:
       columns: '1'
       view: showcase
       flip_alt_rows: false
---- 
+---

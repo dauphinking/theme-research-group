@@ -1,27 +1,26 @@
 ---
-title: 研究项目
-date: 2022-10-24
+title: Research Projects
 type: landing
 
 sections:
   - block: portfolio
     content:
-      title: 研究项目
-      subtitle: 我们的主要研究方向和项目
+      title: Research Projects
+      subtitle: Our Main Research Directions and Projects
       text: ''
       filters:
         folders:
           - project
       default_button_index: 0
       buttons:
-        - name: 全部
+        - name: All
           tag: '*'
-        - name: 复杂系统
-          tag: Complex Systems
-        - name: 控制理论
-          tag: Control Theory
-        - name: 其他
-          tag: Other
+        - name: Predictive Control
+          tag: Predictive Control
+        - name: Autonomous Robot
+          tag: Autonomous Robot
+        - name: Intelligent Transport
+          tag: Intelligent Transport
     design:
       columns: '1'
       view: showcase

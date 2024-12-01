@@ -1,7 +1,10 @@
 {{ if .IsTranslated }}
 <div class="dropdown-menu">
-  {{ range .Translations }}
-  <a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+  {{ range .Site.Languages }}
+  {{ if not (eq . $.Site.Language) }}
+  {{ $url := cond (eq . $.Site.Home.Language) (strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink) (print "/" .Lang (strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink)) }}
+  <a class="dropdown-item" href="{{ $url }}">{{ .LanguageName }}</a>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }} 

@@ -1,21 +1,23 @@
 ---
-title: 示例项目
-summary: 这是一个示例项目的简介。
+title: Example Project
+summary: This is an introduction to an example project.
 tags:
-  - 复杂系统
+  - Predictive Control
+  - Autonomous Robot
+  - Intelligent Transport
 date: '2024-03-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: 项目图片
+  caption: Project Image
   focal_point: Smart
 
 links:
   - icon: twitter
     icon_pack: fab
-    name: 关注
+    name: Follow
     url: https://twitter.com/
 url_code: ''
 url_pdf: ''
@@ -26,4 +28,4 @@ url_video: ''
 slides: example
 ---
 
-这里是项目的详细描述... 
+Here is the detailed description of the project...

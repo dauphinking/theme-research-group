@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+    <!-- ... 其他导航内容 ... -->
+
+    <!-- 添加语言切换器 -->
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-globe mr-1"></i> {{ .Site.Language.LanguageName }}
+      </a>
+      <div class="dropdown-menu" aria-labelledby="languageSelector">
+        {{ range .Site.Languages }}
+        {{ if not (eq . $.Site.Language) }}
+        <a class="dropdown-item" href="{{ delimit (slice "/" .Lang (strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink)) "" }}">
+          {{ .LanguageName }}
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- ... 其他导航内容 ... -->
+  </div>
+</nav> 
