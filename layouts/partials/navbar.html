@@ -41,11 +41,14 @@
           <i class="fas fa-globe mr-1"></i> {{ .Site.Language.LanguageName }}
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
+          {{ $currentLang := .Site.Language.Lang }}
           {{ range .Site.Languages }}
-            {{ if eq .Lang "en" }}
-              <a class="dropdown-item" href="{{ strings.TrimPrefix "/en" $.RelPermalink }}">{{ .LanguageName }}</a>
-            {{ else }}
-              <a class="dropdown-item" href="/{{ .Lang }}{{ strings.TrimPrefix "/en" $.RelPermalink }}">{{ .LanguageName }}</a>
+            {{ if ne .Lang $currentLang }}
+              {{ if eq .Lang "en" }}
+                <a class="dropdown-item" href="{{ strings.TrimPrefix "/en" $.RelPermalink }}">English</a>
+              {{ else }}
+                <a class="dropdown-item" href="/{{ .Lang }}{{ strings.TrimPrefix "/en" $.RelPermalink }}">简体中文</a>
+              {{ end }}
             {{ end }}
           {{ end }}
         </div>
