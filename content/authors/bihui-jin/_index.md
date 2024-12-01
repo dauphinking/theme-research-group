@@ -1,6 +1,6 @@
 ---
 title: Bihui JIN
-role: Staff Engineer
+role: Engineers
 avatar_filename: avatar.jpg
 interests:
   - MPC and applications in various fields
