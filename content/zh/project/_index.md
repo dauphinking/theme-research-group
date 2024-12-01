@@ -1,7 +1,7 @@
 ---
 title: 研究项目
+date: 2022-10-24
 type: landing
-translationKey: projects
 
 sections:
   - block: portfolio

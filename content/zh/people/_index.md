@@ -1,10 +1,23 @@
 ---
 title: 团队成员
-cms_exclude: true
+date: 2022-10-24
+type: landing
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+sections:
+  - block: people
+    content:
+      title: 团队成员
+      user_groups:
+        - Principal Investigators
+        - Researchers
+        - Grad Students
+        - Administration
+        - Visitors
+        - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_social: true
 --- 

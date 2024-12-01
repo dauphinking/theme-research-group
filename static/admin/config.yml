@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} "{{slug}}"'
+    update: 'Update {{collection}} "{{slug}}"'
+    delete: 'Delete {{collection}} "{{slug}}"'
+    uploadMedia: '[skip ci] Upload "{{path}}"'
+    deleteMedia: '[skip ci] Delete "{{path}}"'
+
+# Uncomment local_backend when you need to develop in your local
+local_backend: true
+
+media_folder: 'static/media'
+public_folder: '/media'
+
+i18n:
+  structure: multiple_folders
+  locales: [en, zh]
+  default_locale: en
+
+collections:
+  - name: authors
+    label: Authors
+    label_singular: Author
+    folder: 'content/authors'
+    path: '{{slug}}/_index'
+    filter: {field: "cms_exclude", value: true, negate: true}
+    create: true
+    fields:
+      - {label: "Display name (such as your full name)", name: "title", widget: "string"}
+      - {label: "Role/position", name: "role", widget: "string"}
+      - label: "Organizations"
+        name: "organizations"
+        required: false
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string, required: true}
+          - {label: URL, name: url, widget: string, required: false}
+      - {label: "Bio", name: "bio", widget: "string", required: false}
+      - {label: "Interests", name: "interests", required: false, widget: "list"}
+      - {label: "Social links", name: "social", required: false, widget: list, fields: [
+          {label: Link, name: link, widget: string},
+          {label: Icon pack, name: icon_pack, widget: select, options: [fas, fab, ai, academicons]},
+          {label: Icon (see https://sourcethemes.com/academic/docs/page-builder/#icons), name: icon, widget: string}
+        ]}
+      - label: "Education"
+        name: "education"
+        required: false
+        widget: object
+        fields:
+          - label: "Courses"
+            name: "courses"
+            required: false
+            widget: list
+            fields:
+              - {label: Course, name: course, widget: string, required: true}
+              - {label: Institution, name: institution, widget: string, required: true}
+              - {label: Year, name: year, widget: number, valueType: int, required: false}
+      - {label: "Email", name: "email", type: "string", required: false}
+      - {label: "User Groups", name: "user_groups", type: "list"}
+      - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: false} 

@@ -61,3 +61,15 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+      disable: false
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+
+content:
+  - source: content/people
+    target: content/en/people
+  - source: content/people
+    target: content/zh/people

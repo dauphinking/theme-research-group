@@ -1,16 +1,31 @@
 ---
 title: 发表论文
-cms_exclude: true
+date: 2022-10-24
+type: landing
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 4
-
-# Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
+sections:
+  - block: collection
+    content:
+      title: 发表论文
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    content:
+      title: 近期论文
+      text: |-
+        {{% callout note %}}
+        快速发现研究成果通过 [过滤](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
 --- 
