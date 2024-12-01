@@ -3,8 +3,8 @@ title: Bihui JIN
 role: Staff Engineer
 avatar_filename: avatar.jpg
 interests:
-  - MPC and applications in various fields
-  - including robotics
+  - MPC in various fields
+  - including process control
   - renewable energy management
   - and quantitative finance
 social:
@@ -32,5 +32,5 @@ superuser: true
 user_groups:
   - Engineers
 ---
-* As the Chief Engineer at Shanghai Bidi Technology Co., Ltd., he holds a high technical position with extensive practical experience in the industry.
-* Concurrently, he serves as an affiliate Engineer at the Complex System Control Laboratory of Shanghai Jiao Tong University, indicating a strong connection between academic research and engineering applications.
+* As the Chief Engineer at Shanghai Bidi Technology Co., Ltd., he holds a high technical position with extensive practical experiences in the industry, including multinational corporations, listed companies, and startups, leading teams of 20-100 people. 
+* Concurrently, he serves as an affiliate Engineer at the Complex System Control Laboratory, indicating a strong connection between academic research and engineering applications.
