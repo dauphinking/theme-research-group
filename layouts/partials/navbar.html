@@ -15,33 +15,45 @@
     </button>
 
     {{/* Nav pages */}}
+    {{ $currentLang := .Site.Language.Lang }}
+    <!-- Debug: Current Language is {{ $currentLang }} -->
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
-        {{ range site.Menus.main }}
-        <li class="nav-item">
-          {{ $url := .URL }}
-          {{ if eq $.Site.Language.Lang "en" }}
-            {{ $url = strings.TrimPrefix "/en" .URL }}
-          {{ else }}
-            {{ $url = printf "/zh%s" (strings.TrimPrefix "/en" .URL) }}
+        {{ if eq $currentLang "zh" }}
+          <!-- Using Chinese Menu -->
+          {{ range site.Menus.zh.main }}
+            <li class="nav-item">
+              {{ $url := printf "/zh%s" .URL }}
+              <a class="nav-link" href="{{ $url }}">
+                {{ .Pre }}
+                <span>{{ .Name | safeHTML }}</span>
+                {{ .Post }}
+              </a>
+            </li>
           {{ end }}
-          <a class="nav-link" href="{{ $url }}">
-            {{ .Pre }}
-            <span>{{ .Name | safeHTML }}</span>
-            {{ .Post }}
-          </a>
-        </li>
+        {{ else }}
+          <!-- Using English Menu -->
+          {{ range site.Menus.main }}
+            <li class="nav-item">
+              {{ $url := strings.TrimPrefix "/en" .URL }}
+              <a class="nav-link" href="{{ $url }}">
+                {{ .Pre }}
+                <span>{{ .Name | safeHTML }}</span>
+                {{ .Post }}
+              </a>
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
 
     <div class="navbar-right">
       <div class="nav-item dropdown">
+        <!-- Debug: Current Language Name is {{ .Site.Language.LanguageName }} -->
         <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fas fa-globe mr-1"></i> {{ .Site.Language.LanguageName }}
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
-          {{ $currentLang := .Site.Language.Lang }}
           {{ range .Site.Languages }}
             {{ if ne .Lang $currentLang }}
               {{ if eq .Lang "en" }}
