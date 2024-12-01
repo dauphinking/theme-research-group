@@ -1,7 +1,6 @@
 ---
 title: 实验室概况
 date: 2022-10-24
-
 type: landing
 
 sections:
@@ -39,10 +38,8 @@ sections:
             position: center
             color: '#333'
     design:
-      # Slide height is automatic unless you specify a specific height
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000 
+      interval: 2000
+---
