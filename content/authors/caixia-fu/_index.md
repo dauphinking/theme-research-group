@@ -1,6 +1,6 @@
 ---
 title: Caixia FU
-role: Post Doctor
+role: Postdoc
 avatar_filename: avatar.png
 interests:
   - Predictive control
