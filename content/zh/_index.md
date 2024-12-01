@@ -36,5 +36,4 @@ sections:
     design:
       view: card
       columns: '1'
-
-  # 其他部分可以根据需要继续添加... 
+---

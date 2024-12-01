@@ -1,7 +1,6 @@
 ---
 title: 联系我们
 date: 2022-10-24
-
 type: landing
 
 sections:
@@ -33,4 +32,5 @@ sections:
           link: 'https://discourse.gohugo.io'
     
     design:
-      columns: '1' 
+      columns: '1'
+---

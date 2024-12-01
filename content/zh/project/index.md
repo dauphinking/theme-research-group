@@ -1,7 +1,6 @@
 ---
 title: 研究项目
 date: 2022-10-24
-
 type: landing
 
 sections:
@@ -13,7 +12,6 @@ sections:
       filters:
         folders:
           - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       buttons:
         - name: 全部
@@ -27,4 +25,5 @@ sections:
     design:
       columns: '1'
       view: showcase
-      flip_alt_rows: false 
+      flip_alt_rows: false
+---
