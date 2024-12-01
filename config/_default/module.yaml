@@ -8,3 +8,14 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+
+# Add these if using modules
+mounts:
+  - source: content
+    target: content
+  - source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: data
+    target: data

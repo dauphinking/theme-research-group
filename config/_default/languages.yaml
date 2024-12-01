@@ -5,18 +5,21 @@
 # Default language
 en:
   languageCode: en-us
+  languageName: English
+  weight: 1
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
-  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: 复杂系统与控制实验室
-#  params:
-#    description: 上海交通大学的复杂系统与控制实验室是一个致力于推动复杂系统和控制领域发展的顶尖研究机构。实验室由杰出的教授领导，并得到了一群才华横溢的研究人员和学生的支持,专注于预测控制、复杂系统优化、机器人及多智能体等多个前沿研究领域。
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  languageCode: zh-cn
+  languageName: 中文
+  weight: 2
+  menu:
+    main:
+      - name: 首页
+        url: /zh/
+        weight: 10
+      - name: 联系
+        url: /zh/contact/
+        weight: 20

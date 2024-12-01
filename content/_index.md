@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Complicated System and Control Lab
+        Complicated System and Control
       image:
         filename: welcome.jpg
       text: |
