@@ -32,6 +32,12 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
+  post: '/post/:year/:month/:day/:slug/'
+  project: '/project/:slug/'
+  people: '/people/:slug/'
+  contact: '/contact/:slug/'
+  tour: '/tour/:slug/'
+  publication: '/publication/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
