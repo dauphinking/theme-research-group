@@ -4,6 +4,8 @@ date: 2022-10-24
 
 type: landing
 
+translationKey: people
+
 sections:
   - block: people
     content:

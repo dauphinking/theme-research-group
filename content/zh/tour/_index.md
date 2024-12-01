@@ -2,7 +2,7 @@
 title: 实验室概况
 date: 2022-10-24
 type: landing
-
+translationKey: tour
 sections:
   - block: slider
     content:

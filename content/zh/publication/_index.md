@@ -2,7 +2,7 @@
 title: 发表论文
 date: 2022-10-24
 type: landing
-
+translationKey: publication
 sections:
   - block: collection
     content:

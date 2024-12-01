@@ -3,6 +3,7 @@ title: News
 date: 2022-10-24
 
 type: landing
+translationKey: post
 
 sections:
   - block: collection

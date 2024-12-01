@@ -1,7 +1,7 @@
 ---
 title: 研究项目
 type: landing
-
+translationKey: project
 sections:
   - block: portfolio
     content:

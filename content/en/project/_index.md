@@ -2,7 +2,7 @@
 title: Research Projects
 type: landing
 
-translationKey: projects
+translationKey: project
 
 sections:
   - block: portfolio

@@ -3,6 +3,7 @@ title: 联系我们
 date: 2022-10-24
 type: landing
 
+translationKey: contact
 sections:
   - block: contact
     content:
