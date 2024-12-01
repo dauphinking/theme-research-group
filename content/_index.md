@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Complex Systems and Control Laboratory
+      title: Complex Systems and Control
       image:
         filename: welcome.jpg
       text: |
