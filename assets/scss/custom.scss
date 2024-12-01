@@ -1,0 +1,17 @@
+.navbar-right {
+  margin-left: auto;
+}
+
+.dropdown-menu-end {
+  right: 0;
+  left: auto;
+}
+
+.nav-item.dropdown .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item.dropdown .fas {
+  margin-right: 0.5rem;
+} 

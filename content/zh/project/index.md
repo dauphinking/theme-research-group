@@ -1,6 +1,5 @@
 ---
 title: 研究项目
-date: 2022-10-24
 type: landing
 
 sections:
@@ -16,12 +15,12 @@ sections:
       buttons:
         - name: 全部
           tag: '*'
-        - name: 复杂系统
-          tag: Complex Systems
-        - name: 控制理论
-          tag: Control Theory
-        - name: 其他
-          tag: Other
+        - name: 预测控制
+          tag: Predictive Control
+        - name: 自主机器人
+          tag: Autonomous Robot
+        - name: 智能交通
+          tag: Intelligent Transport
     design:
       columns: '1'
       view: showcase
