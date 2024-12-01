@@ -12,7 +12,7 @@ baseURL: 'http://www.csc-lab.com/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################

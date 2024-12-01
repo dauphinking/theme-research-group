@@ -1,27 +1,25 @@
 ---
-title: Projects
-date: 2022-10-24
-
+title: 研究项目
 type: landing
 
 sections:
   - block: portfolio
     content:
-      title: Research Projects
-      subtitle: Our Research Focus
+      title: 研究项目
+      subtitle: 我们的主要研究方向和项目
       text: ''
       filters:
         folders:
           - project
       default_button_index: 0
       buttons:
-        - name: All
+        - name: 全部
           tag: '*'
-        - name: Complex Systems
+        - name: 复杂系统
           tag: Complex Systems
-        - name: Control Theory
+        - name: 控制理论
           tag: Control Theory
-        - name: Other
+        - name: 其他
           tag: Other
     design:
       columns: '1'

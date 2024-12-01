@@ -1,15 +1,25 @@
 ---
 title: News
-cms_exclude: true
+date: 2022-10-24
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+type: landing
 
-# Optional header image
-header:
-  caption: ""
-  image: ""
---- 
+sections:
+  - block: collection
+    content:
+      title: Latest News
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+    design:
+      view: card
+      columns: '2'
+---
