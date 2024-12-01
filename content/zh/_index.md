@@ -3,6 +3,10 @@
 title: ''
 date: 2022-10-24
 type: landing
+draft: false
+cascade:
+  # Ensure Chinese content shows up
+  language: zh
 
 sections:
   - block: hero
