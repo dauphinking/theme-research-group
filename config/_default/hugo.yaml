@@ -12,7 +12,8 @@ baseURL: 'http://www.csc-lab.com/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
+# 移除URL路径中的重音符号（例如：将 "café" 转换为 "cafe"）
 removePathAccents: true
 
 # 添加语言相关配置
@@ -33,7 +34,7 @@ languages:
       description: 复杂系统与控制实验室
 
 # 多语言相关设置
-enableMissingTranslationPlaceholders: true
+enableMissingTranslationPlaceholders: false # 英文内容直接在根路径下，不需要翻译
 enableInlineShortcodes: true
 
 # 语言切换器配置
@@ -59,16 +60,17 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
-  post: '/post/:year/:month/:day/:slug/'
-  project: '/project/:slug/'
-  people: '/people/:slug/'
-  contact: '/contact/:slug/'
-  tour: '/tour/:slug/'
-  publication: '/publication/:slug/'
+  # 定义各种内容类型的永久链接格式
+  authors: '/author/:slug/'              # 作者页面的URL格式，如 /author/john-doe/
+  tags: '/tag/:slug/'                    # 标签页面的URL格式，如 /tag/research/
+  categories: '/category/:slug/'         # 分类页面的URL格式，如 /category/news/
+  publication_types: '/publication-type/:slug/'  # 出版物类型页面的URL格式
+  post: '/post/:year/:month/:day/:slug/' # 博文的URL格式，包含日期，如 /post/2024/01/15/my-post/
+  project: '/project/:slug/'             # 项目页面的URL格式，如 /project/my-project/
+  people: '/people/:slug/'               # 人员页面的URL格式，如 /people/john-smith/
+  contact: '/contact/:slug/'             # 联系页面的URL格式
+  tour: '/tour/:slug/'                   # 导览页面的URL格式
+  publication: '/publication/:slug/'      # 出版物页面的URL格式，如 /publication/paper-title/
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -107,6 +109,11 @@ module:
 
 # 添加内容类型配置
 contentTypes:
+  home:
+    basedir: content
+    path: "{{.Lang}}"
+    title: "{{ .Title }}"
+    type: landing
   people:
     basedir: content
     path: "{{.Lang}}/people"
