@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
     {{ $currentLang := .Site.Language.Lang }}
+    {{ $isZH := or (eq $currentLang "zh") (in .RelPermalink "/zh/") }}
     {{/* Brand */}}
-    <a class="navbar-brand me-lg-3" href="{{ if eq $currentLang "zh" }}/zh{{ else }}/{{ end }}">
+    <a class="navbar-brand me-lg-3" href="{{ if $isZH }}/zh{{ else }}/{{ end }}">
       {{- if site.Params.appearance.header.logo.icon -}}
         <i class="{{ site.Params.appearance.header.logo.icon }} fa-lg"></i>
       {{- end -}}
@@ -18,7 +19,7 @@
     {{/* Nav pages */}}
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
-        {{ if eq $currentLang "zh" }}
+        {{ if $isZH }}
           {{ range site.Menus.zh.main }}
             <li class="nav-item">
               {{ $url := printf "/zh/%s" (strings.TrimPrefix "/" .URL) }}
@@ -47,17 +48,32 @@
     <div class="navbar-right">
       <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-globe mr-1"></i> {{ if eq $currentLang "zh" }}简体中文{{ else }}English{{ end }}
+          <i class="fas fa-globe mr-1"></i> {{ if $isZH }}简体中文{{ else }}English{{ end }}
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
-          {{ if eq $currentLang "zh" }}
-            <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" .RelPermalink }}">English</a>
+          {{ $currentURL := .RelPermalink }}
+          {{ if in $currentURL "/zh/" }}
+            <!-- 当前在中文页面，显示英文选项 -->
+            <a class="dropdown-item" href="{{ replaceRE "^/zh/" "/" $currentURL }}">English</a>
+          {{ else if in $currentURL "/en/" }}
+            <!-- 当前在英文页面，显示中文选项 -->
+            <a class="dropdown-item" href="{{ replaceRE "^/en/" "/zh/" $currentURL }}">简体中文</a>
           {{ else }}
-            <a class="dropdown-item" href="/zh{{ .RelPermalink }}">简体中文</a>
+            <!-- 当前在根路径，根据当前语言显示另一个选项 -->
+            {{ if eq $currentLang "zh" }}
+              <a class="dropdown-item" href="{{ replaceRE "^/zh/" "/" $currentURL }}">English</a>
+            {{ else }}
+              <a class="dropdown-item" href="/zh{{ $currentURL }}">简体中文</a>
+            {{ end }}
           {{ end }}
         </div>
       </div>
     </div>
+
+    <!-- Debug Info -->
+    <!-- Current Language: {{ $currentLang }} -->
+    <!-- Current URL: {{ .RelPermalink }} -->
+    <!-- Is Chinese: {{ $isZH }} -->
 
   </div>
 </nav> 
