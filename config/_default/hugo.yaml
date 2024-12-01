@@ -15,6 +15,37 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
+# 添加语言相关配置
+languages:
+  en:
+    languageCode: en-us
+    contentDir: content/en
+    weight: 1
+    title: Complicated System and Control
+    params:
+      description: Complex Systems and Control Laboratory
+  zh:
+    languageCode: zh-cn
+    contentDir: content/zh
+    weight: 2
+    title: 复杂系统与控制实验室
+    params:
+      description: 复杂系统与控制实验室
+
+# 多语言相关设置
+enableMissingTranslationPlaceholders: true
+enableInlineShortcodes: true
+
+# 语言切换器配置
+params:
+  languages:
+    - code: en
+      name: English
+      flag: us
+    - code: zh
+      name: 中文
+      flag: cn
+
 ############################
 ## ADVANCED
 ############################
@@ -73,9 +104,3 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
       disable: false
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-
-content:
-  - source: content/people
-    target: content/en/people
-  - source: content/people
-    target: content/zh/people

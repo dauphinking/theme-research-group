@@ -8,6 +8,12 @@ en:
   contentDir: content/en
   title: Complex Systems and Control Laboratory
   weight: 1
+  params:
+    description: A premier research facility dedicated to advancing the field of model predictive control.
+    address_format: en-us
+    footer:
+      copyright:
+        notice: '© {year} CSC Lab. All Rights Reserved.'
 
 zh:
   languageCode: zh-cn
@@ -15,3 +21,9 @@ zh:
   contentDir: content/zh
   title: 复杂系统与控制实验室
   weight: 2
+  params:
+    description: 致力于模型预测控制领域研究的前沿实验室
+    address_format: zh-cn
+    footer:
+      copyright:
+        notice: '© {year} 复杂系统与控制实验室. 保留所有权利.'

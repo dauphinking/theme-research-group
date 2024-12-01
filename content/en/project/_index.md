@@ -1,6 +1,7 @@
 ---
 title: Research Projects
 type: landing
+
 translationKey: projects
 
 sections:
