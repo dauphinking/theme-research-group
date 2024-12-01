@@ -12,7 +12,6 @@
     </a>
     {{- end -}}
 
-    {{ if .IsTranslated }}
     <div class="navbar-right">
       <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,7 +20,11 @@
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ range .Site.Languages }}
           {{ if not (eq . $.Site.Language) }}
-          <a class="dropdown-item" href="{{ cond (eq . $.Site.Home.Language) (strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink) (print "/" .Lang (strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink)) }}">
+          {{ $path := .Lang }}
+          {{ if eq . $.Site.Home.Language }}
+            {{ $path = "" }}
+          {{ end }}
+          <a class="dropdown-item" href="/{{ $path }}{{ strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink }}">
             {{ .LanguageName }}
           </a>
           {{ end }}
@@ -29,7 +32,6 @@
         </div>
       </div>
     </div>
-    {{ end }}
 
     <!-- 其他导航内容 -->
   </div>
