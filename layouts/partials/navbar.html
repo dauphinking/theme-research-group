@@ -36,9 +36,15 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ range .Site.Languages }}
-          <a class="dropdown-item" href="/{{ .Lang }}{{ strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink }}">
-            {{ .LanguageName }}
-          </a>
+            {{ if eq . $.Site.Language }}
+              {{/* Skip current language */}}
+            {{ else }}
+              {{ $targetLang := .Lang }}
+              {{ $currentLang := $.Site.Language.Lang }}
+              {{ $permalink := $.RelPermalink }}
+              {{ $url := replaceRE (printf "/%s/" $currentLang) (printf "/%s/" $targetLang) $permalink }}
+              <a class="dropdown-item" href="{{ $url }}">{{ .LanguageName }}</a>
+            {{ end }}
           {{ end }}
         </div>
       </div>
