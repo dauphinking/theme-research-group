@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
+    {{ $currentLang := .Site.Language.Lang }}
     {{/* Brand */}}
-    <a class="navbar-brand me-lg-3" href="{{ "/" | relLangURL }}">
+    <a class="navbar-brand me-lg-3" href="{{ if eq $currentLang "zh" }}/zh{{ else }}/{{ end }}">
       {{- if site.Params.appearance.header.logo.icon -}}
         <i class="{{ site.Params.appearance.header.logo.icon }} fa-lg"></i>
       {{- end -}}
@@ -15,15 +16,12 @@
     </button>
 
     {{/* Nav pages */}}
-    {{ $currentLang := .Site.Language.Lang }}
-    <!-- Debug: Current Language is {{ $currentLang }} -->
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
         {{ if eq $currentLang "zh" }}
-          <!-- Using Chinese Menu -->
           {{ range site.Menus.zh.main }}
             <li class="nav-item">
-              {{ $url := printf "/zh%s" .URL }}
+              {{ $url := printf "/zh/%s" (strings.TrimPrefix "/" .URL) }}
               <a class="nav-link" href="{{ $url }}">
                 {{ .Pre }}
                 <span>{{ .Name | safeHTML }}</span>
@@ -32,10 +30,9 @@
             </li>
           {{ end }}
         {{ else }}
-          <!-- Using English Menu -->
           {{ range site.Menus.main }}
             <li class="nav-item">
-              {{ $url := strings.TrimPrefix "/en" .URL }}
+              {{ $url := printf "/%s" (strings.TrimPrefix "/" .URL) }}
               <a class="nav-link" href="{{ $url }}">
                 {{ .Pre }}
                 <span>{{ .Name | safeHTML }}</span>
@@ -49,19 +46,14 @@
 
     <div class="navbar-right">
       <div class="nav-item dropdown">
-        <!-- Debug: Current Language Name is {{ .Site.Language.LanguageName }} -->
         <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-globe mr-1"></i> {{ .Site.Language.LanguageName }}
+          <i class="fas fa-globe mr-1"></i> {{ if eq $currentLang "zh" }}简体中文{{ else }}English{{ end }}
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
-          {{ range .Site.Languages }}
-            {{ if ne .Lang $currentLang }}
-              {{ if eq .Lang "en" }}
-                <a class="dropdown-item" href="{{ strings.TrimPrefix "/en" $.RelPermalink }}">English</a>
-              {{ else }}
-                <a class="dropdown-item" href="/{{ .Lang }}{{ strings.TrimPrefix "/en" $.RelPermalink }}">简体中文</a>
-              {{ end }}
-            {{ end }}
+          {{ if eq $currentLang "zh" }}
+            <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" .RelPermalink }}">English</a>
+          {{ else }}
+            <a class="dropdown-item" href="/zh{{ .RelPermalink }}">简体中文</a>
           {{ end }}
         </div>
       </div>
