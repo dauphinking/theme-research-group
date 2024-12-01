@@ -1,6 +1,6 @@
 ---
 title: Caixia FU
-role: Postdocs
+role: Post Doctor
 avatar_filename: avatar.png
 interests:
   - Predictive control
@@ -29,7 +29,7 @@ education:
       year: 2012
 superuser: true
 user_groups:
-  - Researchers
+  - Postdocs
 ---
 ## Professional Experience
 
