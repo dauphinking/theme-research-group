@@ -1,0 +1,10 @@
+# 通用翻译
+- id: toggle_navigation
+  translation: 切换导航
+- id: table_of_contents
+  translation: 目录
+- id: on_this_page
+  translation: 在本页
+- id: back_to_top
+  translation: 回到顶部
+# 添加更多需要的翻译... 

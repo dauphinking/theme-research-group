@@ -6,20 +6,14 @@
 en:
   languageCode: en-us
   languageName: English
+  contentDir: content/en
+  title: Complicated System and Control
   weight: 1
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
   languageCode: zh-cn
-  languageName: 中文
+  languageName: 简体中文
+  contentDir: content/zh
+  title: 复杂系统与控制
   weight: 2
-  menu:
-    main:
-      - name: 首页
-        url: /zh/
-        weight: 10
-      - name: 联系
-        url: /zh/contact/
-        weight: 20
