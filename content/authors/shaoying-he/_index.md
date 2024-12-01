@@ -1,6 +1,6 @@
 ---
 title: Shaoying HE
-role: Post Doctor
+role: Postdocs
 avatar_filename: avatar.png
 bio: ""
 interests:
