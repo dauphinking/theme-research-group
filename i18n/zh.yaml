@@ -7,4 +7,38 @@
   translation: 在本页
 - id: back_to_top
   translation: 回到顶部
+- id: related
+  translation: 相关
+- id: minute_read
+  translation: 分钟阅读
+- id: previous
+  translation: 上一页
+- id: next
+  translation: 下一页
+- id: figure
+  translation: 图
+- id: btn_preprint
+  translation: 预印本
+- id: btn_pdf
+  translation: PDF
+- id: btn_cite
+  translation: 引用
+- id: btn_slides
+  translation: 演示文稿
+- id: btn_video
+  translation: 视频
+- id: btn_code
+  translation: 代码
+- id: btn_dataset
+  translation: 数据集
+- id: btn_project
+  translation: 项目
+- id: btn_poster
+  translation: 海报
+- id: btn_source
+  translation: 源文档
+- id: btn_copy
+  translation: 复制
+- id: btn_download
+  translation: 下载
 # 添加更多需要的翻译... 
