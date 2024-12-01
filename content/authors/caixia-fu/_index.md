@@ -29,7 +29,7 @@ education:
       year: 2012
 superuser: true
 user_groups:
-  - Researchers
+  - Postdocs
 ---
 ## Professional Experience
 

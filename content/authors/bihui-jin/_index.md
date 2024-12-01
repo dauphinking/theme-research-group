@@ -30,7 +30,7 @@ education:
 email: bihui.jin@alumni.sjtu.edu.cn
 superuser: true
 user_groups:
-  - Researchers
+  - Engineers
 ---
 * As the Chief Engineer at Shanghai Bidi Technology Co., Ltd., he holds a high technical position with extensive practical experience in the industry.
 * Concurrently, he serves as an affiliate Engineer at the Complex System Control Laboratory of Shanghai Jiao Tong University, indicating a strong connection between academic research and engineering applications.
