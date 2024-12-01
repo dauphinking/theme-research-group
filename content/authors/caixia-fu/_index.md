@@ -2,6 +2,9 @@
 title: Caixia FU
 role: Post Doctor
 avatar_filename: avatar.png
+interests:
+  - Predictive control
+  - Optimization in Water Plant
 social:
   - display:
       header: false
