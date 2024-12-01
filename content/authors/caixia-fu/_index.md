@@ -71,47 +71,15 @@ user_groups:
 ### Key Projects
 
 * **Jinan Longqing Food Company Beverage Wastewater Treatment**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2019-2021
-  * **Responsibilities:** Site sampling, small-scale experiments, process design, equipment selection, and project management.
 * **Henan Coal Chemical BDO Wastewater Upgrade Project**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2018-2020
-  * **Responsibilities:** Site surveys, technical communication, tender document preparation, and project design.
 * **Horizontal Sand Island Rural Wastewater Treatment Station Upgrade**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2021-2023
 * **Rugao City Rural Wastewater Treatment Project**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2022
 * **Rugao City Ceramic Wastewater Treatment Project**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2019-2020
 * **Feasibility Study for the Fourth Wastewater Treatment Plant**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2018-2019
 * **Shandong New Water Purification Project**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2020-2022
 * **Shandong North Lake Water Plant Expansion Project**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2018-2022
 * **Yunnan Dianchi Lake Protection and Treatment Planning**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2019-2020
 * **Innovation Competition Project Application**
-
-  * **Role:** Chief Technical Officer
-  * **Duration:** 2018-2021
 
 ## Patents
 
