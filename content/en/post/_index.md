@@ -1,5 +1,5 @@
 ---
-title: 新闻动态
+title: News
 cms_exclude: true
 
 # View.

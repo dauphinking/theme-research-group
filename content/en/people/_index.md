@@ -1,5 +1,5 @@
 ---
-title: 新闻动态
+title: People
 cms_exclude: true
 
 # View.
@@ -7,9 +7,4 @@ cms_exclude: true
 #   2 = Compact
 #   3 = Card
 view: 2
-
-# Optional header image
-header:
-  caption: ""
-  image: ""
 --- 
