@@ -36,11 +36,7 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ range .Site.Languages }}
-          {{ $path := .Lang }}
-          {{ if eq . $.Site.Home.Language }}
-            {{ $path = "en" }}
-          {{ end }}
-          <a class="dropdown-item" href="/{{ $path }}{{ strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink }}">
+          <a class="dropdown-item" href="/{{ .Lang }}{{ strings.TrimPrefix (print "/" $.Site.Language.Lang) $.RelPermalink }}">
             {{ .LanguageName }}
           </a>
           {{ end }}
