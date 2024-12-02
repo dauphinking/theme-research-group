@@ -1,6 +1,6 @@
 ---
 title: Aoyun MA
-role: Assistant Reseacher
+role: Assistant Professor
 avatar_filename: avatar.jpeg
 bio: ""
 interests:
