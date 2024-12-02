@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        **Complex Systems and Control Laboratory** is dedicated to the modeling, analysis and control of complex systems.
+        **CSC Laboratory** is dedicated to the modeling, analysis and control of complex systems.
     design:
       background:
         gradient_end: '#1976d2'
