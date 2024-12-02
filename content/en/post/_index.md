@@ -1,26 +1,11 @@
 ---
-title: News
-date: 2022-10-24
+title: Latest News
 
-type: landing
-translationKey: post
+# Listing view
+view: compact
 
-sections:
-  - block: collection
-    content:
-      title: Latest News
-      subtitle: ''
-      text: ''
-      count: 5
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-    design:
-      view: card
-      columns: '2'
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
