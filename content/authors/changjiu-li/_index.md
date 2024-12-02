@@ -1,6 +1,6 @@
 ---
 title: Changjiu Li
-role: "Alumni  "
+role: master
 avatar_filename: 李长久.avatar.jpg
 interests:
   - Soft robot
