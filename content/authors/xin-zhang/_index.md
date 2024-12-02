@@ -1,5 +1,5 @@
 ---
-title: XIN Zhang
+title: Xin Zhang
 role: Master Student
 avatar_filename: 张鑫.avatar.jpg
 interests:
