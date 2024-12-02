@@ -1,11 +1,24 @@
 ---
-title: Latest News
-
-# Listing view
-view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
----
+title: Lastest News
+date: 2022-10-24
+type: landing
+translationKey: post
+sections:
+  - block: collection
+    content:
+      title: Lastest News
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+    design:
+      view: card
+      columns: '2'
+--- 
