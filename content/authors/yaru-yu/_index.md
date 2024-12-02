@@ -1,5 +1,5 @@
 ---
-title: YARU YU
+title: Yaru Yu
 role: Phd Students
 avatar_filename: 余雅茹.avatar.jpg
 interests:
