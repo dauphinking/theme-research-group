@@ -1,6 +1,6 @@
 ---
 title: Angwei Zhang
-role: "Alumni   "
+role: master
 avatar_filename: 张昂巍.avatar.jpg
 interests:
   - swarm intelligence
