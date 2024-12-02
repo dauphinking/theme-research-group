@@ -1,6 +1,6 @@
 ---
 title: Xiang Gu
-role: "Phd Students  "
+role: Phd Student
 avatar_filename: 顾乡.avatar.jpg
 interests:
   - Intelligent Transportation
