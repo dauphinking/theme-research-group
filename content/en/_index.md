@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Complicated Systems and Control
+      title: Complicated System and Control
       image:
         filename: welcome.jpg
       text: |
-        **Complicated Systems and Control Laboratory** is dedicated to the modeling, analysis and control of complex systems.
+        **Complicated System and Control Laboratory** is dedicated to the modeling, analysis and control of complex systems.
     design:
       background:
         gradient_end: '#1976d2'

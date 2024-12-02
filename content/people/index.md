@@ -14,7 +14,8 @@ sections:
           - Researchers
           - Postdocs
           - Engineers
-          - Grad Students
+          - Phd Students
+          - Master Students
           - Undergraduate Students
           - Administration
           - Visitors
