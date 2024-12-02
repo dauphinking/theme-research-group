@@ -10,7 +10,7 @@ sections:
       text: ''
       filters:
         folders:
-          - project
+          - zh/project
       default_button_index: 0
       buttons:
         - name: 全部

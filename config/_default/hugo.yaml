@@ -60,17 +60,16 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  # 定义各种内容类型的永久链接格式
-  authors: '/author/:slug/'              # 作者页面的URL格式，如 /author/john-doe/
-  tags: '/tag/:slug/'                    # 标签页面的URL格式，如 /tag/research/
-  categories: '/category/:slug/'         # 分类页面的URL格式，如 /category/news/
-  publication_types: '/publication-type/:slug/'  # 出版物类型页面的URL格式
-  post: '/post/:year/:month/:day/:slug/' # 博文的URL格式，包含日期，如 /post/2024/01/15/my-post/
-  project: '/project/:slug/'             # 项目页面的URL格式，如 /project/my-project/
-  people: '/people/:slug/'               # 人员页面的URL格式，如 /people/john-smith/
-  contact: '/contact/:slug/'             # 联系页面的URL格式
-  tour: '/tour/:slug/'                   # 导览页面的URL格式
-  publication: '/publication/:slug/'      # 出版物页面的URL格式，如 /publication/paper-title/
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+  post: '/post/:slug/'
+  project: '/project/:slug/'
+  people: '/people/'
+  contact: '/contact/'
+  tour: '/tour/'
+  publication: '/publication/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -117,7 +116,6 @@ contentTypes:
   people:
     basedir: content
     path: "{{.Lang}}/people"
-    title: "{{ .Title }}"
     type: landing
   contact:
     basedir: content
