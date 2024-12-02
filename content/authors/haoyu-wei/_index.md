@@ -1,6 +1,6 @@
 ---
 title: Haoyu Wei
-role: Phd Students
+role: Phd Student
 avatar_filename: 魏浩宇-证件照.avatar.jpg
 interests:
   - distributed control
