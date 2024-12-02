@@ -1,6 +1,6 @@
 ---
 title: Chen Zhang
-role: "Phd Students "
+role: Phd Student
 avatar_filename: 张辰.avatar.jpg
 interests:
   - Intelligent Transportation
