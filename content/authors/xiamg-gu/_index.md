@@ -1,5 +1,5 @@
 ---
-title: Xiamg Gu
+title: Xiang Gu
 role: "Phd Students  "
 avatar_filename: 顾乡.avatar.jpg
 interests:
