@@ -3,7 +3,7 @@ title: Kai Wang
 role: Master Student
 avatar_filename: 王楷.avatar.jpg
 interests:
-  - swarm intelligence 缩写为 SI
+  - swarm intelligence
 social:
   - display:
       header: false
