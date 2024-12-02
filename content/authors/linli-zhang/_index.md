@@ -1,6 +1,6 @@
 ---
 title: Linli Zhang
-role: Phd students
+role: Phd student
 avatar_filename: 张临骊.avatar.jpg
 bio: ""
 interests:
