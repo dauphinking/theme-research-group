@@ -1,6 +1,6 @@
 ---
 title: Xuanye Ni
-role: "Master Studentsnts    "
+role: Master Student
 avatar_filename: 倪亦璇个人头像照-1-.avatar.jpg
 interests:
   - Multi-agent deep reinforcement learning
@@ -12,5 +12,5 @@ social:
     icon_pack: fas
 superuser: false
 user_groups:
-  - Master Studentsnts
+  - Master Students
 ---
