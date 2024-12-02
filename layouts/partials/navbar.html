@@ -20,6 +20,8 @@
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
         {{ if in .RelPermalink "/zh/" }}
+          {{ $debug := printf "Current URL: %s, Contains /zh/: %t, IsZH: %t" .RelPermalink (in .RelPermalink "/zh/") $isZH }}
+          {{ $debug | safeJS | printf "console.log('%s');" | safeHTML }}
           {{ range site.Menus.main }}
             <li class="nav-item">
               {{ $url := printf "/zh/%s" (strings.TrimPrefix "/" .URL) }}
@@ -53,8 +55,8 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ $currentURL := .RelPermalink }}
-          <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">English/简体中文</a>
-          <a class="dropdown-item" href="/zh{{ strings.TrimPrefix "/zh" $currentURL }}">简体中文/English</a>
+          <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">简体中文/English</a>
+          <a class="dropdown-item" href="/zh{{ strings.TrimPrefix "/zh" $currentURL }}">English/简体中文</a>
         </div>
       </div>
     </div>
