@@ -23,6 +23,7 @@ sections:
         text_color_light: true
   
   - block: collection
+    id: posts
     content:
       title: 最新动态
       subtitle: ''
@@ -34,9 +35,11 @@ sections:
         exclude_featured: false
         publication_type: ''
         tag: ''
+      folders:
+        - zh/post    # 明确指定语言路径
       offset: 0
       order: desc
-      page_type: /zh/post
+     
     design:
       view: card
       columns: '1'

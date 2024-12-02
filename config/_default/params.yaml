@@ -113,6 +113,10 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 14
+  publication:
+    enabled: true
+  publications:
+    enabled: true
 
 # Extensions
 

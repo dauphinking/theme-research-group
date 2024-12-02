@@ -19,6 +19,7 @@ sections:
         text_color_light: true
   
   - block: collection
+    id: posts
     content:
       title: Latest News
       subtitle: ''
@@ -30,9 +31,10 @@ sections:
         exclude_featured: false
         publication_type: ''
         tag: ''
+        folders:
+          - en/post    # 明确指定语言路径
       offset: 0
       order: desc
-      page_type: /en/post
     design:
       view: card
       columns: '1'
