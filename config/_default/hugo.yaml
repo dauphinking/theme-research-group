@@ -60,16 +60,16 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
-  post: '/post/:slug/'
-  project: '/project/:slug/'
-  people: '/people/'
-  contact: '/contact/'
-  tour: '/tour/'
-  publication: '/publication/:slug/'
+  authors: 'author/:slug/'
+  tags: 'tag/:slug/'
+  categories: 'category/:slug/'
+  publication_types: 'publication-type/:slug/'
+  post: 'post/:slug/'
+  project: 'project/'
+  people: 'people/'
+  contact: 'contact/'
+  tour: 'tour/'
+  publication: 'publication/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]

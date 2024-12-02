@@ -8,6 +8,9 @@ sections:
   - block: people
     content:
       title: Meet the Team
+      filters:
+        folders:
+          - en/people
       user_groups:
         - Researchers
         - Postdocs

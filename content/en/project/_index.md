@@ -8,11 +8,9 @@ sections:
     content:
       title: Research Projects
       subtitle: Our Main Research Directions and Projects
-      text: ''
       filters:
         folders:
           - en/project
-      default_button_index: 0
       buttons:
         - name: All
           tag: '*'
