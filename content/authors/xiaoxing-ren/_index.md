@@ -7,7 +7,7 @@ interests:
 social:
   - display:
       header: false
-    link: " mailto:xiaoxing.ren@imperial.ac.uk"
+    link: " mailto xiaoxing.ren at imperial.ac.uk"
     icon_pack: fas
     icon: envelope
 organizations:
