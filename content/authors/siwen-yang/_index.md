@@ -12,5 +12,5 @@ social:
     icon: envelope
 superuser: false
 user_groups:
-  - Master Studentsnts
+  - Master Students
 ---
