@@ -1,6 +1,6 @@
 ---
 title: Guangyu Jiao
-role: "Alumni "
+role: master
 avatar_filename: 焦广宇.avatar.jpg
 interests:
   - robot
