@@ -1,9 +1,9 @@
 ---
 title: Yaonan Guan
-role: "Alumni   "
+role: PhD
 avatar_filename: 管耀南.avatar.jpg
 interests:
-  - big data
+  - BigData
 social:
   - display:
       header: false
