@@ -1,7 +1,6 @@
 ---
 title: Contact
 date: 2024-10-24
-
 type: landing
 
 sections:
@@ -11,7 +10,7 @@ sections:
       text: |-
         Supervisor Name: Professor Dewei Li Email: dwli@sjtu.edu.cn 
 
-        Contact Person Name: Mme. Yijun Wu Email: wyjzhang@sjtu.edu.cn 
+        Administrator Name: Mme. Yijun Wu Email: wyjzhang@sjtu.edu.cn 
         Phone (also WeChat): 13918876465
       email: dwli@sjtu.edu.cn 
       phone: 0086-21-34204550

@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: 联系方式
+      title: 联系我们
       text: |-
         主管姓名：李德伟教授 邮箱：dwli@sjtu.edu.cn
 
