@@ -9,7 +9,7 @@ social:
       header: false
     icon: envelope
     icon_pack: fas
-    link: mailto:contact@sjtu.edu.cn
+    link: mailto contact at sjtu.edu.cn
 superuser: false
 user_groups:
   - Phd Students
