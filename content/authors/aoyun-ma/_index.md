@@ -11,7 +11,7 @@ social:
       header: false
     icon_pack: fas
     link: "mailto: aoyun_ma@sjtu.edu.cn"
-    icon: envelope
+    icon: "envelope "
   - display:
       header: false
     link: https://www.researchgate.net/scientific-contributions/Aoyun-Ma-2223930784
