@@ -1,0 +1,17 @@
+---
+title: Chongzhi Wang
+role: "Phd Students "
+avatar_filename: 王冲之-1-.avatar.jpg
+interests:
+  - Matrix-weight multi-agent network
+  - the Kuramoto model
+social:
+  - display:
+      header: false
+    link: mailto:contact@sjtu.edu.cn
+    icon_pack: fas
+    icon: envelopec
+superuser: false
+user_groups:
+  - Phd Students
+---
