@@ -12,26 +12,9 @@ baseURL: 'http://www.csc-lab.com/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 # 移除URL路径中的重音符号（例如：将 "café" 转换为 "cafe"）
 removePathAccents: true
-
-# 添加语言相关配置
-languages:
-  en:
-    languageCode: en-us
-    contentDir: content/en
-    weight: 1
-    title: Complicated System and Control
-    params:
-      description: Complex Systems and Control Laboratory
-  zh:
-    languageCode: zh-cn
-    contentDir: content/zh
-    weight: 2
-    title: 复杂系统与控制实验室
-    params:
-      description: 复杂系统与控制实验室
 
 # 多语言相关设置
 enableMissingTranslationPlaceholders: false # 英文内容直接在根路径下，不需要翻译
