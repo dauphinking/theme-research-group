@@ -1,6 +1,6 @@
 ---
 title: Tong Chen
-role: Phd Students
+role: Phd Student
 avatar_filename: 陈通照片.avatar.jpg
 interests:
   - Robot motion control
