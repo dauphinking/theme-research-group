@@ -7,7 +7,7 @@ interests:
 social:
   - display:
       header: false
-    link: mailto:contact@sjtu.edu.cn
+    link: mailto contact@sjtu.edu.cn
     icon_pack: fas
     icon: envelopec
 superuser: false
