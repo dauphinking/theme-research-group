@@ -1,6 +1,6 @@
 ---
 title: Langlang Sun
-role: Master Studentsnts
+role: Master Student
 avatar_filename: 孙浪浪-1-.avatar.jpg
 interests:
   - Mobile robotic arm situational interaction perception control
@@ -12,5 +12,5 @@ social:
     icon: " envelope"
 superuser: false
 user_groups:
-  - Master Studentsnts
+  - Master Students
 ---
