@@ -1,6 +1,6 @@
 ---
 title: Siwen Yang
-role: "Master Studentsnts "
+role: Master Student
 avatar_filename: 杨思文.avatar.jpg
 interests:
   - Intelligent Transportation
