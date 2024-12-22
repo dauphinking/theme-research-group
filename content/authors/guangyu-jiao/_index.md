@@ -10,6 +10,9 @@ social:
     link: "mailto contact at sjtu.edu.cn  "
     icon_pack: fas
     icon: " envelope"
+organizations:
+  - url: https://www.honor.com/global/
+    name: "Honor "
 superuser: false
 user_groups:
   - Alumni
