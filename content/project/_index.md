@@ -10,7 +10,7 @@ sections:
       subtitle: Our Main Research Directions and Projects
       filters:
         folders:
-          - en/project
+          - project
       buttons:
         - name: All
           tag: '*'
