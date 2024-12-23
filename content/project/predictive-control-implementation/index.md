@@ -1,14 +1,17 @@
 ---
+slides: example
+url_pdf: ""
+summary: >-
+  
+   By handling multi-variable interactions and constraints effectively, MPC delivers superior performance in complex industrial processes.We have successfully applied Aggregation MPC (Model Predictive Control) to air separation, injection molding, PV inverters, and boiler combustion control, achieving enhanced efficiency, energy savings, and improved system stability across these diverse industrial processes.
 title: "Predictive Control Implementation:"
 date: 2024-12-23T17:02:00.000Z
 draft: false
 featured: false
 tags:
-  - Predictive Control
-categories:
-  - Application
+  - Control
 image:
-  filename: apcproject.jpg
+  filename: feature.jpg
   focal_point: Smart
   preview_only: false
 ---

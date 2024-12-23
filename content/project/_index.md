@@ -16,7 +16,7 @@ sections:
         - name: All
           tag: '*'
         - name: Predictive Control
-          tag: Predictive Control
+          tag: Control
         - name: Autonomous Robots
           tag: Robot
         - name: Intelligent Transportation
