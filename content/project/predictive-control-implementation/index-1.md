@@ -4,16 +4,9 @@ slides: example
 url_pdf: ""
 title: Predictive Control Implementation
 date: 2024-12-23T17:02:00.000Z
-summary: |-
-  MPC Project Implementation in various industrial fiels
-
-  \- Air Separation system
-
-  \- Injection Molding system
-
-  \- PV Inverter system
-
-  \- Boiler Combustion system
+summary: Noval MPC design and Project Implementation in various industrial
+  fiels, including Air Separation system   ,Injection Molding system, PV
+  Inverter system and Boiler Combustion system
 url_video: ""
 featured: false
 tags:
@@ -22,10 +15,10 @@ categories: []
 external_link: ""
 url_slides: ""
 image:
-  filename: feature.png
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
-  caption: project ppt
+  caption: project
 ---
 * **Aggregation MPC (Model Predictive Control)**:
 
