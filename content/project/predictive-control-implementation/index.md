@@ -32,7 +32,7 @@ image:
 
     * Optimized the duty cycle to minimize harmonic distortions and waveform irregularities.
     * Nominated for the 2014 Chinese Control Conference Guang Zhi Zhi Award for these innovations.
-  *  **Cement Plants:**
+  * **Boiler Combustion Control System**
 
-    *  **Energy Savings**: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
-    *
+    *   Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
+    *  Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
