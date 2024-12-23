@@ -34,8 +34,7 @@ draft: false
 featured: false
 tags:
   - Predictive Control
-categories:
-  - Application
+categories: []
 image:
   filename: apcproject.jpg
   focal_point: Smart
