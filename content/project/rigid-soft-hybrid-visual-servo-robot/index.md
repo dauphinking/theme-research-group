@@ -8,7 +8,7 @@ url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Rigid-Soft Hybrid Visual Servo  Robot
+title: Rigid-Soft Hybrid Visual Servo Robot
 tags:
   - Predictive Control
   - Robot
