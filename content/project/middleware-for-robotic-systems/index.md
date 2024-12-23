@@ -10,7 +10,7 @@ external_link: ""
 url_slides: ""
 title: " Middleware for Robotic Systems"
 tags:
-  - robot
+  - Robot
 links: []
 image:
   caption: Project Image
