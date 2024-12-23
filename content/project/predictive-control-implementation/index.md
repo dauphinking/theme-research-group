@@ -9,7 +9,7 @@ date: 2024-12-23T17:02:00.000Z
 draft: false
 featured: false
 tags:
-  - Control
+  - Predictive Control
 image:
   filename: feature.jpg
   focal_point: Smart
