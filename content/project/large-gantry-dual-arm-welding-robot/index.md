@@ -28,7 +28,7 @@ title: Large Gantry Dual-Arm Welding  Robot
 subtitle: ""
 date: 2024-12-23T11:23:00.000Z
 tags:
-  - robot
+  - Robot
 type: landing
 image:
   filename: feature.png
@@ -36,3 +36,5 @@ image:
   preview_only: false
   focal_point: Bottom
 ---
+
+Funded by the *National High Technology Research and Development Program*, this project focused on developing motion and trajectory planning software for dual-arm welding robots in complex gantry environments. The goal was to accumulate  in dual-arm welding technology, specifically for large shipyards.
