@@ -16,7 +16,7 @@ tags:
   - Predictive Control
 links: []
 image:
-  filename: feature.jpg
+  filename: feature.png
   focal_point: Smart
   preview_only: false
 ---
