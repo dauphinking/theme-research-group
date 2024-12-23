@@ -5,10 +5,10 @@ summary: >-
   
   The lab’s self-funded project aimed to enhance robot-environment interaction by developing hardware platforms and control algorithms for rigid-soft hybrid robots. An input mapping module was introduced in the visual servoing system to mitigate disturbances and improve response speed.
 url_video: ""
-date: 2024-03-27T00:00:00Z
+date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Rigid-Soft Hybrid Visual Servo Robot
+title: Rigid-Soft Hybrid Visual Servo  Robot
 tags:
   - Predictive Control
   - Robot
