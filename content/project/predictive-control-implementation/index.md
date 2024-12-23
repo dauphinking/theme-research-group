@@ -3,8 +3,12 @@ title: "Predictive Control Implementation:"
 date: 2024-12-23T17:02:00.000Z
 draft: false
 featured: false
+tags:
+  - Predictive Control
+categories:
+  - Application
 image:
-  filename: featured
+  filename: apcproject.jpg
   focal_point: Smart
   preview_only: false
 ---
