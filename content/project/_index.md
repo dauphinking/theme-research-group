@@ -1,7 +1,7 @@
 ---
 title: Projects
 type: landing
-translationKey: project
+translationKey:  project
 sections:
   - block: portfolio
     content:
