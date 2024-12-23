@@ -1,31 +1,22 @@
 ---
-title: Example Project
-summary: This is an introduction to an example project.
+slides: example
+url_pdf: ""
+summary: >-
+  
+  Under a *National Key Research and Development Program*, the laboratory developed a domestic robotic operating system. Key tasks included the design of path planning, motion control, and motion planning components for six commonly used industrial robots.
+url_video: ""
+date: 2024-03-27T00:00:00Z
+external_link: ""
+url_slides: ""
+title: " Middleware for Robotic Systems"
 tags:
-  - Predictive Control
-  - Autonomous Robot
-  - Intelligent Transport
-date: '2024-03-27T00:00:00Z'
-
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
+  - robot
+links: []
 image:
   caption: Project Image
   focal_point: Smart
-
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-slides: example
+  filename: feature.png
+url_code: ""
 ---
 
-Here is the detailed description of the project...
+Under a *National Key Research and Development Program*, the laboratory developed a domestic robotic operating system. Key tasks included the design of path planning, motion control, and motion planning components for six commonly used industrial robots.
