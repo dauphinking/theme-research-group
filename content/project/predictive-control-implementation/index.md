@@ -1,12 +1,14 @@
 ---
+slides: example
+url_pdf: ""
+url_video: ""
+external_link: ""
+url_slides: ""
 title: "Predictive Control Implementation:"
 date: 2024-12-23T17:02:00.000Z
 summary: >-
   
-
-
   * **Aggregation MPC (Model Predictive Control)**:
-
     * Introduced a generalized linear aggregation framework for MPC.
     * Developed equivalent aggregation concepts to simplify optimization problems, enabling real-time applicability.
     * Optimized the separation between offline (design phase) and online (real-time execution) computations to ensure high efficiency.
@@ -36,7 +38,7 @@ tags:
   - Predictive Control
 categories: []
 image:
-  filename: apcproject.jpg
+  filename: feature.jpg
   focal_point: Smart
   preview_only: false
 ---
