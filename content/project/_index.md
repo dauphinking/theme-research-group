@@ -1,11 +1,11 @@
 ---
-title: Research Projects
+title: Projects
 type: landing
 translationKey: project
 sections:
   - block: portfolio
     content:
-      title: Research Projects
+      title: Projects
       subtitle: Our Main Research Directions and Projects
       text: ''
       filters:
