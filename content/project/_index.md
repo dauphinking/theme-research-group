@@ -24,7 +24,7 @@ sections:
       columns: "1"
       view: showcase
       flip_alt_rows: false
-title: Large Gantry Dual-Arm Welding Robot
+title: Large Gantry Dual-Arm Welding  Robot
 subtitle: ""
 date: 2024-12-23T11:23:00.000Z
 tags:
