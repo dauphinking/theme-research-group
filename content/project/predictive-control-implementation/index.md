@@ -8,8 +8,6 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-
-
 * **Aggregation MPC (Model Predictive Control)**:
 
   * Introduced a generalized linear aggregation framework for MPC.
@@ -19,11 +17,40 @@ image:
 
   * **Air Separation Systems**
 
-    :
+
+
+
+    * Controlled fluctuations in process variables during separation.
+
+    * Enabled rapid tracking of operational setpoints under external load changes.
+
+    * Successfully tested embedded (DSP-based) predictive controllers in industrial settings.
+
+
+
+
   * **Injection Molding Systems**
 
     :
+
+
+    * Minimized transient pressure fluctuations during the hold pressure phase, improving product quality.
+
+    * Reduced energy consumption and increased stability in high-volume production environments.
+
+
+
+
   * **Photovoltaic Inverter Systems**
 
     :
+
+
+    * Optimized the duty cycle to minimize harmonic distortions and waveform irregularities.
+
+    * Nominated for the 2014 Chinese Control Conference Guang Zhi Zhi Award for these innovations.
+
+
+
+
 * **Energy Savings**: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
