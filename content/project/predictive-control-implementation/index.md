@@ -33,7 +33,7 @@ summary: >-
 url_video: ""
 featured: false
 tags:
-  - Predictive Control
+  - predictive-control
 categories: []
 external_link: ""
 url_slides: ""
