@@ -3,7 +3,7 @@ title: Projects
 type: landing
 translationKey:  project
 sections:
-  - block: portfolio
+  - block: collection
     content:
       title: Projects
       subtitle: Our Main Research Directions and Projects
