@@ -2,7 +2,7 @@
 draft: false
 slides: example
 url_pdf: ""
-title: "Predictive Control Implementation:"
+title: Predictive Control Implementation
 date: 2024-12-23T17:02:00.000Z
 summary: >-
   
