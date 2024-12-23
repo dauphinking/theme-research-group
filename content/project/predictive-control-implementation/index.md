@@ -1,9 +1,7 @@
 ---
+draft: false
 slides: example
 url_pdf: ""
-url_video: ""
-external_link: ""
-url_slides: ""
 title: "Predictive Control Implementation:"
 date: 2024-12-23T17:02:00.000Z
 summary: >-
@@ -32,15 +30,18 @@ summary: >-
 
       * Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
       * Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
-draft: false
+url_video: ""
 featured: false
 tags:
   - Predictive Control
 categories: []
+external_link: ""
+url_slides: ""
 image:
   filename: feature.jpg
   focal_point: Smart
   preview_only: false
+  caption: project ppt
 ---
 * **Aggregation MPC (Model Predictive Control)**:
 
