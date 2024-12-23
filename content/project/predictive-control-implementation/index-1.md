@@ -34,17 +34,15 @@ image:
     * Successfully tested embedded (DSP-based) predictive controllers in industrial settings.
   * **Injection Molding Systems**
 
-
-
     * Minimized transient pressure fluctuations during the hold pressure phase, improving product quality.
     * Reduced energy consumption and increased stability in high-volume production environments.
   * **Photovoltaic Inverter Systems**
-
-
 
     * Optimized the duty cycle to minimize harmonic distortions and waveform irregularities.
     * Nominated for the 2014 Chinese Control Conference Guang Zhi Zhi Award for these innovations.
   * **Boiler Combustion Control System**
 
-    *   Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
-    *  Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
+    * Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
+    * Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
+
+      ![](featured.jpg)
