@@ -19,7 +19,7 @@ sections:
           tag: Predictive Control
         - name: Autonomous Robots
           tag: Robot
-        - name: Intelligent Transportation
+        - name: Intelligent Transport
           tag: Transport
     design:
       columns: '1'
