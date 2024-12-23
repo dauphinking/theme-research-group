@@ -22,7 +22,7 @@ categories: []
 external_link: ""
 url_slides: ""
 image:
-  filename: feature.jpg
+  filename: feature.png
   focal_point: Smart
   preview_only: false
   caption: project ppt
