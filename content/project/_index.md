@@ -5,7 +5,7 @@ translationKey:  project
 sections:
   - block: collection
     content:
-      title: Projects
+      title: Research Projects
       subtitle: Our Main Research Directions and Projects
       text: ''
       filters:
