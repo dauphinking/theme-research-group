@@ -7,18 +7,20 @@ date: 2024-12-23T17:02:00.000Z
 summary: Noval MPC design and Project Implementation in various industrial
   fiels, including Air Separation system,Injection Molding system, PV Inverter
   system and Boiler Combustion system
+authors:
+  - Bihui JIN
 url_video: ""
 featured: false
+external_link: ""
+url_slides: ""
 tags:
   - Predictive Control
 categories: []
-external_link: ""
-url_slides: ""
 image:
-  filename: featured.jpg
+  filename: feature.png
   focal_point: Smart
-  preview_only: false
-  caption: project
+  preview_only: true
+  caption: ""
 ---
 * **Aggregation MPC (Model Predictive Control)**:
 
@@ -44,5 +46,3 @@ image:
 
     * Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
     * Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
-
-      ![](featured.jpg)
