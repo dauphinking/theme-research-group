@@ -19,8 +19,8 @@ categories: []
 image:
   filename: feature.png
   focal_point: Smart
-  preview_only: false
-  caption: project
+  preview_only: true
+  caption: ""
 ---
 * **Aggregation MPC (Model Predictive Control)**:
 
