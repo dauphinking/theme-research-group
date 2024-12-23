@@ -5,8 +5,8 @@ url_pdf: ""
 title: Predictive Control Implementation
 date: 2024-12-23T17:02:00.000Z
 summary: Noval MPC design and Project Implementation in various industrial
-  fiels, including Air Separation system   ,Injection Molding system, PV
-  Inverter system and Boiler Combustion system
+  fiels, including Air Separation system,Injection Molding system, PV Inverter
+  system and Boiler Combustion system
 url_video: ""
 featured: false
 tags:
