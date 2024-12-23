@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Complicated System and Control # Website name
+title: Complex System  and Control # Website name
 baseURL: 'http://www.csc-lab.com/' # Website URL
 
 ############################
