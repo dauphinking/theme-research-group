@@ -6,7 +6,7 @@ sections:
   - block: portfolio
     content:
       title: Research Projects
-      subtitle: Our Main Research Directions and Projects
+      subtitle: Our Main Research Directions
       text: ''
       filters:
         folders:
