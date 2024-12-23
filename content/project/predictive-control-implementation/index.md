@@ -2,22 +2,19 @@
 slides: example
 url_pdf: ""
 summary: >-
-  
     **Aggregation MPC (Model Predictive Control)**:
     * Introduced a generalized linear aggregation framework for MPC.
     * Developed equivalent aggregation concepts to simplify optimization problems, enabling real-time applicability.
     * Optimized the separation between offline (design phase) and online (real-time execution) computations to ensure high efficiency.
-
+ 
 url_video: ""
+date: 2024-12-23T17:02:00.000Z
 external_link: ""
 url_slides: ""
 title: "Predictive Control Implementation:"
-date: 2024-12-23T17:02:00.000Z
-draft: false
-featured: false
 tags:
   - Predictive Control
-categories: []
+links: []
 image:
   filename: feature.jpg
   focal_point: Smart
