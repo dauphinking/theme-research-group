@@ -7,7 +7,7 @@ summary: >-
 draft: false
 featured: false
 tags:
-  - robot
+  - Robot
 image:
   filename: feature.png
   focal_point: Smart
