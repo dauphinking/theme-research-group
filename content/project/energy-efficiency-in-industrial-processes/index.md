@@ -9,7 +9,7 @@ featured: false
 tags:
   - Predictive Control
 image:
-  filename: ""
+  filename: aa.png
   focal_point: Smart
   preview_only: false
 ---
@@ -20,10 +20,14 @@ Focused on energy optimization in large-scale industrial systems:
 * Increased temperature qualification rates from 60% to 85%.
 * Improved product yield from 180 tons/hour to 210 tons/hour.
 
+  ![](20180719_083157_125.png)
+
 **Light Oil Yield in Petrochemical Systems:**
 
 * Enhanced yield by 0.49%.
 * Reduced comprehensive energy consumption to below 70 kg of standard coal per ton of output.
+
+  ![](bb.png)
 
 **Key Achievements:**
 
