@@ -31,7 +31,7 @@ summary: >-
 draft: false
 featured: false
 image:
-  filename: 1735007315760.featured.jpg
+  filename: 1735008122266.featured.jpg
   focal_point: Smart
   preview_only: false
   caption: Embedded Predictive Controllers
