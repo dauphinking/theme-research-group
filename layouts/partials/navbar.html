@@ -1,7 +1,33 @@
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
     {{ $currentLang := .Site.Language.Lang }}
-    {{ $isZH := or (eq $currentLang "zh") (in .RelPermalink "/zh/") }}
+    {{ $currentURL := .RelPermalink }}
+    {{ $isZH := in $currentURL "/zh/" }}
+
+    <!-- 调试信息输出到控制台 -->
+    <script>
+      // 主要调试信息
+      console.group('Language and Menu Debug Info');
+      console.log('Current URL:', '{{ $currentURL }}');
+      console.log('Current Language:', '{{ $currentLang }}');
+      console.log('Is Chinese:', {{ $isZH }});
+      console.log('Has ZH in URL:', {{ in $currentURL "/zh/" }});
+      console.groupEnd();
+
+      // 监听语言切换
+      document.addEventListener('DOMContentLoaded', function() {
+        const langSelector = document.getElementById('languageSelector');
+        if (langSelector) {
+          langSelector.addEventListener('click', function() {
+            console.group('Language Selector Clicked');
+            console.log('Current URL:', '{{ $currentURL }}');
+            console.log('Current Language:', '{{ $currentLang }}');
+            console.log('Is Chinese:', {{ $isZH }});
+            console.groupEnd();
+          });
+        }
+      });
+    </script>
 
     {{/* Brand */}}
     <a class="navbar-brand me-lg-3" href="{{ if $isZH }}/zh{{ else }}/{{ end }}">
@@ -20,8 +46,23 @@
     {{/* Nav pages */}}
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
+        {{ $currentLang := .Site.Language.Lang }}
+        {{ $currentURL := .RelPermalink }}
+        {{ $isZH := or (in $currentURL "/zh/") (eq $currentLang "zh") }}
+        
+        <!-- 调试信息 -->
+        <script>
+          console.log('Menu Language Check:', {
+            currentURL: '{{ $currentURL }}',
+            currentLang: '{{ $currentLang }}',
+            isZH: {{ $isZH }},
+            hasZHinURL: {{ in $currentURL "/zh/" }}
+          });
+        </script>
+
+        <!-- 根据 $isZH 选择菜单 -->
         {{ if $isZH }}
-          {{ range site.Menus.zh.main }}
+          {{ range site.Menus.zh.main }}  <!-- 使用中文菜单 -->
             <li class="nav-item">
               <a class="nav-link" href="{{ .URL }}">
                 {{ .Pre }}
@@ -31,7 +72,7 @@
             </li>
           {{ end }}
         {{ else }}
-          {{ range site.Menus.main }}
+          {{ range site.Menus.main }}    <!-- 使用英文菜单 -->
             <li class="nav-item">
               <a class="nav-link" href="{{ .URL }}">
                 {{ .Pre }}
@@ -76,10 +117,19 @@
     <!-- 调试信息输出到控制台 -->
     <script>
       console.log('Language Debug:', {
-        currentLang: '{{ $currentLang }}',
+        currentURL: '{{ $currentURL }}',
         isZH: {{ $isZH }},
-        currentURL: '{{ .RelPermalink }}',
-        hasZHinURL: {{ in .RelPermalink "/zh/" }}
+        hasZHinURL: {{ in $currentURL "/zh/" }}
+      });
+    </script>
+
+    <!-- 添加调试信息 -->
+    <script>
+      console.log('Menu Debug:', {
+        currentLang: '{{ $currentLang }}',
+        currentURL: '{{ $currentURL }}',
+        isZH: {{ $isZH }},
+        hasZHinURL: {{ in $currentURL "/zh/" }}
       });
     </script>
 
@@ -91,7 +141,7 @@
     console.log('Debug Info:', {
       currentLang: '{{ $currentLang }}',
       isZH: {{ $isZH }},
-      currentURL: '{{ .RelPermalink }}'
+      currentURL: '{{ $currentURL }}'
     });
 
     // 监听语言切换
@@ -102,7 +152,7 @@
           console.log('Language Selector Clicked');
           console.log('Current Language:', '{{ $currentLang }}');
           console.log('Is Chinese:', {{ $isZH }});
-          console.log('Current URL:', '{{ .RelPermalink }}');
+          console.log('Current URL:', '{{ $currentURL }}');
         });
       }
     });
@@ -154,6 +204,6 @@
     <div style="margin-bottom: 10px; font-weight: bold; color: #dc3545;">Debug Info:</div>
     <div style="margin-bottom: 5px;">Current Language: {{ $currentLang }}</div>
     <div style="margin-bottom: 5px;">IsZH: {{ $isZH }}</div>
-    <div>Current URL: {{ .RelPermalink }}</div>
+    <div>Current URL: {{ $currentURL }}</div>
   </div>
 </nav> 

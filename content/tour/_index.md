@@ -18,6 +18,26 @@ sections:
                 brightness: 0.7
             position: right
             color: '#666'
+         - title: Research ⚡️
+          content: 'MPC, Autonomous Robotics, Intelligent Transportation'
+          align: left
+          background:
+            image:
+              filename: contact.jpg
+              filters:
+                brightness: 0.7
+            position: center
+            color: '#555'
+        - title: Join us 🌎
+          content: 'Welcome to join our team'
+          align: right
+          background:
+            image:
+              filename: welcome.jpg
+              filters:
+                brightness: 0.5
+            position: center
+            color: '#333'
       filters:
         folders:
           - en/tour
