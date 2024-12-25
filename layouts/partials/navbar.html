@@ -68,29 +68,62 @@
 
   </div>
 
-  <!-- 修改调试按钮样式 -->
-  <button onclick="toggleDebug()" class="debug-button" style="
+  <!-- 添加调试信息到控制台 -->
+  <script>
+    // 立即输出到控制台
+    console.log('Debug Info:', {
+      currentLang: '{{ $currentLang }}',
+      isZH: {{ $isZH }},
+      currentURL: '{{ .RelPermalink }}'
+    });
+
+    // 监听语言切换
+    document.addEventListener('DOMContentLoaded', function() {
+      const langSelector = document.getElementById('languageSelector');
+      if (langSelector) {
+        langSelector.addEventListener('click', function() {
+          console.log('Language Selector Clicked');
+          console.log('Current Language:', '{{ $currentLang }}');
+          console.log('Is Chinese:', {{ $isZH }});
+          console.log('Current URL:', '{{ .RelPermalink }}');
+        });
+      }
+    });
+  </script>
+
+  <!-- 修改调试按钮样式，使其更明显 -->
+  <div style="
     position: fixed;
-    top: 70px;
+    top: 80px;
     right: 20px;
     z-index: 10000;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   ">
-    🔍 Debug
-  </button>
+    <button onclick="toggleDebug()" style="
+      padding: 8px 16px;
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    ">
+      <span style="font-size: 16px;">🔍</span>
+      <span>Debug</span>
+    </button>
+  </div>
 
-  <!-- 修改调试弹窗样式 -->
-  <div id="debugInfo" class="debug-popup" style="
+  <!-- 调试信息面板 -->
+  <div id="debugInfo" style="
     display: none;
     position: fixed;
-    top: 110px;
+    top: 130px;
     right: 20px;
     background: white;
     border: 1px solid #ccc;
@@ -99,24 +132,11 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     z-index: 9999;
     font-size: 14px;
-    min-width: 200px;
+    min-width: 250px;
   ">
-    <strong>Debug Info:</strong><br>
-    Current Language: {{ $currentLang }}<br>
-    IsZH: {{ $isZH }}<br>
-    Current URL: {{ .RelPermalink }}
+    <div style="margin-bottom: 10px; font-weight: bold; color: #dc3545;">Debug Info:</div>
+    <div style="margin-bottom: 5px;">Current Language: {{ $currentLang }}</div>
+    <div style="margin-bottom: 5px;">IsZH: {{ $isZH }}</div>
+    <div>Current URL: {{ .RelPermalink }}</div>
   </div>
-
-  <!-- 添加 JavaScript -->
-  <script>
-    function toggleDebug() {
-      var debugDiv = document.getElementById('debugInfo');
-      debugDiv.style.display = debugDiv.style.display === 'none' ? 'block' : 'none';
-    }
-
-    // 在页面加载时显示一次弹窗
-    window.onload = function() {
-      alert('Current Language: {{ $currentLang }}\nIsZH: {{ $isZH }}\nCurrent URL: {{ .RelPermalink }}');
-    }
-  </script>
 </nav> 
