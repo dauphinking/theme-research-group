@@ -18,7 +18,7 @@ sections:
                 brightness: 0.7
             position: right
             color: '#666'
-         - title: Research ⚡️
+        - title: Research ⚡️
           content: 'MPC, Autonomous Robotics, Intelligent Transportation'
           align: left
           background:
@@ -38,9 +38,6 @@ sections:
                 brightness: 0.5
             position: center
             color: '#333'
-      filters:
-        folders:
-          - en/tour
     design:
       slide_height: ''
       is_fullscreen: true

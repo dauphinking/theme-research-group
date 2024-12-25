@@ -4,6 +4,19 @@
     {{ $currentURL := .RelPermalink }}
     {{ $isZH := in $currentURL "/zh/" }}
 
+    <!-- 添加弹窗调试信息 -->
+    <script>
+      window.onload = function() {
+        alert(
+          'Debug Info:\n' +
+          '当前 URL: {{ $currentURL }}\n' +
+          '当前语言: {{ $currentLang }}\n' +
+          '是否中文: {{ $isZH }}\n' +
+          'URL包含/zh/: {{ in $currentURL "/zh/" }}'
+        );
+      }
+    </script>
+
     <!-- 调试信息输出到控制台 -->
     <script>
       // 主要调试信息
