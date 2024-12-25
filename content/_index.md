@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Complex Systems and Control
+      title: Complex System et Control
       image:
         filename: welcome.jpg
       text: |
-        **CSC Laboratory** is dedicated to the modeling, analysis and control of complex systems.
+        The SJTU CSC Laboratory pioneers advanced modeling and control methodologies, shaping innovations in process industries, autonomous robotics, and intelligent transportation.
     design:
       background:
         gradient_end: '#1976d2'
@@ -32,7 +32,7 @@ sections:
         publication_type: ''
         tag: ''
         folders:
-          - en/post    # 明确指定语言路径
+          - post    # 明确指定语言路径
       offset: 0
       order: desc
     design:

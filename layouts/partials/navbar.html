@@ -2,6 +2,7 @@
   <div class="container-xl">
     {{ $currentLang := .Site.Language.Lang }}
     {{ $isZH := eq $currentLang "zh" }}
+
     {{/* Brand */}}
     <a class="navbar-brand me-lg-3" href="{{ if $isZH }}/zh{{ else }}/{{ end }}">
       {{- if site.Params.appearance.header.logo.icon -}}
@@ -19,23 +20,26 @@
     {{/* Nav pages */}}
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
-        {{ range site.Menus.main }}
-          <li class="nav-item">
-            {{ if $isZH }}
-              {{ $url := printf "/zh%s" (strings.TrimPrefix .URL "/") }}
-              <a class="nav-link" href="{{ $url }}">
-                {{ .Pre }}
-                <span>{{ i18n (printf "menu_%s" .Identifier) }}</span>
-                {{ .Post }}
-              </a>
-            {{ else }}
+        {{ if $isZH }}
+          {{ range site.Menus.zh.main }}
+            <li class="nav-item">
               <a class="nav-link" href="{{ .URL }}">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
                 {{ .Post }}
               </a>
-            {{ end }}
-          </li>
+            </li>
+          {{ end }}
+        {{ else }}
+          {{ range site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL }}">
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+                {{ .Post }}
+              </a>
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
@@ -47,18 +51,49 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ $currentURL := .RelPermalink }}
-          <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">English/简体中文</a>
-          <a class="dropdown-item" href="/zh{{ strings.TrimPrefix "/zh" $currentURL }}">简体中文/English</a>
+          <a class="dropdown-item" href="{{ replace $currentURL "^/zh" "" }}">English</a>
+          <a class="dropdown-item" href="/zh{{ $currentURL }}">简体中文</a>
         </div>
       </div>
     </div>
 
     <!-- Debug Info -->
-    <div style="display:none;">
-      Current Language: {{ $currentLang }}
-      IsZH: {{ $isZH }}
+    <!--
+    <div style="display:block; color:red;">
+      Current Language: {{ $currentLang }}<br>
+      IsZH: {{ $isZH }}<br>
       Current URL: {{ $currentURL }}
     </div>
+    -->
 
   </div>
+
+  <!-- 添加调试弹窗 -->
+  <div id="debugInfo" class="debug-popup" style="display:none; position:fixed; top:10px; right:10px; background:white; border:1px solid #ccc; padding:10px; z-index:9999;">
+    Current Language: {{ $currentLang }}<br>
+    IsZH: {{ $isZH }}<br>
+    Current URL: {{ .RelPermalink }}
+  </div>
+
+  <!-- 添加调试按钮 -->
+  <button onclick="toggleDebug()" style="position:fixed; top:5px; right:5px; z-index:10000;">
+    Debug
+  </button>
+
+  <!-- 添加 JavaScript -->
+  <script>
+    function toggleDebug() {
+      var debugDiv = document.getElementById('debugInfo');
+      if (debugDiv.style.display === 'none') {
+        debugDiv.style.display = 'block';
+      } else {
+        debugDiv.style.display = 'none';
+      }
+    }
+
+    // 在页面加载时显示一次弹窗
+    window.onload = function() {
+      alert('Current Language: {{ $currentLang }}\nIsZH: {{ $isZH }}\nCurrent URL: {{ .RelPermalink }}');
+    }
+  </script>
 </nav> 
