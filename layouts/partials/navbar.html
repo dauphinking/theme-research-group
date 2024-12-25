@@ -68,27 +68,50 @@
 
   </div>
 
-  <!-- 添加调试弹窗 -->
-  <div id="debugInfo" class="debug-popup" style="display:none; position:fixed; top:10px; right:10px; background:white; border:1px solid #ccc; padding:10px; z-index:9999;">
+  <!-- 修改调试按钮样式 -->
+  <button onclick="toggleDebug()" class="debug-button" style="
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 10000;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  ">
+    🔍 Debug
+  </button>
+
+  <!-- 修改调试弹窗样式 -->
+  <div id="debugInfo" class="debug-popup" style="
+    display: none;
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 9999;
+    font-size: 14px;
+    min-width: 200px;
+  ">
+    <strong>Debug Info:</strong><br>
     Current Language: {{ $currentLang }}<br>
     IsZH: {{ $isZH }}<br>
     Current URL: {{ .RelPermalink }}
   </div>
 
-  <!-- 添加调试按钮 -->
-  <button onclick="toggleDebug()" style="position:fixed; top:5px; right:5px; z-index:10000;">
-    Debug
-  </button>
-
   <!-- 添加 JavaScript -->
   <script>
     function toggleDebug() {
       var debugDiv = document.getElementById('debugInfo');
-      if (debugDiv.style.display === 'none') {
-        debugDiv.style.display = 'block';
-      } else {
-        debugDiv.style.display = 'none';
-      }
+      debugDiv.style.display = debugDiv.style.display === 'none' ? 'block' : 'none';
     }
 
     // 在页面加载时显示一次弹窗
