@@ -11,7 +11,7 @@ authors:
 tags:
   - Traffic
 image:
-  filename: 1735112020844.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
   caption: " Intersection optimization flow chart"
