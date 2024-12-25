@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
     {{ $currentLang := .Site.Language.Lang }}
-    {{ $isZH := eq $currentLang "zh" }}
+    {{ $isZH := or (eq $currentLang "zh") (in .RelPermalink "/zh/") }}
 
     {{/* Brand */}}
     <a class="navbar-brand me-lg-3" href="{{ if $isZH }}/zh{{ else }}/{{ end }}">
@@ -51,8 +51,15 @@
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ $currentURL := .RelPermalink }}
-          <a class="dropdown-item" href="{{ replace $currentURL "^/zh" "" }}">English</a>
-          <a class="dropdown-item" href="/zh{{ $currentURL }}">简体中文</a>
+          {{ if in $currentURL "/zh/" }}
+            <!-- 当前在中文页面，切换到英文 -->
+            <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">English</a>
+            <a class="dropdown-item" href="{{ $currentURL }}">简体中文</a>
+          {{ else }}
+            <!-- 当前在英文页面，切换到中文 -->
+            <a class="dropdown-item" href="{{ $currentURL }}">English</a>
+            <a class="dropdown-item" href="/zh{{ $currentURL }}">简体中文</a>
+          {{ end }}
         </div>
       </div>
     </div>
@@ -65,6 +72,16 @@
       Current URL: {{ $currentURL }}
     </div>
     -->
+
+    <!-- 调试信息输出到控制台 -->
+    <script>
+      console.log('Language Debug:', {
+        currentLang: '{{ $currentLang }}',
+        isZH: {{ $isZH }},
+        currentURL: '{{ .RelPermalink }}',
+        hasZHinURL: {{ in .RelPermalink "/zh/" }}
+      });
+    </script>
 
   </div>
 
