@@ -18,7 +18,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A frontier research facility dedicated to advancing the field of MPC, model predictive control. '
+    description: 'A frontier research facility dedicated to advancing the research and application of MPC, model predictive control. '
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,7 +34,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false # Disable language switcher since we handle it in navbar.html
+    show_language: true # Disable language switcher since we handle it in navbar.html
     show_day_night: true
     show_search: true
     highlight_active_link: false

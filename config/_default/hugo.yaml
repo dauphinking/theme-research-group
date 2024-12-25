@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Complex System  and Control # Website name
+title: SJTU CSC Lab  # Website name
 baseURL: 'http://www.csc-lab.com/' # Website URL
 
 ############################
@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 # 多语言相关设置
-enableMissingTranslationPlaceholders: false # 英文内容直接在根路径下，不需要翻译
+enableMissingTranslationPlaceholders: true # 英文内容直接在根路径下，不需要翻译
 enableInlineShortcodes: true
 
 # 语言切换器配置

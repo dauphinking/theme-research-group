@@ -15,7 +15,7 @@ links: []
 image:
   caption: Project Image
   focal_point: Smart
-  filename: featured-1-.png
+  filename: featured.png
 url_code: ""
 ---
 Single Intersection Control: Implements Markov decision processes (MDP) to dynamically adjust green signal durations based on traffic conditions.
