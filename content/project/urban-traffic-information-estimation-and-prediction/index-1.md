@@ -15,7 +15,7 @@ links: []
 image:
   caption: Project Image
   focal_point: Smart
-  filename: 1735112514371-1-.jpg
+  filename: featured.jpg
 url_code: ""
 ---
 
