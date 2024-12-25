@@ -38,7 +38,7 @@
   translation: 文章
 
 - id: menu_publications
-  translation: 发表论文
+  translation: 论文
 
 - id: menu_projects
   translation: 项目
@@ -47,7 +47,7 @@
   translation: 团队
 
 - id: menu_contact
-  translation: 联系我们
+  translation: 联系
 
 # Buttons
 

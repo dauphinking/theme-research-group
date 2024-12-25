@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
     {{ $currentLang := .Site.Language.Lang }}
-    {{ $isZH := or (eq $currentLang "zh") (in .RelPermalink "/zh/") }}
+    {{ $isZH := eq $currentLang "zh" }}
     {{/* Brand */}}
     <a class="navbar-brand me-lg-3" href="{{ if $isZH }}/zh{{ else }}/{{ end }}">
       {{- if site.Params.appearance.header.logo.icon -}}
@@ -19,30 +19,23 @@
     {{/* Nav pages */}}
     <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
-        {{ if in .RelPermalink "/zh/" }}
-          {{ $debug := printf "Current URL: %s, Contains /zh/: %t, IsZH: %t" .RelPermalink (in .RelPermalink "/zh/") $isZH }}
-          {{ $debug | safeJS | printf "console.log('%s');" | safeHTML }}
-          {{ range site.Menus.main }}
-            <li class="nav-item">
-              {{ $url := printf "/zh/%s" (strings.TrimPrefix "/" .URL) }}
+        {{ range site.Menus.main }}
+          <li class="nav-item">
+            {{ if $isZH }}
+              {{ $url := printf "/zh%s" (strings.TrimPrefix .URL "/") }}
               <a class="nav-link" href="{{ $url }}">
                 {{ .Pre }}
                 <span>{{ i18n (printf "menu_%s" .Identifier) }}</span>
                 {{ .Post }}
               </a>
-            </li>
-          {{ end }}
-        {{ else }}
-          {{ range site.Menus.main }}
-            <li class="nav-item">
-              {{ $url := printf "/%s" (strings.TrimPrefix "/" .URL) }}
-              <a class="nav-link" href="{{ $url }}">
+            {{ else }}
+              <a class="nav-link" href="{{ .URL }}">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
                 {{ .Post }}
               </a>
-            </li>
-          {{ end }}
+            {{ end }}
+          </li>
         {{ end }}
       </ul>
     </div>
@@ -50,21 +43,22 @@
     <div class="navbar-right">
       <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-globe mr-1"></i>  English
-          <i class="fas fa-globe mr-1"></i>  简体中文
+          <i class="fas fa-globe mr-1"></i>  {{ if $isZH }}简体中文{{ else }}English{{ end }}
         </a>
         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">
           {{ $currentURL := .RelPermalink }}
-          <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">简体中文/English</a>
-          <a class="dropdown-item" href="/zh{{ strings.TrimPrefix "/zh" $currentURL }}">English/简体中文</a>
+          <a class="dropdown-item" href="{{ strings.TrimPrefix "/zh" $currentURL }}">English/简体中文</a>
+          <a class="dropdown-item" href="/zh{{ strings.TrimPrefix "/zh" $currentURL }}">简体中文/English</a>
         </div>
       </div>
     </div>
 
     <!-- Debug Info -->
-    <!-- Current Language: {{ $currentLang }} -->
-    <!-- Current URL: {{ .RelPermalink }} -->
-    <!-- Is Chinese: {{ $isZH }} -->
+    <div style="display:none;">
+      Current Language: {{ $currentLang }}
+      IsZH: {{ $isZH }}
+      Current URL: {{ $currentURL }}
+    </div>
 
   </div>
 </nav> 
