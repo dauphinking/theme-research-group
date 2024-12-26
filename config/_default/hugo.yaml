@@ -12,7 +12,7 @@ baseURL: 'https://english.csc-lab.com/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 # 移除URL路径中的重音符号（例如：将 "café" 转换为 "cafe"）
 removePathAccents: true
 
@@ -69,3 +69,4 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
       disable: false
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+

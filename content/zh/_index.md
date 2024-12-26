@@ -3,10 +3,7 @@
 title: ''
 date: 2022-10-24
 type: landing
-draft: false
-cascade:
-  # Ensure Chinese content shows up
-  language: zh
+translationKey: zh
 
 sections:
   - block: hero
@@ -30,13 +27,7 @@ sections:
   #     text: ''
   #     count: 5
   #     filters:
-  #       author: ''
   #       category: ''
-  #       exclude_featured: false
-  #       publication_type: ''
-  #       tag: ''
-  #     folders:
-  #       - zh/post    # 明确指定语言路径
   #     offset: 0
   #     order: desc
      
