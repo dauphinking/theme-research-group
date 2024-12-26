@@ -7,7 +7,7 @@ main:
     url: zh/post
     weight: 20
   - name: 团队
-      url: zh/people
+    url: zh/people
     weight: 30
   - name: 项目
     url: zh/project
