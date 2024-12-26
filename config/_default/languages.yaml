@@ -3,7 +3,8 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 en:
-  languageCode: en
+  languageCode: en-us
+  languageName: English
   contentDir: content/
   title: SJTU CSC Lab
   weight: 1
@@ -15,9 +16,10 @@ en:
         notice: '© {year} CSC Lab. All Rights Reserved.'
 
 zh:
-  languageCode: zh
+  languageCode: zh-cn
+  languageName: 中文
   contentDir: content/zh
-  title: 上海交通大学复杂系统与控制实验室
+  title: 上海交通大学复杂系统控制实验室
   weight: 2
   params:
     description: 致力于模型预测控制及领域应用的前沿实验室

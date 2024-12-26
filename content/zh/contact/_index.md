@@ -8,7 +8,7 @@ sections:
     content:
       title: 联系我们
       text: |-
-        主管姓名：李德伟教授 邮箱：dwli@sjtu.edu.cn
+        实验室主任：李德伟教授 邮箱：dwli@sjtu.edu.cn
 
         联系人姓名：吴怡君女士 邮箱：wyjzhang@sjtu.edu.cn
         电话（也可微信）：13918876465
