@@ -1,26 +1,20 @@
 # Navigation Links
 main:
-  - identifier: "tour"
-    name: "Tour"
-    url: "/tour/"
+  - name: Tour
+    url: tour
     weight: 10
-  - identifier: "news"
-    name: "News"
-    url: "/post/"
+  - name: News
+    url: post
     weight: 20
-  - identifier: "people"
-    name: "People"
-    url: "/people/"
+  - name: People
+    url: people
     weight: 30
-  - identifier: "projects"
-    name: "Projects"
-    url: "/project/"
+  - name: Projects
+    url: project
     weight: 40
-  - identifier: "publications"
-    name: "Publications"
-    url: "/publication/"
+  - name: Publications
+    url: publication
     weight: 50
-  - identifier: "contact"
-    name: "Contact"
-    url: "/contact/"
+  - name: Contact
+    url: contact
     weight: 60 

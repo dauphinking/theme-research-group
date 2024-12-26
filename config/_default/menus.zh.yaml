@@ -1,26 +1,20 @@
 # 导航链接
 main:
-  - identifier: "tour"
-    name: "首页"
-    url: "/zh/tour/"
+  - name: 首页
+    url: tour
     weight: 10
-  - identifier: "news"
-    name: "新闻"
-    url: "/zh/post/"
+  - name: 新闻
+    url: post
     weight: 20
-  - identifier: "people"
-    name: "团队"
-    url: "/zh/people/"
+  - name: 团队
+    url: people
     weight: 30
-  - identifier: "projects"
-    name: "项目"
-    url: "/zh/project/"
+  - name: 项目
+    url: project
     weight: 40
-  - identifier: "publications"
-    name: "论文"
-    url: "/zh/publication/"
+  - name: 论文
+    url: publication
     weight: 50
-  - identifier: "contact"
-    name: "联系"
-    url: "/zh/contact/"
+  - name: 联系
+    url: contact
     weight: 60 

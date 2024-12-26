@@ -37,17 +37,18 @@ header:
     show_language: true # Disable language switcher since we handle it in navbar.html
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
+  show_translations: true
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
