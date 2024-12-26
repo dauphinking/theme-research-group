@@ -9,7 +9,7 @@ sections:
       title: 发表论文
       filters:
         folders:
-          - publication
+          - en/publication
         featured_only: true
     design:
       columns: '2'
@@ -23,7 +23,7 @@ sections:
         {{% /callout %}}
       filters:
         folders:
-          - publication
+          - en/publication
         exclude_featured: true
     design:
       columns: '2'

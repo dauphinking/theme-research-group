@@ -28,7 +28,7 @@ sections:
             position: center
             color: '#555'
         - title: 加入我们 🌎
-          content: '欢迎优秀的研究生加入我们的团队'
+          content: '欢迎优秀的博后/研究生加入我们的团队'
           align: right
           background:
             image:
