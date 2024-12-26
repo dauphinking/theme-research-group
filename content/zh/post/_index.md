@@ -12,7 +12,7 @@ sections:
       count: 5
       filters:
         folders:
-          - post
+          - zh/post
         author: ""
         category: ""
         tag: ""
