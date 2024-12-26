@@ -44,7 +44,7 @@ header:
 footer:
   show_translations: true
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} SJTU CSC Lab. This work is licensed under {license}'
     license:
       enable: false
       allow_derivatives: false
