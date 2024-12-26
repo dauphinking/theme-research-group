@@ -33,7 +33,7 @@ sections:
         publication_type: ''
         tag: ''
       folders:
-        - zh/post    # 明确指定语言路径
+        - post    # 明确指定语言路径
       offset: 0
       order: desc
      

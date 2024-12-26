@@ -12,7 +12,7 @@ sections:
       count: 5
       filters:
         folders:
-          - en/post
+          - post
         author: ""
         category: ""
         tag: ""
