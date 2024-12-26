@@ -1,20 +1,20 @@
 # Navigation Links
 main:
   - name: Tour
-    url: tour
+    url: en/tour
     weight: 10
   - name: News
-    url: post
+    url: en/post
     weight: 20
   - name: People
-    url: people
+    url: en/people
     weight: 30
   - name: Projects
-    url: project
+    url: en/project
     weight: 40
   - name: Publications
-    url: publication
+    url: en/publication
     weight: 50
   - name: Contact
-    url: contact
+    url: en/contact
     weight: 60 
