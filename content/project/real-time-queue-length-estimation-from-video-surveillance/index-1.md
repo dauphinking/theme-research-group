@@ -16,17 +16,13 @@ image:
   caption: Project Image
   focal_point: Smart
   filename: feature.jpg
+  preview_only: false
 url_code: ""
 ---
+**Data Extraction:** Analyzes video footage to extract vehicle trajectories and queue patterns.
 
+**Model Integration:** Combines trajectory data with following models to reconstruct queue states dynamically.
 
+**Challenges Addressed:** Mitigates issues like occlusions in video feeds and dynamic variations in traffic flow.
 
-Description:
-
-Data Extraction: Analyzes video footage to extract vehicle trajectories and queue patterns.
-
-Model Integration: Combines trajectory data with following models to reconstruct queue states dynamically.
-
-Challenges Addressed: Mitigates issues like occlusions in video feeds and dynamic variations in traffic flow.
-
-Applications: Optimizes red light timing and reduces congestion at high-demand intersections by accurately estimating queue lengths.
+**Applications:** Optimizes red light timing and reduces congestion at high-demand intersections by accurately estimating queue lengths.
