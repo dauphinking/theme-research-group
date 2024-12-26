@@ -1,20 +1,20 @@
-# Navigation Links
+# 导航链接
 main:
-  - name: Tour
+  - name: 首页
     url: tour
     weight: 10
-  - name: News
+  - name: 新闻
     url: post
     weight: 20
-  - name: People
+  - name: 团队
     url: people
     weight: 30
-  - name: Projects
+  - name: 项目
     url: project
     weight: 40
-  - name: Publications
+  - name: 论文
     url: publication
     weight: 50
-  - name: Contact
+  - name: 联系
     url: contact
     weight: 60 
