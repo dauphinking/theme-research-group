@@ -23,7 +23,7 @@ zh:
   weight: 2
   params:
     description: 致力于模型预测控制及领域应用的前沿实验室
-    address_format: zh-cn
+    address_format: zh-CN
     footer:
       copyright:
         notice: '© {year} 复杂系统控制实验室. 保留所有权利.'
