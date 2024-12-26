@@ -10,7 +10,7 @@ sections:
       title: Meet the Team
       filters:
         folders:
-          - people
+          - en/people
       user_groups:
         - Researchers
         - Postdocs
