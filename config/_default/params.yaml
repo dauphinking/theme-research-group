@@ -58,19 +58,6 @@ locale:
   time_format: '3:04 PM'
   address_format: en-us
 
-# 添加多语言配置
-i18n:
-  # 显示语言切换器
-  show_language_chooser: true
-  
-  # 语言显示设置
-  languages:
-    en:
-      date_format: 'Jan 2, 2024'
-      time_format: '3:04 PM'
-    zh:
-      date_format: '2024年1月2日'
-      time_format: '15:04'
 
 # Site features
 

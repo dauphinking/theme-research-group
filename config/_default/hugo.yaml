@@ -35,12 +35,6 @@ permalinks:
   tags: 'tag/:slug/'
   categories: 'category/:slug/'
   publication_types: 'publication-type/:slug/'
-  # post: 'post/:slug/'
-  # project: 'project/'
-  # people: 'people/'
-  # contact: 'contact/'
-  # tour: 'tour/'
-  # publication: 'publication/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -76,40 +70,3 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
       disable: false
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-
-# 添加内容类型配置
-# contentTypes:
-#   home:
-#     basedir: content
-#     path: "{{.Lang}}"
-#     title: "{{ .Title }}"
-#     type: landing
-#   people:
-#     basedir: content
-#     path: "{{.Lang}}/people"
-#     type: landing
-#   contact:
-#     basedir: content
-#     path: "{{.Lang}}/contact"
-#     title: "{{ .Title }}"
-#     type: landing
-#   project:
-#     basedir: content
-#     path: "{{.Lang}}/project"
-#     title: "{{ .Title }}"
-#     type: landing
-#   post:
-#     basedir: content
-#     path: "{{.Lang}}/post"
-#     title: "{{ .Title }}"
-#     type: landing
-#   tour:
-#     basedir: content
-#     path: "{{.Lang}}/tour"
-#     title: "{{ .Title }}"
-#     type: landing
-#   publication:
-#     basedir: content
-#     path: "{{.Lang}}/publication"
-#     title: "{{ .Title }}"
-#     type: landing
