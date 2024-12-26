@@ -1,5 +1,5 @@
 ---
-title: Jin WU
+title: Jing WU
 role: Researcher
 avatar_filename: avatar.jpg
 bio: Main research areas include distributed networked system control and
@@ -9,9 +9,14 @@ bio: Main research areas include distributed networked system control and
 social:
   - display:
       header: false
-    icon: mail
-    icon_pack: ai
+    icon: envelope
+    icon_pack: fas
     link: mailto:jingwu@sjtu.edu.cn
+  - display:
+      header: false
+    icon_pack: ai
+    icon: academic
+    link: https://scholar.google.com/citations?user=N9p6l7QAAAAJ
 organizations:
   - name: Shanghai Jiao Tong University
     url: https://automation.sjtu.edu.cn/Jing
