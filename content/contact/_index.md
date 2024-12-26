@@ -2,6 +2,7 @@
 title: Contact
 date: 2024-10-24
 type: landing
+translationKey: contact
 
 sections:
   - block: contact
