@@ -11,11 +11,11 @@ cascade:
 sections:
   - block: hero
     content:
-      title: 复杂系统与控制实验室
+      title: 复杂系统控制实验室
       image:
         filename: welcome.jpg
       text: |
-        **复杂系统与控制实验室** 致力于复杂系统的建模、分析与控制研究。
+        **复杂系统控制实验室** 致力于复杂系统的建模、分析与控制研究。
     design:
       background:
         gradient_end: '#1976d2'
