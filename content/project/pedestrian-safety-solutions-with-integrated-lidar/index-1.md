@@ -1,15 +1,22 @@
 ---
+slides: example
+url_pdf: ""
+summary: >-
+  
+  A LiDAR-based system enhances pedestrian safety by detecting crossings in real time and adapting signal timing to prioritize safety.
+url_video: ""
+date: 2024-03-27T00:00:00.000Z
+external_link: ""
+url_slides: ""
 title: Pedestrian Safety Solutions with Integrated LiDAR
-date: 2024-12-26T13:57:00.000Z
-summary: A LiDAR-based system enhances pedestrian safety by detecting crossings
-  in real time and adapting signal timing to prioritize safety.
-draft: false
-featured: false
+tags:
+  - Traffic
+links: []
 image:
-  filename: 1735192988915.png
+  caption: Project Image
   focal_point: Smart
-  preview_only: false
-  caption: LiDAR pedestrian detection diagram
+  filename: feature.png
+url_code: ""
 ---
 Real-Time Detection: Uses LiDAR sensors to monitor pedestrian activity with high accuracy.
 

@@ -1,17 +1,26 @@
 ---
-title: Real-time Queue Length Estimation from Video Surveillance
-date: 2024-12-26T13:30:00.000Z
+slides: example
+url_pdf: ""
 summary: >-
   
   This system provides real-time queue length estimation using traffic video analysis, improving signal timing and congestion assessments.
-draft: false
-featured: false
+url_video: ""
+date: 2024-03-27T00:00:00.000Z
+external_link: ""
+url_slides: ""
+title: Real-time Queue Length Estimation from Video Surveillance
+tags:
+  - Traffic
+links: []
 image:
-  filename: 1735191250745.jpg
+  caption: Project Image
   focal_point: Smart
-  preview_only: false
-  caption: Queue estimation visualization
+  filename: feature.jpg
+url_code: ""
 ---
+
+
+
 Description:
 
 Data Extraction: Analyzes video footage to extract vehicle trajectories and queue patterns.

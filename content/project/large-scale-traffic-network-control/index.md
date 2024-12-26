@@ -1,18 +1,22 @@
 ---
 title: Large-scale Traffic Network Control
-date: 2024-12-26T13:45:00.000Z
-summary: A hierarchical control framework is developed to optimize traffic
-  management across large urban networks by balancing traffic demand and
-  improving network-wide efficiency.
+date: 2024-12-24T10:37:00.000Z
+summary: >-
+  
+  A hierarchical control framework is developed to optimize traffic management across large urban networks by balancing traffic demand and improving network-wide efficiency
 draft: false
 featured: false
+tags:
+  - Traffic
 image:
-  filename: 1735192250946.jpg
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
-  caption: Hierarchical network control schematic
 ---
-Hierarchical Structure:
+
+
+
+**Hierarchical Structure:**
 
 Upper Level: Balances traffic flow between regions to prevent oversaturation.
 
