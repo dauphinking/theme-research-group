@@ -5,7 +5,7 @@
 en:
   languageCode: en-US
   languageName: English
-  contentDir: content/
+  contentDir: content/en
   title: SJTU CSC Lab
   weight: 1
   params:
