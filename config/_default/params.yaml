@@ -37,7 +37,7 @@ header:
     show_language: true 
     show_day_night: true
     show_search: false
-    highlight_active_link: true
+    highlight_active_link: false
 
 # Site footer
 
@@ -123,7 +123,3 @@ extensions:
 publications:
   date_format: January 2024
   citation_style: apa
-
-# Add these parameters if not present
-defaultLanguage: en
-hasCJKLanguage: true  # Enables Chinese character counting for summaries
