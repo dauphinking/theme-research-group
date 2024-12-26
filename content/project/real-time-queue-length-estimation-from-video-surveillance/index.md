@@ -7,7 +7,7 @@ summary: >-
 draft: false
 featured: false
 image:
-  filename: 1735191250745.jpg
+  filename: feature.jpg
   focal_point: Smart
   preview_only: false
   caption: Queue estimation visualization
