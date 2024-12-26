@@ -27,9 +27,9 @@ education:
       institution: Nanchang University
       year: 2000
 email: jingwu@sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
-  - Researcher
+  - Researchers
 ---
 
 
