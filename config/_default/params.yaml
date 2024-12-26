@@ -108,6 +108,8 @@ features:
     enabled: true
   publications:
     enabled: true
+  image:
+    lazyload: true
 
 # Extensions
 
@@ -124,3 +126,9 @@ extensions:
 publications:
   date_format: January 2024
   citation_style: apa
+
+# 图片处理
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
