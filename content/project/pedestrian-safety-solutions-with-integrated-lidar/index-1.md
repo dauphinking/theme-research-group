@@ -24,4 +24,4 @@ Adaptive Control: Adjusts signal timing dynamically to balance pedestrian and ve
 
 Advanced Analytics: Enhances reliability in low-visibility and crowded scenarios.
 
-Targeted Deployment: Ideal for high-traffic urban areas with significant pedestrian activity.
+Targeted Deployment: Ideal for high-traffic urban areas with significant pedestrian activity
