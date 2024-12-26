@@ -15,7 +15,7 @@ social:
   - display:
       header: false
     icon_pack: ai
-    icon: academic
+    icon: google-scholar
     link: https://scholar.google.com/citations?user=N9p6l7QAAAAJ
 organizations:
   - name: Shanghai Jiao Tong University
