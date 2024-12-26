@@ -3,7 +3,7 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 en:
-  languageCode: en-us
+  languageCode: en-US
   languageName: English
   contentDir: content/
   title: SJTU CSC Lab
@@ -16,7 +16,7 @@ en:
         notice: '© {year} CSC Lab. All Rights Reserved.'
 
 zh:
-  languageCode: zh-cn
+  languageCode: zh-CN
   languageName: 中文
   contentDir: content/zh
   title: 上海交通大学复杂系统控制实验室

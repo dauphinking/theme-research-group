@@ -10,7 +10,7 @@ baseURL: 'https://english.csc-lab.com/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: zh-cn
+defaultContentLanguage: zh-CN
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 # 移除URL路径中的重音符号（例如：将 "café" 转换为 "cafe"）
