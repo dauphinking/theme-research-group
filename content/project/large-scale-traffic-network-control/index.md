@@ -6,8 +6,10 @@ summary: A hierarchical control framework is developed to optimize traffic
   improving network-wide efficiency.
 draft: false
 featured: false
+tags:
+  - Traffic
 image:
-  filename: 1735192250946.jpg
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
   caption: Hierarchical network control schematic
