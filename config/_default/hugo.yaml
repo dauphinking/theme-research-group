@@ -16,19 +16,14 @@ defaultContentLanguageInSubdir: false
 # 移除URL路径中的重音符号（例如：将 "café" 转换为 "cafe"）
 removePathAccents: true
 
-# 多语言相关设置
-enableMissingTranslationPlaceholders: true # 英文内容直接在根路径下，不需要翻译
-enableInlineShortcodes: true
 
 # 语言切换器配置
 params:
   languages:
     - code: en
       name: English
-      flag: us
     - code: zh
       name: 中文
-      flag: cn
 
 ############################
 ## ADVANCED
