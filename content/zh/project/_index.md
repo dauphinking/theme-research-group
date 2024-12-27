@@ -10,17 +10,17 @@ sections:
       text: ''
       filters:
         folders:
-          - en/project
+          - ../en/project
       default_button_index: 0
       buttons:
         - name: 全部
           tag: '*'
         - name: 预测控制
-          tag: Predictive Control
+          tag: 'Predictive Control'
         - name: 自主机器人
-          tag: Autonomous Robot
+          tag: 'Robot'
         - name: 智能交通
-          tag: Intelligent Transport
+          tag: 'Traffic'  
     design:
       columns: '1'
       view: showcase
