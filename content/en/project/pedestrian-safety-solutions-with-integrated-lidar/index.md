@@ -1,9 +1,9 @@
 ---
 slides: example
 url_pdf: ""
-summary: >-
-  
-  A LiDAR-based system enhances pedestrian safety by detecting crossings in real time and adapting signal timing to prioritize safety.
+summary: A LiDAR-based system enhances pedestrian safety by detecting crossings
+ in real time and adapting signal timing to prioritize safety.
+authors: []
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
