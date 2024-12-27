@@ -1,7 +1,7 @@
 ---
 title: ACA Fellow Award Recipient, Congratulations to Professor Yugeng Xi
 subtitle: ""
-date: 2024-10-10T00:00:00.000Z
+date: 2024-12-28T00:00:00.000Z
 image:
   filename: 1720770425494_000004_01.png
   focal_point: TOP

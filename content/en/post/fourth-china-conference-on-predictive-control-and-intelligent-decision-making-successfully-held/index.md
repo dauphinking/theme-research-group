@@ -1,7 +1,7 @@
 ---
 title: Fourth China Conference on Predictive Control and Intelligent
   Decision-Making Successfully Held
-date: 2024-09-10T14:34:00.000Z
+date: 2024-12-10T14:34:00.000Z
 draft: false
 featured: false
 image:

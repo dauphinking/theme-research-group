@@ -5,6 +5,8 @@
 
 # Appearance
 
+logo: '/media/icon.png'  # Path to your lab logo image
+
 appearance:
   theme_day: minimal
   theme_night:
@@ -61,7 +63,6 @@ locale:
 
 
 # Site features
-
 features:
   syntax_highlighter:
     enable: false

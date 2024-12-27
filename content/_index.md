@@ -25,14 +25,12 @@ sections:
       subtitle: ''
       text: ''
       count: 5
-      # filters:
-        # folders:
-        #   - en/post
-        # author: ''
-        # category: ''
-        # exclude_featured: false
-        # publication_type: ''
-        # tag: ''
+      filters:
+        folders:
+          - en
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
       offset: 0
       order: desc
     design:
