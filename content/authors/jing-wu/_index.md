@@ -6,6 +6,10 @@ bio: Main research areas include distributed networked system control and
   optimization, security control and state estimation of networked information
   physical systems, distributed computing and its applications in smart grids,
   smart ships, and smart factories.
+interests:
+  - Distributed networked system control and optimization
+  - Security control 
+  - Distributed computing in smart grids, smart ships, and smart factories
 social:
   - display:
       header: false
