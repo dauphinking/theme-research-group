@@ -1,6 +1,6 @@
 ---
-title: Haibin Shao
-role: Associate Professor
+title: Haibin SHAO
+role: Associate Researcher
 avatar_filename: avatar.jpg
 bio: ""
 interests:
