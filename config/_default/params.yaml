@@ -18,8 +18,8 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
+    local_business_type: 'Research'
+    org_name: 'SJTU CSC Lab'
     description: 'A frontier research facility dedicated to advancing the research and application of MPC, model predictive control. '
   analytics:
     google_analytics: ''
