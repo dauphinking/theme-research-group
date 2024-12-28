@@ -78,6 +78,13 @@ sections:
       title: Research Projects
       subtitle: Our main research projects
       text: ''
+      filters:
+        exclude_folders:
+          - publication
+        tag:
+          - 'Predictive Control'
+          - 'Robot' 
+          - 'Traffic'
     #   filters:
     #     folders:
     #       - en/project    # 指定正确的项目路径
