@@ -43,7 +43,8 @@ user_groups:
 ## Research Projects
 
 1. **National Natural Science Foundation of China Youth Science Fund Project:** Research on Distributed Model Predictive Control for Segmented Affine Systems (Ongoing, Principal Investigator)
-2. **China Postdoctoral Science Foundation 69th Batch General Program:** Research on Reinforcement Learning Distributed Model Predictive Control for Hybrid Systems (Completed, Principal Investigator)
-3. **Industrial Project:** Development of Digital Twin Behavior and Rule Models (Ongoing, Principal Investigator)
-4. **National Natural Science Foundation of China Key Project:** Theory and Key Technologies for Optimization and Control of Complex Hybrid Traffic Systems in the Internet of Vehicles Environment (Ongoing, Participant)
-5. **National Natural Science Foundation of China International (Regional) Cooperation and Exchange Project:** Research on Design and Application of Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control (Ongoing, Participant)
+2. "National Major Science and Technology Project (2024ZD14), Sub-project: Intelligent Drilling Rig for 10,000-Meter Deep Wells and Ultra-High Pressure Wellhead Equipment, (Ongoing, Participant)
+3. **China Postdoctoral Science Foundation 69th Batch General Program:** Research on Reinforcement Learning Distributed Model Predictive Control for Hybrid Systems (Completed, Principal Investigator)
+4. **Industrial Project:** Development of Digital Twin Behavior and Rule Models (Ongoing, Principal Investigator)
+5. **National Natural Science Foundation of China Key Project:** Theory and Key Technologies for Optimization and Control of Complex Hybrid Traffic Systems in the Internet of Vehicles Environment (Ongoing, Participant)
+6. **National Natural Science Foundation of China International (Regional) Cooperation and Exchange Project:** Research on Design and Application of Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control (Ongoing, Participant)
