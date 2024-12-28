@@ -1,6 +1,6 @@
 ---
 title: Dewei LI
-role: Professor
+role: Professor | Lab Leader
 avatar_filename: avatar.jpg
 bio: Dewei LI has published over 300 papers in prestigious academic journals and
   conferences, including Automatica and IEEE Transactions on Automatic Control.

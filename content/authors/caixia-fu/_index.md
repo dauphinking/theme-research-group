@@ -73,16 +73,16 @@ user_groups:
 
 ### Key Projects
 
-* **Jinan Longqing Food Company Beverage Wastewater Treatment**
-* **Henan Coal Chemical BDO Wastewater Upgrade Project**
-* **Horizontal Sand Island Rural Wastewater Treatment Station Upgrade**
-* **Rugao City Rural Wastewater Treatment Project**
-* **Rugao City Ceramic Wastewater Treatment Project**
-* **Feasibility Study for the Fourth Wastewater Treatment Plant**
-* **Shandong New Water Purification Project**
-* **Shandong North Lake Water Plant Expansion Project**
-* **Yunnan Dianchi Lake Protection and Treatment Planning**
-* **Innovation Competition Project Application**
+* Jinan Longqing Food Company Beverage Wastewater Treatment
+* Henan Coal Chemical BDO Wastewater Upgrade Project
+* Horizontal Sand Island Rural Wastewater Treatment Station Upgrade
+* Rugao City Rural Wastewater Treatment Project
+* Rugao City Ceramic Wastewater Treatment Project
+* Feasibility Study for the Fourth Wastewater Treatment Plant
+* Shandong New Water Purification Project
+* Shandong North Lake Water Plant Expansion Project
+* Yunnan Dianchi Lake Protection and Treatment Planning
+* Innovation Competition Project Application
 
 ## Patents
 
