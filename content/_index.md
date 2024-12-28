@@ -7,11 +7,12 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Complex Systems and Control
+      title: Complex System and Control
       image:
         filename: welcome.jpg
       text: |
-        **CSC Laboratory** is dedicated to the modeling, analysis and control of complex systems.
+        Welcome to our research hub **CSC Laboratory**, where innovation meets excellence. Our interdisciplinary team is dedicated to pushing the boundaries of technological advancement across multiple domains. 
+
     design:
       background:
         gradient_end: '#1976d2'
