@@ -44,7 +44,7 @@ user_groups:
 
 ## Research Projects
 
-1. **Multi-objective Evaluation, Prediction, and Real-time Optimization of Coal Conversion Process Operating States**, National Key Research and Development Program, Project Leader
+1. **Multi-objective Evaluation, Prediction, and Real-time Optimization of Coal Conversion Process Operating States**, National Key Research and Development Program, NEA / MOST, Project Leader
 2. **Optimization and Control of Complex Hybrid Traffic Systems in Internet of Vehicles Environment:** National Natural Science Foundation Key Project
 3. **Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control Design and Application Research:** National Natural Science Foundation Mainland-Hong Kong Joint Project
 4. **Integrated Design Method for Distributed Predictive Control of Large-scale Hybrid Systems:** National Natural Science Foundation General Project
