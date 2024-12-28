@@ -44,16 +44,17 @@ user_groups:
 
 ## Research Projects
 
-1. **Optimization and Control of Complex Hybrid Traffic Systems in Internet of Vehicles Environment:** National Natural Science Foundation Key Project
-2. **Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control Design and Application Research:** National Natural Science Foundation Mainland-Hong Kong Joint Project
-3. **Integrated Design Method for Distributed Predictive Control of Large-scale Hybrid Systems:** National Natural Science Foundation General Project
-4. **Research on Efficient Embedded Algorithms and Implementation Strategies for Predictive Control:** National Natural Science Foundation General Project
-5. **Theory and Algorithm Research on Output Feedback Predictive Control of Stochastic Systems:** National Natural Science Foundation General Project
-6. **Modeling, Optimization, and Control Methods for Urban Drainage Network Systems:** National Natural Science Foundation Key Project
-7. **Prediction and Control of Complex Urban Traffic Systems in Big Data Environment:** National Natural Science Foundation Key Project
-8. **Key Technologies and Equipment for Fully Autonomous Welding of Large Ship Multi-segment Dual-arm Robots:** National 863 Project
-9. **Prototype System Research on Collaborative Optimization Control of Urban Traffic Networks:** Shanghai Science and Technology Innovation Plan
-10. **Theory and Methods of Human-Machine-Object Collaborative Control and Decision-making in Complex Manufacturing Environments:** Guangdong Province Key R&D Plan Project
+1. **Multi-objective Evaluation, Prediction, and Real-time Optimization of Coal Conversion Process Operating States**, National Key Research and Development Program, Project Leader
+2. **Optimization and Control of Complex Hybrid Traffic Systems in Internet of Vehicles Environment:** National Natural Science Foundation Key Project
+3. **Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control Design and Application Research:** National Natural Science Foundation Mainland-Hong Kong Joint Project
+4. **Integrated Design Method for Distributed Predictive Control of Large-scale Hybrid Systems:** National Natural Science Foundation General Project
+5. **Research on Efficient Embedded Algorithms and Implementation Strategies for Predictive Control:** National Natural Science Foundation General Project
+6. **Theory and Algorithm Research on Output Feedback Predictive Control of Stochastic Systems:** National Natural Science Foundation General Project
+7. **Modeling, Optimization, and Control Methods for Urban Drainage Network Systems:** National Natural Science Foundation Key Project
+8. **Prediction and Control of Complex Urban Traffic Systems in Big Data Environment:** National Natural Science Foundation Key Project
+9. **Key Technologies and Equipment for Fully Autonomous Welding of Large Ship Multi-segment Dual-arm Robots:** National 863 Project
+10. **Prototype System Research on Collaborative Optimization Control of Urban Traffic Networks:** Shanghai Science and Technology Innovation Plan
+11. **Theory and Methods of Human-Machine-Object Collaborative Control and Decision-making in Complex Manufacturing Environments:** Guangdong Province Key R&D Plan Project
 
 
 

@@ -44,15 +44,15 @@ user_groups:
 Main research areas include distributed networked system control and optimization, security control and state estimation of networked information physical systems, distributed computing and its applications in smart grids, smart ships, and smart factories.
 
 **Research Projects**
-
-1. National Natural Science Foundation Project, Collaborative Attack Detection and Resilient Security Control in Smart Distribution Networks with Incomplete Information, 2023/01-2026/12, Principal Investigator
-2. National Natural Science Foundation Project, Active Security Control and Self-Healing Optimization of Smart Distribution Networks with Distributed Energy Access, 2019/01-2022/12, Principal Investigator
-3. National Natural Science Foundation Project, Information Physical Attack Detection and Security Control of Distributed Network Control Systems, 2015/01-2018/12, Principal Investigator
-4. National Natural Science Foundation Project, Demand Response and Energy Efficiency Coordination Optimization and Control in Smart Grids, 2012/01-2014/12, Principal Investigator
-5. Research on Card Game Adversarial Strategies Based on Reinforcement Learning, 2021/12-2022/01, Principal Investigator
-6. Economic Dispatch Research of Smart Wind Farms under IoT Architecture, 2021/01-2021/12, Principal Investigator
-7. Design of Intelligent Debug System for PCB, 2020/07-2021/01, Principal Investigator
-8. Distributed Energy Scheduling Simulation Technology Service, 2016/11-2017/02, Principal Investigator
+1. National Key Research and Development Program, Research on Key Common Technologies for Intelligent Dynamic Risk Control in Process Industries, December 2024 - Led by the Project Leader
+2. National Natural Science Foundation Project, Collaborative Attack Detection and Resilient Security Control in Smart Distribution Networks with Incomplete Information, 2023/01-2026/12, Principal Investigator
+3. National Natural Science Foundation Project, Active Security Control and Self-Healing Optimization of Smart Distribution Networks with Distributed Energy Access, 2019/01-2022/12, Principal Investigator
+4. National Natural Science Foundation Project, Information Physical Attack Detection and Security Control of Distributed Network Control Systems, 2015/01-2018/12, Principal Investigator
+5. National Natural Science Foundation Project, Demand Response and Energy Efficiency Coordination Optimization and Control in Smart Grids, 2012/01-2014/12, Principal Investigator
+6. Research on Card Game Adversarial Strategies Based on Reinforcement Learning, 2021/12-2022/01, Principal Investigator
+7. Economic Dispatch Research of Smart Wind Farms under IoT Architecture, 2021/01-2021/12, Principal Investigator
+8. Design of Intelligent Debug System for PCB, 2020/07-2021/01, Principal Investigator
+9. Distributed Energy Scheduling Simulation Technology Service, 2016/11-2017/02, Principal Investigator
 
 
 
