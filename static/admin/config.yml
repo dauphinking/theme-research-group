@@ -16,20 +16,20 @@ public_folder: '/media'
 collections:
   - name: posts
     label: Posts
-    folder: 'content/{{i18n.locale}}/post'
+    folder: 'content/{{locale}}/post'
     create: true
     i18n: true
     fields:
       - {label: Title, name: title, widget: string, i18n: true}
-      - {label: Body, name: body, widget: markdown, i18n: true}
+      - {label: Body, name: body, widget: markdown, i18n: duplicate}
 
   - name: projects
     label: Projects
-    folder: 'content/{{i18n.locale}}/project'
+    folder: 'content/{{locale}}/project'
     create: true
     i18n: true
     fields:
       - {label: Title, name: title, widget: string, i18n: true}
-      - {label: Body, name: body, widget: markdown, i18n: true}
+      - {label: Body, name: body, widget: markdown, i18n: duplicate}
 
   # 其他集合... 
