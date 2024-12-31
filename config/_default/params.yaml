@@ -119,6 +119,10 @@ extensions:
     branch: main
     local_backend: false
     publish_mode: editorial_workflow
+    locale: en
+    show_in_admin: true
+    show_preview_links: false
+    
   academicons:
     enable: true
 
