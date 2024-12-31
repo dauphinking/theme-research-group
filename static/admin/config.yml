@@ -5,7 +5,7 @@ backend:
 # 多语言配置
 i18n:
   # 使用文件夹结构
-  structure: multiple_folders
+  structure: multiple_files
   locales: [en, zh]
   default_locale: en
 
