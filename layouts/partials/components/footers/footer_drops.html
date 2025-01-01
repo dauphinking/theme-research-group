@@ -1,0 +1,60 @@
+{{ $UBOImage := resources.GetMatch "media/partner/sjtu.jpg" }}
+{{ $KITImage := resources.GetMatch "media/partner/seiee.jpg" }}
+{{ $EUImage := resources.GetMatch "media/partner/nsfc.jpg" }}
+{{ $BMBFImage := resources.GetMatch "media/partner/most.png" }}
+
+
+<!-- <p id="partners" class="partner-container justify-content-center"> -->
+  
+  <h2>Institutions:</h2>
+  <div class="partner-container">
+  <div class="partner-block"><img class="partner-logo" src="{{ $UBOImage.RelPermalink }}"  /><span class="partner-desc">Shanghai Jiao Tong University</span></div>
+  <div class="partner-block">
+  <img class="partner-logo" src="{{ $KITImage.RelPermalink }}" />
+  <span class="partner-desc">SEIEE</span>
+  </div>
+</div>
+<!-- <p id="funders" class="d-flex justify-content-center"> -->
+  <h2>Funded by:</h2>
+  <div class="funder-container">
+  <div class="funder-block">
+  <img class="funder-logo" src="{{ $BMBFImage.RelPermalink }}" />
+  </div>
+  <div class="funder-block">
+  <img class="funder-logo" src="{{ $EUImage.RelPermalink }}" />
+</div>
+</div>
+<!--</p> -->
+
+{{ if .IsTranslated | and site.Params.footer.show_translations }}
+<div class="powered-by d-flex flex-wrap pb-2 justify-content-center">
+  <div class="p-2 font-weight-bold"><i class="fas fa-globe pr-1" aria-hidden="true"></i>{{ i18n "languages" }}:</div>
+  <div class="p-2">{{ index site.Data.i18n.languages .Lang }}</div>
+  {{ range .Translations }}
+  <div class="p-2"><a href="{{ .Permalink }}">{{ index site.Data.i18n.languages .Lang }}</a></div>
+  {{ end }}
+</div>
+
+{{ end }}
+{{ if or (site.GetPage "/terms.md") (site.GetPage "/privacy.md") }}
+<p class="powered-by">
+  {{ with site.GetPage "/privacy.md" }}
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+  {{ end }}
+  {{ with site.GetPage "/terms.md" }}
+  {{ if site.GetPage "/privacy.md" }} &middot; {{ end }}
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+  {{ end }}
+</p>
+{{ end }}
+
+{{/* Footer text is inserted in config/params.yaml */}}
+{{ with site.Params.footer.text }}
+<p class="powered-by">
+  {{ . | markdownify | emojify }}
+</p>
+{{ end }}
+
+
+{{/* Display copyright license. */}}
+{{ partial "site_footer_license" . }}

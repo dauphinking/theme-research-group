@@ -39,12 +39,13 @@ header:
     show_language: true 
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 
 # Site footer
 
 footer:
+  block:  footer_drops
   show_translations: true
   copyright:
     notice: '© {year} SJTU CSC Lab. This work is licensed under {license}'

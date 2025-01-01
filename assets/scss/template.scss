@@ -7,3 +7,72 @@
 .cta-group {
   justify-content: center;
 }
+
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+}
+
+.partner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.partner-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 20px);
+  max-width: 300px;
+}
+
+.partner-logo {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.partner-text .partner-desc {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .partner-block {
+    width: 100%;
+  }
+}
+
+.funder-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.funder-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 20px);
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .funder-block {
+    width: 100%;
+  }
+}
+
+.funder-logo {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+  max-width: 200px;
+}

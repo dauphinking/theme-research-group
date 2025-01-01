@@ -8,9 +8,6 @@ sections:
   - block: people
     content:
       title: Meet the Team
-      filters:
-        folders:
-          - people
       user_groups:
         - Researchers
         - Postdocs
@@ -25,4 +22,5 @@ sections:
       show_interests: true
       show_role: true
       show_social: true
+
 ---
