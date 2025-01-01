@@ -1,6 +1,6 @@
 ---
 title: 徐云雯
-role: "副研究员"
+role: 副研究员
 avatar_filename: avatar.jpg
 bio: Yunwen Xu is an Associate Professor at the Department of Automation,
   Shanghai Jiao Tong University. She earned her Ph.D. and M.S. in Control
@@ -13,10 +13,9 @@ bio: Yunwen Xu is an Associate Professor at the Department of Automation,
   has published extensively in top journals and conferences and has been
   involved in several significant research projects.
 interests:
-  - Predictive Control Applications
-  - Intelligent Transportation Systems
-  - Embedded Predictive Control
-  - Intelligent Control of Complex Systems
+  - 智能交通
+  - 嵌入式预测控制
+  - 复杂系统智能控制
 social:
   - icon: envelope
     icon_pack: fas
