@@ -7,11 +7,12 @@ type: landing
 sections:
   - block: hero
     content:
-      title: 复杂系统控制实验室
+      title: CSC-Lab
       image:
         filename: welcome.jpg
       text: |
-        **复杂系统控制实验室** 致力于复杂系统的建模、分析与控制研究。
+        欢迎来到我们的研究中心——复杂系统控制实验室，这里是创新与卓越交汇的殿堂。我们拥有一支跨学科的卓越团队，致力于在多个领域不断突破技术边界，开创未来。
+
     design:
       background:
         gradient_end: '#1976d2'

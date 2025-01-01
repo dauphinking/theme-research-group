@@ -1,13 +1,13 @@
 ---
-title: Haibin SHAO
-role: Associate Researcher
+title: 邵海滨
+role: 副研究员
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - swarm intelligence
-  - multi-agent systems
-  - swarm robotics
-  - complex networks.
+  - 群体智能
+  - 多智能体系统
+  - 群体机器人
+  - 复杂网络
 social:
   - display:
       header: false

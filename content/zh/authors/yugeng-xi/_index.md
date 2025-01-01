@@ -27,7 +27,7 @@ education:
 email: ""
 superuser: true
 user_groups:
-  - 教师
+  - Researchers
 ---
 席裕庚教授是自动化与控制系统的杰出学者和领导者。  
 

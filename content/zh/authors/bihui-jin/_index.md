@@ -1,12 +1,11 @@
 ---
 title: Bihui JIN
-role: Staff Engineer
+role: 主任工程师
 avatar_filename: avatar.jpg
 interests:
-  - MPC in various fields
-  - including process control
-  - renewable energy management
-  - and quantitative finance
+  - 过程控制
+  - 可再生能源管理
+  - 量化金融
 social:
   - display:
       header: false

@@ -1,10 +1,10 @@
 ---
-title: Caixia FU
-role: Post Doctor
+title: 付彩霞
+role: 博士后
 avatar_filename: avatar.png
 interests:
-  - Predictive control
-  - Optimization in Water Plant
+  - 预测控制
+  - 水厂优化
 social:
   - display:
       header: false

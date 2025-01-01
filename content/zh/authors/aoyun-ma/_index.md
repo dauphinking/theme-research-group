@@ -1,11 +1,11 @@
 ---
-title: Aoyun MA
-role: Assistant Professor
+title: 马奥云
+role: 助理研究员
 avatar_filename: avatar.jpeg
 bio: ""
 interests:
-  - Predictive Control
-  - Optimization and Control of Complex Systems
+  - 预测控制
+  - 复杂系统优化与控制
 social:
   - display:
       header: false
