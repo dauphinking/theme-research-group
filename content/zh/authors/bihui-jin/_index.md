@@ -4,8 +4,9 @@ role: 主任工程师
 avatar_filename: avatar.jpg
 interests:
   - 过程控制
-  - 可再生能源管理
-  - 量化金融
+  - 能源管理及交易
+  - 机器人
+
 social:
   - display:
       header: false
