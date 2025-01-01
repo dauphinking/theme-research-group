@@ -1,12 +1,11 @@
 ---
-title: Shaoying HE
-role: Postdoctor
+title: 何邵颖
+role: 博士后
 avatar_filename: avatar.png
 bio: ""
 interests:
-  - predictive control
-  - robot
-  - visual servoing
+  - 机器人
+  - 数据驱动控制
 social:
   - display:
       header: false
@@ -23,15 +22,15 @@ organizations:
     url: https://automation.sjtu.edu.cn
 education:
   courses:
-    - course: " PhD. in engineering"
+    - course: "博士"
       year: 2023
-      institution: Shanghai Jiao Tong University
-    - course: M.S. in Automation
-      institution: Shanghai Jiao Tong University
+      institution: 上海交通大学
+    - course: 硕士
+      institution: 上海交通大学
       year: 2019
 email: " heshaoying19941204@sjtu.edu.cn"
 superuser: true
 user_groups:
   - Postdocs
 ---
-Shaoying He  received the master's degree in automation from Shanghai Jiao Tong University, Shanghai, China, in 2019. He is currently a postdoctor with the Department of Automation, Shanghai Jiao Tong University.,His research interests include predictive control and robot
+何邵颖 于2019年获得上海交通大学自动化专业硕士学位。目前是上海交通大学自动化系博士后，研究方向包括机器人和数据驱动控制。国家博士后创新人才支持计划入选者。
