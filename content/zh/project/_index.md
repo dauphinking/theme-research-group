@@ -25,10 +25,8 @@ sections:
           * 在线适应和学习
         
         - 实时MPC研究
-          * 实时优化和实现
-          * 分布式和分层MPC
-        
-        - 应用
+          * 嵌入式系统MPC优化和实现
+          * 分布式机器人MPC
 
     design:
       columns: '2'
@@ -43,11 +41,10 @@ sections:
       subtitle: 
       text: |
         我们的自主机器人研究专注于开发能够在复杂环境中独立操作的智能机器人。主要研究领域包括：
-        
         - 机器人感知与场景理解
         - 运动规划与控制
         - 多机器人协调
-            design:
+    design:
       columns: '2'
     filters:
       tags:
