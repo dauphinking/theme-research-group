@@ -1,15 +1,12 @@
 ---
-title: Jing WU
-role: Researcher
+title: 邬晶
+role: 研究员
 avatar_filename: avatar.jpg
-bio: Main research areas include distributed networked system control and
-  optimization, security control and state estimation of networked information
-  physical systems, distributed computing and its applications in smart grids,
-  smart ships, and smart factories.
+bio: 主要研究方向包括分布式网络化系统控制与优化、网络化信息物理系统安全控制与状态估计、分布式计算及其在智能电网、智能船舶、智能工厂中的应用。
 interests:
-  - Distributed networked system control and optimization
-  - Security control 
-  - Applications in smart grids, smart ships
+  - 分布式网络化系统控制与优化
+  - 网络化信息物理系统安全控制与状态估计
+  - 分布式计算及其在智能电网、智能船舶、智能工厂中的应用
 social:
   - display:
       header: false
@@ -22,18 +19,18 @@ social:
     icon: google-scholar
     link: https://scholar.google.com/citations?user=N9p6l7QAAAAJ
 organizations:
-  - name: Shanghai Jiao Tong University
+  - name: 上海交通大学
     url: https://automation.sjtu.edu.cn/Jing
 education:
   courses:
-    - course: Ph.D. in Electronic and Computer Engineering
-      institution: University of Alberta
+    - course: 博士 (电子与计算机工程)
+      institution: 加拿大阿尔伯塔大学
       year: 2008
-    - course: Master's in Control Theory and Control Engineering
-      institution: Yanshan University
+    - course: 硕士 (控制理论与控制工程)
+      institution: 燕山大学
       year: 2004
-    - course: Bachelor's in Automation
-      institution: Nanchang University
+    - course: 学士 (自动化)
+      institution: 南昌大学
       year: 2000
 email: jingwu@sjtu.edu.cn
 superuser: true
@@ -42,84 +39,72 @@ user_groups:
 ---
 
 
+**研究方向**
 
-**Research Directions**
+主要研究方向包括分布式网络化系统控制与优化、网络化信息物理系统安全控制与状态估计、分布式计算及其在智能电网、智能船舶、智能工厂中的应用。
 
-Main research areas include distributed networked system control and optimization, security control and state estimation of networked information physical systems, distributed computing and its applications in smart grids, smart ships, and smart factories.
-
-**Research Projects**
-1. National Key Research and Development Program, Research on Key Common Technologies for Intelligent Dynamic Risk Control in Process Industries, December 2024 - Led by the Project Leader
-2. National Natural Science Foundation Project, Collaborative Attack Detection and Resilient Security Control in Smart Distribution Networks with Incomplete Information, 2023/01-2026/12, Principal Investigator
-3. National Natural Science Foundation Project, Active Security Control and Self-Healing Optimization of Smart Distribution Networks with Distributed Energy Access, 2019/01-2022/12, Principal Investigator
-4. National Natural Science Foundation Project, Information Physical Attack Detection and Security Control of Distributed Network Control Systems, 2015/01-2018/12, Principal Investigator
-5. National Natural Science Foundation Project, Demand Response and Energy Efficiency Coordination Optimization and Control in Smart Grids, 2012/01-2014/12, Principal Investigator
-6. Research on Card Game Adversarial Strategies Based on Reinforcement Learning, 2021/12-2022/01, Principal Investigator
-7. Economic Dispatch Research of Smart Wind Farms under IoT Architecture, 2021/01-2021/12, Principal Investigator
-8. Design of Intelligent Debug System for PCB, 2020/07-2021/01, Principal Investigator
-9. Distributed Energy Scheduling Simulation Technology Service, 2016/11-2017/02, Principal Investigator
-
-
-
+**研究项目**
+1. 国家重点研发计划, 过程工业智能动态风险控制关键技术研究, 2024/12-2027/12, 课题负责人
+2. 复杂环境下水面无人艇集群智能决策与协同控制技术研究，2024/02 - 2027/02,主持
+3. 国家自然科学基金项目, 非完备信息下智能配电网的协同攻击检测与弹性安全控制, 2023/01-2026/12, 主持
+4. 国家自然科学基金项目, 分布式能源接入的智能配电网主动安全控制与自愈优化, 2019/01-2022/12, 主持
+5. 国家自然科学基金项目, 分布式网络控制系统的信息物理攻击检测与安全控制, 2015/01-2018/12, 主持
+6. 国家自然科学基金项目, 智能电网中需求响应与能量有效协同优化与控制, 2012/01-2014/12, 主持
+7. 基于强化学习的卡牌对抗策略研究，2021/12-2022/01，主持
+8. 物联网架构下的智慧风电场日前经济调度研究，2021/01-2021/12，主持
+9. PCB的智能Debug系统设计，2020/07-2021/01，主持
+10. 分布式能源调度仿真技术服务，2016/11-2017/02，主持
+11. 甜橙金融-上海交通大学智能金融创新联合实验室，2018/10/01-2021/10/01, 参与
 
 
+**职业经历**
+
+2022.1 ~ Present, 研究员, 自动化系, 上海交通大学
+
+2013.1 ~ 2021.12, 副教授, 自动化系, 上海交通大学
+
+2011.3 ~ 2012.12, 讲师, 自动化系, 上海交通大学
+
+2017.8 ~ 2018.8, 访问学者, 电气与计算机工程系, 波士顿大学, 美国
+
+2008.4 ~ 2011.2, 项目工程师, Tyco Thermal Controls, 加拿大总部
 
 
+**获奖**
 
-**Work Experience**
+2021 自动化教指委自动化类专业青年教师讲课竞赛二等奖
 
-2022.1 ~ Present, Researcher, Department of Automation, Shanghai Jiao Tong University
+2019 上海交通大学青年教师教学大赛三等奖
 
-2013.1 ~ 2021.12, Associate Professor, Department of Automation, Shanghai Jiao Tong University
+2018 上海交通大学晨星青年学者副教授A类
 
-2011.3 ~ 2012.12, Lecturer, Department of Automation, Shanghai Jiao Tong University
+2017 中国自动化学会高等教育教学一等奖
 
-2017.8 ~ 2018.8, Visiting Professor, Department of Electrical and Computer Engineering, Boston University, USA
+2017 上海交通大学教学成果一等奖
 
-2008.4 ~ 2011.2, Project Engineer, Tyco Thermal Controls, Canadian Headquarters Tracer, Fortune 500 Company
+2016 中国自动化学会高等教育教学二等奖
 
+2016 上海交通大学教学成果二等奖
 
+2016 上海交通大学烛光奖励计划一等奖
 
+2015 台达杯高校自动化设计大赛特等奖（指导教师）
 
-
-**Awards**
-
-2021 Second Prize, Young Teacher Lecture Competition, Automation Major, Education and Teaching Steering Committee
-
-2019 Third Prize, Young Teacher Teaching Competition, Shanghai Jiao Tong University
-
-2018 Shanghai Jiao Tong University Morning Star Young Scholar, Associate Professor A
-
-2017 First Prize in Higher Education Teaching, Chinese Association of Automation
-
-2017 First Prize in Teaching Achievement, Shanghai Jiao Tong University
-
-2016 Second Prize in Higher Education Teaching, Chinese Association of Automation
-
-2016 Second Prize in Teaching Achievement, Shanghai Jiao Tong University
-
-2016 First Prize, Candlelight Award Plan, Shanghai Jiao Tong University
-
-2015 Special Prize, Delta Cup National Automation Design Competition (Instructor)
-
-2014 Second Prize, Candlelight Award Plan, Shanghai Jiao Tong University
+2014 上海交通大学烛光奖励计划二等奖
 
 
+**教授课程**
 
+研究生课程：
 
+    学习与控制中的优化 2020-至今
 
+本科生课程：
 
-**Courses Taught**
+    Process Control Systems （全英文）2015-至今
 
-Graduate Courses:
+    Smart Manufacturing and Robotics (全英文）2015
 
-Optimization in Learning and Control 2020-Present
+    过程控制系统（中文）2012-2014
 
-Undergraduate Courses:
-
-Process Control Systems (English) 2015-Present
-
-Smart Manufacturing and Robotics (English) 2015
-
-Process Control Systems (Chinese) 2012-2014
-
-Analog Electronics 2015
+    模拟电子技术 2015

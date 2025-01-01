@@ -1,11 +1,10 @@
 ---
-title: Yugeng XI
-role: Chaired  Professor
+title: 席裕庚
+role: 讲席教授
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - 1. Model Predictive Control; 2. Control and Optimization of Large Scale
-    Systems; 3. Distributed Cooperative Control
+  - 1. 模型预测控制; 2. 大规模系统控制与优化; 3. 分布式协同控制
 social:
   - display:
       header: false
@@ -13,52 +12,49 @@ social:
     icon_pack: ai
     icon: google-scholar
 organizations:
-  - name: Shanghai Jiao Tong University
+  - name: 上海交通大学
     url: https://automation.sjtu.edu.cn
 education:
   courses:
-    - course: Ph.D. (Dr.-Ing)
+    - course: 博士 (工学博士)
       year: 1984
-      institution: Technical University Munich
-    - course: M.S in Automation
-      institution: Shanghai Jiao Tong University
-    - course: B.S.
+      institution: 慕尼黑工业大学
+    - course: 硕士 (自动化)
+      institution: 上海交通大学
+    - course: 学士 (工学学士)
       year: 1978
-      institution: Harbin Institute of Technology
+      institution: 哈尔滨军事工程学院
 email: ""
 superuser: true
 user_groups:
-  - Researchers
+  - 教师
 ---
-Professor Yugeng Xi is a distinguished scholar and leader in the field of automation and control systems.  
+席裕庚教授是自动化与控制系统的杰出学者和领导者。  
 
-**Honors**
+**荣誉**
 
-* National Outstanding Middle-Aged and Young Expert
-* Member of the State Council Academic Degrees Committee
+* 国务院学科评议组成员
+* 国务院有突出贡献的中青年专家
 
-#### Work experience
+#### 职业经历
 
-Since 1984 – Now Dept. of Automation, Shanghai Jiao Tong University
-
-
-Ass.Prof. (1985), Prof. (1988), Doctor Supervisor (1990)
+1984年至今，上海交通大学自动化系
 
 
-#### Research
+1985年，副教授
+1988年，教授
+1990年，博士生导师
 
-Host of more than 20 research projects from the NSFC, High Tech Plan (863), Ministry
-of Education etc. Currently the host of the NSFC Key Project “ Theory and Efficient
-Algorithms of Model Predictive Control” (2010 – 2013)
 
-#### Awards and Honors
+#### 研究
 
-Received the Awards for the Achievements in Science and Technology by the Chinese
-Ministry of Education and Shanghai Government eight times, and won the honorary
-titles of National Distinguished Teacher; National Distinguished Scientific Researcher, etc
+主持过20多项国家自然科学重点/基金、863计划、教育部等项目。
 
-#### Publications
+#### 荣誉
 
-Published more than 300 journal papers, mainly in the areas of model predictive control,
-Large scale and complex systems and intelligent robotic systems. Author or co-author
-of three books, and editor or co-editor of three conference proceedings.
+获得过8次国家、教育部和上海市科技进步奖，并获国家有突出贡献的中青年专家等荣誉。
+
+#### 出版物
+
+发表过300多篇期刊论文，主要在模型预测控制、大规模复杂系统、智能机器人等领域。
+
