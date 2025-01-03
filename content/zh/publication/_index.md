@@ -9,7 +9,7 @@ sections:
       title: 发表论文
       filters:
         folders:
-          - en/publication
+          - ../../en/publication
         featured_only: true
     design:
       columns: '2'
@@ -19,7 +19,7 @@ sections:
       title: 近期论文
       text: |-
         {{% callout note %}}
-        快速发现研究成果通过 [过滤](./publication/).
+        快速发现研究成果通过 [过滤](../../en/publication/).
         {{% /callout %}}
       filters:
         folders:

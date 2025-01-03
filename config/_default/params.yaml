@@ -25,10 +25,12 @@ marketing:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
-    microsoft_clarity: ''
+    microsoft_clarity: 'B4A180E87DC445435BF069CB52B69A3A'
   verification:
     google: ''
     baidu: 'codeva-jWAvKpGNOs'
+    microsoft: 'B4A180E87DC445435BF069CB52B69A3A'
+    
 # Site header
 
 header:
