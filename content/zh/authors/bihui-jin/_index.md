@@ -5,7 +5,6 @@ avatar_filename: avatar.jpg
 interests:
   - 过程控制
   - 能源管理及交易
-  - 机器人
 
 social:
   - display:
@@ -32,5 +31,4 @@ superuser: true
 user_groups:
   - Engineers
 ---
-* As the Chief Engineer at Shanghai Bidi Technology Co., Ltd., he holds a high technical position with extensive practical experiences in the industry, including multinational corporations, listed companies, and startups, leading teams of 20-100 people. 
-* Concurrently, he serves as an affiliate Engineer at the Complex System Control Laboratory, indicating a strong connection between academic research and engineering applications.
+于2011/2012年获得巴黎综合理工机器人及新能源工程师学位。此后在流程工业和高科技领域的跨国公司、上市企业和创业企业拥有丰富的产业从业经验，并善于先进技术的产业落地，他的主要研究方向是优化及应用，包括流程工业、和能源管理及交易等领域。授权发明专利7项。

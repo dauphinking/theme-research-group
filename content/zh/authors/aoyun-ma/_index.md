@@ -1,5 +1,5 @@
 ---
-title: 马奥云
+title: 马奥运
 role: 助理研究员
 avatar_filename: avatar.jpeg
 bio: ""
