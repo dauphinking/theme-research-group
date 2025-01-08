@@ -1,4 +1,5 @@
 ---
+weight: 2  # 设置数字，数字越小越靠前
 title: 李德伟
 role: 教授 | 实验室主任
 avatar_filename: avatar.jpg

@@ -1,4 +1,5 @@
 ---
+weight: 7  # 设置数字，数字越小越靠前
 title: 马奥运
 role: 助理研究员
 avatar_filename: avatar.jpeg
@@ -18,33 +19,35 @@ social:
     icon_pack: ai
     icon: google-scholar
 organizations:
-  - name: Shanghai Jiao Tong University
+  - name: 上海交通大学
     url: https://automation.sjtu.edu.cn
 education:
   courses:
-    - course: " PhD. in Control Science and Engineering"
+    - course: "控制科学与工程博士"
       year: 2020
-      institution: Beijing Institute of Technology
+      institution: 北京理工大学
 email: aoyun_ma@sjtu.edu.cn
 superuser: true
 user_groups:
   - Researchers
 ---
-## Research Interests
+## 研究方向
 
-* Predictive Control
-* Optimization and Control of Complex Systems
+* 模型预测控制
+* 复杂系统优化与控制
 
-## Academic and Professional Experience
+## 学术与工作经历
 
-* **Postdoctoral Researcher:** Department of Automation, Shanghai Jiao Tong University (July 2020 - April 2024)
-* **Assistant Researcher:** Department of Automation, Shanghai Jiao Tong University (May 2024 - Present)
+* **博士后研究员:** 自动化系，上海交通大学 (2020年7月 - 2024年4月)
+* **助理研究员:** 自动化系，上海交通大学 (2024年5月 - 至今)
 
-## Research Projects
+## 研究成果
 
-1. **National Natural Science Foundation of China Youth Science Fund Project:** Research on Distributed Model Predictive Control for Segmented Affine Systems (Ongoing, Principal Investigator)
-2. "National Major Science and Technology Project (2024ZD14), Sub-project: Intelligent Drilling Rig for 10,000-Meter Deep Wells and Ultra-High Pressure Wellhead Equipment, (Ongoing, Participant)
-3. **China Postdoctoral Science Foundation 69th Batch General Program:** Research on Reinforcement Learning Distributed Model Predictive Control for Hybrid Systems (Completed, Principal Investigator)
-4. **Industrial Project:** Development of Digital Twin Behavior and Rule Models (Ongoing, Principal Investigator)
-5. **National Natural Science Foundation of China Key Project:** Theory and Key Technologies for Optimization and Control of Complex Hybrid Traffic Systems in the Internet of Vehicles Environment (Ongoing, Participant)
-6. **National Natural Science Foundation of China International (Regional) Cooperation and Exchange Project:** Research on Design and Application of Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control (Ongoing, Participant)
+### 科研项目
+
+1. **国家自然科学基金青年科学基金项目:** 分段仿射系统分布式模型预测控制研究 (在研，负责人)
+2. **国家重大科学研究计划 (2024ZD14), 子项目:** 10,000米深井智能钻井系统及超高压井口装备 (在研，参与者)
+3. **中国博士后科学基金第69批面上资助:** 混杂系统的强化学习分布式模型预测控制研究，结题，主持。
+4. **横向项目:** 数字孪生行为与规则模型开发，在研，主持。
+5. **国家自然科学基金重点项目:** 车联网环境下复杂混合交通系统优化调控理论与关键技术，在研，参与。
+6. **国家自然科学基金国际（地区）合作与交流项目:** 实时数据驱动的多阶段批次过程协同优化控制设计与应用研究，在研，参与。

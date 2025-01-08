@@ -1,5 +1,5 @@
 ---
-title: The book "Predictive Control" officially published.
+title: 我实验室教授所著书籍《Predictive Control》正式出版
 date: 2021-01-29T17:08:00.000Z
 draft: false
 featured: false
@@ -8,8 +8,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-The book "Predictive Control," co-authored by Professors Xi Yugeng and Li Dewei from our laboratory, has been officially published.
+我实验室席裕庚教授、李德伟教授共同编写的《Predictive Control》一书由国防工业出版社正式出版。
 
-The main content of this book is based on the second edition of the Chinese version "Predictive Control," published in 2013. The theoretical foundation comes from the research achievements of the team led by Professor Xi Yugeng over the past thirty years. This team is one of the earliest in China to engage in the theoretical research of predictive control. Through thirty years of dedicated research, they have pioneered and established a theoretical framework for the predictive control of complex systems, leading the development of predictive control in China. This work has supported the advancement of control theory and technology in various industrial fields, including automation, computer science, mechanical engineering, and materials processing, over the past nearly thirty years. To help readers better understand the field of predictive control, this book includes some cutting-edge and representative research cases in the field.
+本书的主要内容基于2013年出版的中文版（第二版）《预测控制》一书，其理论来自于由席裕庚教授领导的团队在过去三十年间对于预测控制的研究成果。该团队是我国最早从事预测控制理论研究的研究团队，经过30年的潜心研究，开创并建立了复杂系统预测控制的理论方法体系，引领了预测控制在我国的发展，支撑了近三十年自动化、计算机、机械、材料加工等广大工业领域的控制理论与技术进步。为了让读者更好地理解预测控制领域，本书涵盖了该领域中一些前沿并具代表性的研究案例。
 
-The electronic version of the book is available for sharing via a provided link. Please visit the website's homepage to find and read it.
+本书的电子版已提供链接分享，请各位学科爱好者前往网站首页查找阅览。

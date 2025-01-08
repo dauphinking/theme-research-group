@@ -1,4 +1,5 @@
 ---
+weight: 3  # 设置数字，数字越小越靠前
 title: 邬晶
 role: 研究员
 avatar_filename: avatar.jpg
