@@ -68,28 +68,31 @@ sections:
         - 'Traffic' 
 
   - block: portfolio
+    id: projects    # 添加 ID 作为锚点
     content:
       title: 研究项目
       subtitle: 我们的主要研究项目
       text: ''
       filters:
+        folders:
+          - project    # 指定正确的项目路径
         exclude_folders:
           - publication
         tag:
           - 'Predictive Control'
           - 'Robot' 
           - 'Traffic'
-    #   filters:
-    #     folders:
-    #       - en/project    # 指定正确的项目路径
     #   default_button_index: 0
       buttons:
         - name: 模型预测控制
           tag: 'Predictive Control'
+          url: '#projects'    # 添加链接到锚点    
         - name: 自主机器人
           tag: 'Robot'
+          url: '#projects'    # 添加链接到锚点
         - name: 智能交通
           tag: 'Traffic'
+          url: '#projects'    # 添加链接到锚点
       
     design:
       columns: '1'
