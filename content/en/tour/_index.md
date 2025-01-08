@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 👋 Welcome to the group
-          content: Take a look at what we're working on...
+        - title: Welcome to the group
+          content: "[Take a look at what we're working on...](/en/project/)"
           align: center
           background:
             image:
@@ -29,7 +29,7 @@ sections:
             position: center
             color: '#555'
         - title: Join us 🌎
-          content: 'Welcome to join our team'
+          content: '[Welcome to join our team](/en/contact/)'
           align: right
           background:
             image:

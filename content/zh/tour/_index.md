@@ -8,7 +8,7 @@ sections:
     content:
       slides:
         - title: 👋 欢迎来到复杂系统控制实验室
-          content: 了解我们的研究方向和最新进展...
+          content: '[了解我们的研究方向和最新进展...](/zh/project/)'
           align: center
           background:
             image:
@@ -18,7 +18,7 @@ sections:
             position: right
             color: '#666'
         - title: 研究领域 ⚡️
-          content: '复杂系统建模、分析与控制'
+          content: '模型预测控制、自主机器人及智慧交通'
           align: left
           background:
             image:
@@ -28,7 +28,7 @@ sections:
             position: center
             color: '#555'
         - title: 加入我们 🌎
-          content: '欢迎优秀的博后/研究生加入我们的团队'
+          content: '[欢迎优秀的博后/研究生加入我们的团队](/zh/contact/)'
           align: right
           background:
             image:

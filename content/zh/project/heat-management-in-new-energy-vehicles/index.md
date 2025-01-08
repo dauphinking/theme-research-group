@@ -1,9 +1,9 @@
 ---
-title: Heat Management in E-Vehicles
+title: 新能源汽车风洞热管理系统
 date: 2024-12-24T10:46:00.000Z
 summary: >-
   
-  Developed predictive control strategies for electric vehicle thermal management, covering cooling, heating, dehumidification, and defrosting modes. Utilized MATLAB, Simulink, and Dymola for system modeling and validation, with HIL testing for real-time application. Collaborated with Shanghai Songzhi to create China’s first climate wind tunnel, achieving wind speed stability ±0.5 kph and temperature stability ±0.2°C.
+  开发了新能源汽车热管理系统的预测控制策略，涵盖制冷、制热、除湿和除霜等多种模式。运用 MATLAB、Simulink 和 Dymola 进行系统建模与验证，并通过硬件在环测试实现实时应用。与行业领军公司合作开发了中国首个气候风洞系统，实现风速稳定性 ±0.5 kph，温度稳定性 ±0.2°C。
 draft: false
 featured: false
 tags:
@@ -12,26 +12,26 @@ image:
   filename: 1735008456001.jpg
   focal_point: Smart
   preview_only: false
-  caption: " wind tunnel system for electric vehicles."
+  caption: "新能源汽车风洞系统"
 ---
-Developed predictive control strategies for multi-mode thermal management systems in electric vehicles:
+为新能源汽车多模式热管理系统开发预测控制策略：
 
-**Thermal Modes:**
+**热管理模式：**
 
-Cooling, heating, dehumidification, defrosting, and combined modes for battery and cabin temperature regulation.
+包括制冷、制热、除湿、除霜以及用于电池和车厢温度调节的组合模式。
 
-**Advanced Control Methods:**
+**先进控制方法：**
 
-* Multi-variable system modeling using MATLAB and Simulink for control design.
-* Physical simulation through Dymola to validate thermal system performance.
-* Integrated hardware-in-the-loop (HIL) testing for real-time application validation.
+* 使用 MATLAB 和 Simulink 进行多变量系统建模和控制设计
+* 通过 Dymola 物理仿真验证热系统性能
+* 集成硬件在环（HIL）测试实现实时应用验证
 
-**Example Application:**
+**应用实例：**
 
-Collaborated with Shanghai Songzhi to develop China's first independently designed climate wind tunnel system for electric vehicles.
+与行业领军企业合作开发中国首个自主设计的新能源汽车气候风洞系统。
 
-**Achieved precise control results:**
+**实现精确控制效果：**
 
-* Wind speed stability: ±0.5 kph, overshoot <0.2%.
-* Temperature stability: ±0.2°C, deviation <5%.
-* Humidity stability: ±2% RH, deviation <5%.
+* 风速稳定性：±0.5 kph，超调量 <0.2%
+* 温度稳定性：±0.2°C，偏差 <5%
+* 湿度稳定性：±2% RH，偏差 <5%

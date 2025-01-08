@@ -1,4 +1,5 @@
 ---
+weight: 2 # 设置数字，数字越小越靠前
 title: Dewei LI
 role: Professor | Lab Leader
 avatar_filename: avatar.jpg

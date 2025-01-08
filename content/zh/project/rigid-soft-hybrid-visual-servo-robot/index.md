@@ -3,60 +3,59 @@ slides: example
 url_pdf: ""
 summary: >-
   
-  The lab’s self-funded project aimed to enhance robot-environment interaction by developing hardware platforms and control algorithms for rigid-soft hybrid robots. An input mapping module was introduced in the visual servoing system to mitigate disturbances and improve response speed.
+  实验室自主研发项目旨在通过开发刚柔混合机器人的硬件平台和控制算法来增强机器人与环境的交互能力。在视觉伺服系统中引入输入映射模块，以减少干扰并提高响应速度。
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Rigid-Soft Hybrid Visual Servo Robot
+title: 刚柔混合视觉伺服机器人
 tags:
   - Predictive Control
   - Robot
 links: []
 image:
-  caption: Project Image
+  caption: 项目图片
   focal_point: Smart
   filename: feature.png
 url_code: ""
 ---
 
-The lab’s self-funded project aimed to enhance robot-environment interaction by developing hardware platforms and control algorithms for rigid-soft hybrid robots. An input mapping module was introduced in the visual servoing system to mitigate disturbances and improve response speed.
+实验室自主研发项目旨在通过开发刚柔混合机器人的硬件平台和控制算法来增强机器人与环境的交互能力。在视觉伺服系统中引入输入映射模块，以减少干扰并提高响应速度。
 
+**显示层：**
 
-**Display Layer:**
+* **人机交互界面：**
 
-* **Human-Machine Interaction Interface:**
+   使用Qt开发，实现友好的操作和可视化界面。
 
-   Developed using Qt for user-friendly operation and visualization.
+**服务层：**
 
-**Service Layer:**
+* **控制模块：**
 
-* **Control Module:**
+   设计用于处理主要控制逻辑。
+* **图像处理模块：**
 
-   Designed to handle the primary control logic.
-* **Image Processing Module:**
+   负责视觉数据处理，使用Python和MATLAB实现。
 
-   Responsible for processing visual data, implemented using Python and MATLAB.
+**通信层：**
 
-**Communication Layer:**
+* **串行通信协议：**
 
-* **Serial Communication Protocols:**
+   包括RS和USB接口，用于数据传输和解析。
 
-   Includes RS and USB interfaces for data transfer and parsing.
+**硬件层：**
 
-**Hardware Layer:**
+* **刚性机械臂：**
 
-* **Rigid Robotic Arm:**
+   作为主要执行机构，提供结构支撑和精确定位。
+* **柔性机构：**
 
-   The main manipulator providing structural support and precision.
-* **Soft Mechanism:**
+   集成用于提高顺应性和适应性。
+* **高精度相机：**
 
-   Integrated for enhanced compliance and adaptability.
-* **High-Precision Camera:**
+   确保准确的视觉数据采集。
+* **微型相机：**
 
-   Ensures accurate visual data acquisition.
-* **Miniature Camera:**
+   用于在受限或精细环境中提供额外的视觉输入。
 
-   For additional visual inputs in constrained or detailed environments.
-
-This layered architecture ensures seamless integration of software and hardware components, enabling precise and reliable operation in visual servo applications.
+这种分层架构确保了软硬件组件的无缝集成，实现视觉伺服应用中的精确可靠操作。

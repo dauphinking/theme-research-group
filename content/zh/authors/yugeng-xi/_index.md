@@ -5,7 +5,7 @@ role: 讲席教授
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - 1. 模型预测控制; 2. 大规模系统控制与优化; 3. 分布式协同控制
+  - 模型预测控制; 大规模系统控制与优化; 分布式协同控制
 social:
   - display:
       header: false
@@ -28,7 +28,7 @@ education:
 email: ""
 superuser: true
 user_groups:
-  - Researchers
+  - 实验室导师
 ---
 席裕庚教授是自动化与控制系统的杰出学者和领导者。  
 

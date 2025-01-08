@@ -2,14 +2,13 @@
 slides: example
 url_pdf: ""
 summary: >-
-  
-  This self-funded project involved the dynamical modeling, testing, and optimization of AUVs. Key objectives included multi-source information fusion for diverse underwater applications and the development of underwater communication technologies for cross-medium air-sea collaborative systems.
+  这是一个自主研发项目，主要涉及水下自主航行器(AUV)的动力学建模、测试和优化。项目的主要目标包括面向多种水下应用的多源信息融合，以及跨介质空海协同系统的水下通信技术开发。
 
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Autonomous Underwater Vehicle (AUV)
+title: 水下自主航行器(AUV)
 tags:
   - Robot
 links: []
@@ -20,5 +19,4 @@ image:
 url_code: ""
 ---
 
-
-This self-funded project involved the dynamical modeling, testing, and optimization of AUVs. Key objectives included multi-source information fusion for diverse underwater applications and the development of underwater communication technologies for cross-medium air-sea collaborative systems.
+这是一个自主研发项目，主要涉及水下自主航行器(AUV)的动力学建模、测试和优化。项目的主要目标包括面向多种水下应用的多源信息融合，以及跨介质空海协同系统的水下通信技术开发。

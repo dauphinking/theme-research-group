@@ -1,9 +1,8 @@
 ---
-title: Large-scale Traffic Network Control
+title: 大规模交通网络控制
 date: 2024-12-24T10:37:00.000Z
 summary: >-
-  
-  A hierarchical control framework is developed to optimize traffic management across large urban networks by balancing traffic demand and improving network-wide efficiency
+  开发了一个分层控制框架，通过平衡交通需求和提高网络整体效率来优化大型城市网络的交通管理
 draft: false
 featured: false
 tags:
@@ -14,16 +13,14 @@ image:
   preview_only: false
 ---
 
+**分层结构：**
 
+上层：在区域间平衡交通流量，防止过度饱和。
 
-**Hierarchical Structure:**
+下层：专注于局部交叉口信号配时优化。
 
-Upper Level: Balances traffic flow between regions to prevent oversaturation.
+基于模型的控制：利用宏观基本图(MFD)调节交通流量，使其保持在临界密度以下的稳定状态。
 
-Lower Level: Focuses on localized signal timing optimization for intersections.Lower Level：
+可扩展应用：确保子区域间交通的高效协调，提升整体网络性能。
 
-Model-Based Control: Utilizes MFD (Macroscopic Fundamental Diagram) to regulate traffic flow and maintain stability below critical density.
-
-Scalable Application: Ensures efficient coordination of traffic across subregions, enhancing overall network performance.
-
-Simulation Results: Demonstrates improved flow rates and reduced travel times in test scenarios.
+仿真结果：在测试场景中展现了改进的流量和减少的行程时间。

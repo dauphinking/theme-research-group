@@ -19,19 +19,21 @@ sections:
         gradient_start: '#004ba0'
         text_color_light: true
   
-  # - block: collection
-  #   id: posts
-  #   content:
-  #     title: 最新动态
-  #     subtitle: ''
-  #     text: ''
-  #     count: 5
-  #     filters:
-  #       category: ''
-  #     offset: 0
-  #     order: desc
+  - block: collection
+    id: posts
+    content:
+      title: 最新动态
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        folders:
+          - post
+        category: ''
+      offset: 0
+      order: desc
      
-  #   design:
-  #     view: card
-  #     columns: '1'
+    design:
+      view: card
+      columns: '1'
 ---

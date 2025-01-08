@@ -1,9 +1,9 @@
 ---
-title: Embedded Predictive Controllers
+title: 嵌入式预测控制器
 date: 2024-12-24T10:33:00.000Z
 summary: >-
   
-  Designed an embedded predictive control framework integrating FPGA for high-speed processing and DSP with dual neural networks for real-time control in medium-scale systems. Achieved high computational efficiency, parallel processing, and adaptability for injection molding, air separation, and photovoltaic systems, with multi-loop optimization and adaptive setpoint calculations.
+  设计了一个嵌入式预测控制框架，集成FPGA实现高速处理和DSP双神经网络，用于中等规模系统的实时控制。在注塑成型、空气分离和光伏系统等应用中实现了高计算效率、并行处理和适应性，具备多回路优化和自适应设定点计算功能。
 draft: false
 featured: false
 tags:
@@ -12,21 +12,21 @@ image:
   filename: 1735008122266.featured.jpg
   focal_point: Smart
   preview_only: false
-  caption: Embedded Predictive Controllers
+  caption: 嵌入式预测控制器
 ---
-Designed a systematic framework for embedded predictive controllers, integrating hardware and software solutions:
+设计了一个系统化的嵌入式预测控制器框架，集成硬件和软件解决方案：
 
-* Software: Provided debugging support through specialized tools for streamlined setup and adjustments.
-* Hardware: Developed predictive controllers based on FPGA for high-speed parallel processing.
+* 软件：通过专业工具提供调试支持，实现简化设置和调整。
+* 硬件：基于FPGA开发预测控制器，实现高速并行处理。
 
-Utilized DSP with simple dual neural networks for real-time control in medium-scale systems.
+在中等规模系统中采用带简单双神经网络的DSP进行实时控制。
 
-Key Features: 
+主要特点：
 
-* High real-time performance and computational efficiency.
-* Parallel processing capabilities to handle complex industrial control tasks.
-* Flexible and scalable, adaptable to various control scenarios.
+* 高实时性能和计算效率
+* 并行处理能力，可处理复杂的工业控制任务
+* 灵活可扩展，适应各种控制场景
 
-Applications: Enhanced control of medium-scale systems such as injection molding, air separation, and photovoltaic systems.
+应用：提升注塑成型、空气分离和光伏系统等中等规模系统的控制性能。
 
-Supported multi-loop constraint optimization with adaptive setpoint calculations.
+支持具有自适应设定点计算的多回路约束优化。

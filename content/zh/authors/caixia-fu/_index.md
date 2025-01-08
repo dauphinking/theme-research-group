@@ -18,86 +18,77 @@ social:
     icon: google-scholar
 education:
   courses:
-    - course: PhD. in Environmental Engineering
-      institution: Shanghai University of Engineering Science
+    - course: 博士
+      institution: 上海理工大学
       year: 2024
-    - course: M.S. in Environmental Engineering
+    - course: 硕士
       year: 2017
-      institution: Shanghai University of Engineering Science
-    - course: B.S. in Environmental Engineering
-      institution: Shandong Agricultural University
+      institution: 上海理工大学
+    - course: 学士
       year: 2012
+      institution: 山东农业大学
 superuser: true
 user_groups:
-  - Postdocs
+  - 博士后
 ---
-## Professional Experience
+## 专业经历
 
-* **Postdoctoral Researcher**
+* **博士后**
+  * **自动化系, 上海交通大学**
+  * **研究兴趣:** 预测控制, 水厂优化
+* **研究工程师**
+  * **南方泵业股份 (子公司: 南方智水公司)**
+  * **项目:** "数据驱动的双层预测控制方法用于全过程水厂优化"
 
-  * **Department of Automation, Shanghai Jiao Tong University**
-  * **Research Interests:** Predictive control, Optimization in Water Plant
-* **Research Engineer**
+## 发表论文
 
-  * **South Pump Industry (Subsidiary: South Smart Water Company)**
-  * **Project:** "Data-Driven Dual-Layer Predictive Control Method for Full-Process Water Plant Optimization"
+* **期刊文章:** 发表6篇专业文章。
+* **专著书籍:**
+  * **Title:** "废水处理技术与过程管理"
+  * **作者:** 易学农, 付彩霞, 王晨
+  * **出版社:** 化学工业出版社, 北京
+  * **日期:** 2021年5月
 
-## Publications
+## 研究方向
 
-* **Journal Articles:** Published 6 professional articles in the field.
-* **Books:**
+#### 海水淡化 / 高盐废水处理
 
-  * **Title:** "Wastewater Treatment Technology and Process Management"
-  * **Authors:** Yi XueNong, Caixia Fu, Chen Wang
-  * **Publisher:** Chemical Industry Press, Beijing
-  * **Date:** May 2021
+* 创新性地提出了电去离子-反渗透耦合技术。
+* 研究了膜通量、脱盐率和膜污染变化在耦合设备中的情况。
+* 使用CFD建模研究了耦合系统中的离子分布和迁移模式。
 
-### PhD Research Topics
+#### 高浓度难降解化学废水处理
 
-#### Seawater Desalination / High-Salt Wastewater Treatment
+* 提出了"微电解+MABR+A/O+臭氧/BAF"的组合工艺。
+* 进行了小试和工程试运行，确定了最佳运行参数和微生物启动条件。
+* 实现了显著的COD和氨氮去除效率。
 
-* Innovatively proposed the electro-deionization-reverse osmosis coupling technology.
-* Studied the membrane flux, desalination rate, and membrane fouling changes in the coupled device for high-salt water treatment.
-* Used CFD modeling to study ion distribution and migration patterns within the coupled system.
+### 其他研究项目
 
-#### High-Concentration Difficult-to-Degrade Chemical Wastewater Treatment
+* **高级氯化技术:** 协同紫外线/氯催化氯化反渗透浓缩水, 电磁协同技术用于高盐高有机废水, 臭氧催化氯化+SBR工艺用于渗滤液废水。
+* **矿泉水制备:** 使用超滤、纳滤和反渗透处理地下水制备氟化物和硅富集矿泉水。
 
-* Proposed a combined process of "micro-electrolysis + MABR + A/O + ozone/BAF" for ethylene glycol wastewater.
-* Conducted small-scale and pilot-scale experiments to determine optimal operating parameters and microbial startup conditions.
-* Achieved significant COD and ammonia nitrogen removal efficiencies.
+### 关键项目
 
-### Other Research Projects
+* 济南龙青食品饮料废水处理
+* 河南煤化工BDO废水升级改造
+* 水平沙岛农村污水处理站升级
+* 如皋市农村污水处理项目
+* 如皋市陶瓷废水处理项目
+* 第四污水处理厂可行性研究
+* 山东新水净化项目
+* 山东北湖水厂扩建项目
+* 云南滇池保护与治理规划
 
-* **Advanced Chlorination Techniques:** Synergistic ultraviolet/chlorine catalytic chlorination for RO concentrate, electromagnetic synergistic technology for high-salt high-organic wastewater, ozone catalytic chlorination + SBR process for leachate wastewater.
-* **Mineral Water Preparation:** Used ultrafiltration, nanofiltration, and reverse osmosis to treat groundwater for the production of fluoride and silicon-rich mineral water.
+## 专利
 
-### Key Projects
-
-* Jinan Longqing Food Company Beverage Wastewater Treatment
-* Henan Coal Chemical BDO Wastewater Upgrade Project
-* Horizontal Sand Island Rural Wastewater Treatment Station Upgrade
-* Rugao City Rural Wastewater Treatment Project
-* Rugao City Ceramic Wastewater Treatment Project
-* Feasibility Study for the Fourth Wastewater Treatment Plant
-* Shandong New Water Purification Project
-* Shandong North Lake Water Plant Expansion Project
-* Yunnan Dianchi Lake Protection and Treatment Planning
-* Innovation Competition Project Application
-
-## Patents
-
-* **Invention:** "A Magnetic Suspension Organic Wastewater Treatment Device and Method"
-
-  * **Patent Number:** 202011047185.3
-* **Invention:** "Piezoelectric Pressure Generation Device Based on Piezoelectric Adhesive"
-
-  * **Patent Number:** 201711087246.7
-* **Invention:** "Static Electric Coupling Internal Circulation Combustion Purification System for Frying Oil Fume"
-
-  * **Patent Number:** 201711078590.X
-* **Invention:** "Integrated Device and Method for Hydraulic Synergistic Flotation Wastewater Treatment"
-
-  * **Patent Number:** 201610362908.6
-* **Utility Model:** "Purified Water Pressure Stabilization Device and Its Secondary Water Supply System"
-
-  * **Patent Number:** 202122200108.3
+* **发明专利:** "磁悬浮有机废水处理装置及方法"
+【202011047185.3】
+* **发明专利:** "基于压电粘合剂的压电压力发生装置"
+【201711087246.7】
+* **发明专利:** "静电耦合内循环油炸油烟净化系统"
+【201711078590.X】
+* **发明专利:** "液压协同浮选废水处理装置及方法"
+【201610362908.6】
+* **实用新型专利:** "纯净水压力稳定装置及其二次供水系统"
+【202122200108.3】

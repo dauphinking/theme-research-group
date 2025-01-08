@@ -13,17 +13,17 @@ en:
     address_format: en-us
     footer:
       copyright:
-        notice: '© {year} CSC Lab. All Rights Reserved.'
+        notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
 
 zh:
   languageCode: zh-cn
   languageName: 中文
   contentDir: content/zh
-  title: 上海交通大学复杂系统控制实验室
+  title: 上海交大复杂系统控制实验室
   weight: 2
   params:
     description: 致力于模型预测控制及领域应用的前沿实验室
     address_format: zh-CN
     footer:
       copyright:
-        notice: '© {year} 复杂系统控制实验室. 保留所有权利.'
+        notice: '© {year} 上海交通大学复杂系统控制实验室. 保留所有权利.'

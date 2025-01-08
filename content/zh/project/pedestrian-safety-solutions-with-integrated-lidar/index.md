@@ -1,27 +1,26 @@
 ---
 slides: example
 url_pdf: ""
-summary: A LiDAR-based system enhances pedestrian safety by detecting crossings
- in real time and adapting signal timing to prioritize safety.
+summary: 基于激光雷达的系统通过实时检测行人过街并调整信号时序来提高行人安全性。
 authors: []
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Pedestrian Safety Solutions with Integrated LiDAR
+title: 集成激光雷达的行人安全解决方案
 tags:
   - Traffic
 links: []
 image:
-  caption: Project Image
+  caption: 项目图片
   focal_point: Smart
   filename: feature.png
 url_code: ""
 ---
-Real-Time Detection: Uses LiDAR sensors to monitor pedestrian activity with high accuracy.
+实时检测：使用激光雷达传感器高精度监测行人活动。
 
-Adaptive Control: Adjusts signal timing dynamically to balance pedestrian and vehicle traffic priorities.
+自适应控制：动态调整信号时序，平衡行人和车辆交通优先级。
 
-Advanced Analytics: Enhances reliability in low-visibility and crowded scenarios.
+高级分析：提高在低能见度和人群密集场景下的可靠性。
 
-Targeted Deployment: Ideal for high-traffic urban areas with significant pedestrian activity.
+目标部署：适用于行人活动频繁的高流量城市区域。

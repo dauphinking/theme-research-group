@@ -1,49 +1,44 @@
 ---
 slides: example
 url_pdf: ""
-summary: Noval MPC design and Project Implementation in various industrial
-  fiels, including Air Separation system,Injection Molding system, PV Inverter
-  system and Boiler Combustion system
+summary: 在空分系统、注塑系统、光伏逆变器系统和锅炉燃烧系统等多个工业领域的新型MPC设计与工程实现
 authors: []
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Predictive Control Implementation
+title: 其他预测控制工程实现
 tags:
   - Predictive Control
 links: []
 image:
-  caption: Project Image
+  caption: 项目图片
   focal_point: Smart
   filename: feature.png
 url_code: ""
 ---
 
+* **聚合模型预测控制 (MPC)**：
 
+  * 提出了MPC的广义线性聚合框架
+  * 开发了等效聚合概念以简化优化问题，实现实时应用
+  * 优化离线（设计阶段）和在线（实时执行）计算的分离，确保高效性
 
-* **Aggregation MPC (Model Predictive Control)**:
+* **应用领域**：
 
-  * Introduced a generalized linear aggregation framework for MPC.
-  * Developed equivalent aggregation concepts to simplify optimization problems, enabling real-time applicability.
-  * Optimized the separation between offline (design phase) and online (real-time execution) computations to ensure high efficiency.
+  * **空分系统**
+    * 控制分离过程中的工艺变量波动
+    * 在外部负载变化条件下实现运行设定值的快速跟踪
+    * 在工业环境中成功测试了基于DSP的嵌入式预测控制器
 
-* **Applications**:
+  * **注塑系统**
+    * 最小化保压阶段的瞬态压力波动，提高产品质量
+    * 在高产量生产环境中降低能耗并提高稳定性
 
-  * **Air Separation Systems**
+  * **光伏逆变器系统**
+    * 优化占空比以最小化谐波失真和波形不规则性
+    * 因这些创新成果获得2014年中国控制会议关肇直奖提名
 
-    * Controlled fluctuations in process variables during separation.
-    * Enabled rapid tracking of operational setpoints under external load changes.
-    * Successfully tested embedded (DSP-based) predictive controllers in industrial settings.
-  * **Injection Molding Systems**
-
-    * Minimized transient pressure fluctuations during the hold pressure phase, improving product quality.
-    * Reduced energy consumption and increased stability in high-volume production environments.
-  * **Photovoltaic Inverter Systems**
-
-    * Optimized the duty cycle to minimize harmonic distortions and waveform irregularities.
-    * Nominated for the 2014 Chinese Control Conference Guang Zhi Zhi Award for these innovations.
-  * **Boiler Combustion Control System**
-
-    * Collaboration between the research team and XinHua/GE Control Company on a dry clinker production project in cement plants, utilizing the CSC Laboratory's embedded MPC (Model Predictive Control) controller.
-    * Energy Savings: Achieved average coal savings of 6%, with a peak efficiency of 8% in relevant processes.
+  * **锅炉燃烧控制系统**
+    * 研究团队与新华/GE控制公司在水泥厂干法熟料生产项目上的合作，采用CSC实验室的嵌入式MPC控制器
+    * 节能效果：实现平均6%的煤炭节省，相关工序最高达到8%的效率提升

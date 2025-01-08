@@ -31,6 +31,6 @@ education:
 email: " heshaoying19941204@sjtu.edu.cn"
 superuser: true
 user_groups:
-  - Postdocs
+  - 博士后
 ---
 何邵颖 是上海交通大学自动化系博士后，研究方向包括机器人和数据驱动控制。上海市自动化学会最佳博士论文获得者，国家博士后创新人才支持计划入选者。

@@ -34,7 +34,7 @@ education:
       year: 2017
 superuser: true
 user_groups:
-  - Researchers
+  - 实验室导师
 last_name: XU
 highlight_name: false
 first_name: Yunxun

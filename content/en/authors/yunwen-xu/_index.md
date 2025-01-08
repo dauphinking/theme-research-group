@@ -1,4 +1,5 @@
 ---
+weight: 4  # 设置数字，数字越小越靠前
 title: Yunwen XU
 role: "Associate Professor "
 avatar_filename: avatar.jpg

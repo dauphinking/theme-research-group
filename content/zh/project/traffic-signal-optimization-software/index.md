@@ -1,29 +1,27 @@
 ---
 slides: example
 url_pdf: ""
-summary: The project designs software for traffic signal optimization at various
-  scales, from single intersections to large road networks, focusing on reducing
-  delays and improving flow efficiency.
+summary: 该项目设计了各种规模的交通信号优化软件，从单个路口到大型路网，致力于减少延误并提高通行效率。
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
-title: Traffic Signal Optimization Software
+title: 交通信号优化软件
 tags:
   - Traffic
 links: []
 image:
-  caption: Project Image
+  caption: 项目图片
   focal_point: Smart
   filename: featured.png
 url_code: ""
 ---
-Single Intersection Control: Implements Markov decision processes (MDP) to dynamically adjust green signal durations based on traffic conditions.
+单路口控制：实施马尔可夫决策过程(MDP)，根据交通状况动态调整绿灯持续时间。
 
-Arterial Road Optimization: Introduces green wave synchronization for multiple intersections to improve flow efficiency.
+干道优化：为多个路口引入绿波同步，提高通行效率。
 
-Network-Level Control: Applies centralized and distributed predictive algorithms to optimize signal timing across large networks.
+路网级控制：应用集中式和分布式预测算法，优化大型路网的信号配时。
 
-**Key Metrics:** Focuses on reducing vehicle queues, delays, and stops while maximizing road throughput.
+**关键指标：** 专注于减少车辆排队、延误和停车次数，同时最大化道路通行能力。
 
-**User Interface:** Features intuitive dashboards for real-time data visualization and optimization output.
+**用户界面：** 具有直观的仪表盘，用于实时数据可视化和优化结果展示。

@@ -9,7 +9,8 @@ sections:
       subtitle: 引领控制与机器人领域的未来
       text: 欢迎来到我们的研究中心，这里是创新与卓越交融的殿堂。我们拥有一支跨学科的顶尖团队，致力于在多个领域不断突破技术的边界。请探索以下内容，了解我们的开创性研究计划与变革性项目，共同见证技术革新的力量。
    
-  - block: markdown
+  - id: predictive-control
+    block: markdown
     content:
       title: 模型预测控制
       subtitle: 
@@ -35,7 +36,8 @@ sections:
         - 'Predictive Control'  
     
   
-  - block: markdown
+  - id: robot
+    block: markdown
     content:
       title: 自主机器人
       subtitle: 
@@ -50,7 +52,8 @@ sections:
       tags:
         - 'Robot'
 
-  - block: markdown
+  - id: traffic
+    block: markdown
     content:
       title: 智能交通
       subtitle: 
@@ -68,31 +71,30 @@ sections:
         - 'Traffic' 
 
   - block: portfolio
-    id: projects    # 添加 ID 作为锚点
+    id: all-projects    # 修改为更通用的ID
     content:
       title: 研究项目
       subtitle: 我们的主要研究项目
       text: ''
       filters:
         folders:
-          - project    # 指定正确的项目路径
+          - project
         exclude_folders:
           - publication
         tag:
           - 'Predictive Control'
           - 'Robot' 
           - 'Traffic'
-    #   default_button_index: 0
       buttons:
         - name: 模型预测控制
           tag: 'Predictive Control'
-          url: '#projects'    # 添加链接到锚点    
+          url: '#predictive-control'    # 独特的锚点
         - name: 自主机器人
           tag: 'Robot'
-          url: '#projects'    # 添加链接到锚点
+          url: '#robot'                 # 独特的锚点
         - name: 智能交通
           tag: 'Traffic'
-          url: '#projects'    # 添加链接到锚点
+          url: '#traffic'               # 独特的锚点
       
     design:
       columns: '1'

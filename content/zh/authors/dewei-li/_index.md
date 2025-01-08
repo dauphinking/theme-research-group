@@ -34,7 +34,7 @@ education:
 email: dwli@sjtu.edu.cn
 superuser: true
 user_groups:
-  - Researchers
+  - 实验室导师
 ---
 ## 职业经历
 

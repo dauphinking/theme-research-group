@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 发表论文
 date: 2022-10-24
 type: landing
@@ -9,8 +9,7 @@ sections:
       title: 发表论文
       filters:
         folders:
-          - ../../en/publication
-        featured_only: true
+          - publication
     design:
       columns: '2'
       view: card
@@ -19,13 +18,14 @@ sections:
       title: 近期论文
       text: |-
         {{% callout note %}}
-        快速发现研究成果通过 [过滤](../../en/publication/).
+        快速发现研究成果通过 [按年份归档](/zh/publication/), [按类型分类](/zh/tags/). 
         {{% /callout %}}
       filters:
         folders:
-          - en/publication
+          - publication
         exclude_featured: true
     design:
       columns: '2'
       view: citation
---- 
+---  -->
+

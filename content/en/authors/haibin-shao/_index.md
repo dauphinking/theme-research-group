@@ -1,4 +1,5 @@
 ---
+weight: 5 # 设置数字，数字越小越靠前
 title: Haibin SHAO
 role: Associate Researcher
 avatar_filename: avatar.jpg

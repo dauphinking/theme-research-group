@@ -30,7 +30,7 @@ education:
 email: llpan@sjtu.edu.cn
 superuser: true
 user_groups:
-  - Researchers
+  - 实验室导师
 ---
 
 

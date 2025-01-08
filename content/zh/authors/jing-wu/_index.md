@@ -36,7 +36,7 @@ education:
 email: jingwu@sjtu.edu.cn
 superuser: true
 user_groups:
-  - Researchers
+  - 实验室导师
 ---
 
 

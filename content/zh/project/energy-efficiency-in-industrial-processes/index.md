@@ -1,9 +1,9 @@
 ---
-title: Energy Efficiency in Industrial Processes
+title: 工业过程能源效率优化
 date: 2024-12-24T10:37:00.000Z
 summary: >-
   
-  Focused on energy optimization in large-scale industrial systems, achieving a temperature qualification rate increase from 60% to 85% and product yield growth from 180 to 210 tons/hour in heavy plate cooling. Enhanced light oil yield in petrochemical systems by 0.49%, reducing energy consumption to under 70 kg of standard coal per ton. Improved system stability, energy efficiency, and diagnostics to minimize wastage and optimize process control.
+  专注于大型工业系统的能源优化，在厚板冷却过程中将温度合格率从60%提升至85%，产品产量从180吨/小时提升至210吨/小时。在石化系统中提高轻油收率0.49%，将综合能耗降低至每吨产品标准煤耗低于70千克。改进系统稳定性、能源效率，并优化诊断系统以减少能源损耗和优化过程控制。
 draft: false
 featured: false
 tags:
@@ -13,23 +13,23 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Focused on energy optimization in large-scale industrial systems:
+致力于大型工业系统的能源优化：
 
-**Heavy Plate Cooling Control:**
+**厚板冷却控制：**
 
-* Increased temperature qualification rates from 60% to 85%.
-* Improved product yield from 180 tons/hour to 210 tons/hour.
+* 温度合格率从60%提升至85%
+* 产品产量从180吨/小时提升至210吨/小时
 
   ![](20180719_083157_125.png)
 
-**Light Oil Yield in Petrochemical Systems:**
+**石化系统轻油收率：**
 
-* Enhanced yield by 0.49%.
-* Reduced comprehensive energy consumption to below 70 kg of standard coal per ton of output.
+* 收率提升0.49%
+* 综合能耗降低至每吨产品标准煤耗低于70千克
 
   ![](bb.png)
 
-**Key Achievements:**
+**主要成就：**
 
-* Improved system stability and energy efficiency across diverse industrial processes.
-* Implemented advanced diagnostics to reduce wastage and enhance process control.
+* 提高各类工业过程的系统稳定性和能源效率
+* 实施先进诊断技术，减少能源损耗并强化过程控制

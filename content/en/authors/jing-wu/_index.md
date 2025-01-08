@@ -1,4 +1,5 @@
 ---
+weight: 3 # 设置数字，数字越小越靠前
 title: Jing WU
 role: Researcher
 avatar_filename: avatar.jpg

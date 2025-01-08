@@ -7,7 +7,10 @@ translationKey: people
 sections:
   - block: people
     content:
+
       title: Meet the Team
+      sort_by: "weight" # 按 weight 排序
+      sort_ascending: true # true 为升序，false 为降序
       user_groups:
         - Researchers
         - Postdocs
