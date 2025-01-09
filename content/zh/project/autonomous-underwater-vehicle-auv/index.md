@@ -9,6 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 水下自主航行器(AUV)
+authors: ["Bihui JIN"]
 tags:
   - Robot
 links: []

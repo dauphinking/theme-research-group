@@ -8,6 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 基于视频监控的实时排队长度估计
+authors: ["Bihui JIN"]
 tags:
   - Traffic
 links: []

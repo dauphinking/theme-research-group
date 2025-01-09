@@ -1,5 +1,6 @@
 ---
 title: 工业过程能源效率优化
+authors: ["Bihui JIN"]
 date: 2024-12-24T10:37:00.000Z
 summary: >-
   

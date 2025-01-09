@@ -8,6 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 其他预测控制工程实现
+authors: ["Bihui JIN"]
 tags:
   - Predictive Control
 links: []

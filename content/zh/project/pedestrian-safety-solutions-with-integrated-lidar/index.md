@@ -8,6 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 集成激光雷达的行人安全解决方案
+authors: ["Bihui JIN"]
 tags:
   - Traffic
 links: []
