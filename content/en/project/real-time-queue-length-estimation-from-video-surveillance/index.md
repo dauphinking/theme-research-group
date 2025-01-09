@@ -9,6 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: Real-time Queue Length Estimation from Video Surveillance
+authors: ["Yunwen XU"]
 tags:
   - Traffic
 links: []

@@ -10,6 +10,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: Large Gantry Dual-Arm Welding  Robot
+authors: ["Dewei LI"]
 tags:
   - Robot
 links: []

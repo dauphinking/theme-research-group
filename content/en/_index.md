@@ -28,9 +28,9 @@ sections:
       text: ''
       count: 5
       filters:
-        exclude_featured: false
+        folders:
+          - post
         publication_type: ''
-        tag: ''
       offset: 0
       order: desc
     design:

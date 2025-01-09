@@ -1,5 +1,6 @@
 ---
 title: 新能源汽车风洞热管理系统
+authors: ["Dewei LI"]
 date: 2024-12-24T10:46:00.000Z
 summary: >-
   

@@ -9,6 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: Traffic Signal Optimization Software
+authors: ["Yunwen XU"]
 tags:
   - Traffic
 links: []

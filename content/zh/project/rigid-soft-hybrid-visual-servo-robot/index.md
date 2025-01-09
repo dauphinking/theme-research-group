@@ -9,7 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 刚柔混合视觉伺服机器人
-authors: ["Bihui JIN"]
+authors: ["Bihui JIN", "Dewei LI"]
 tags:
   - Predictive Control
   - Robot

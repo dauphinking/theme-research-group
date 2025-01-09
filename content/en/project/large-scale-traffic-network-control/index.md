@@ -1,6 +1,8 @@
 ---
 title: Large-scale Traffic Network Control
 date: 2024-12-24T10:37:00.000Z
+authors:
+  - Yunwen XU
 summary: >-
   
   A hierarchical control framework is developed to optimize traffic management across large urban networks by balancing traffic demand and improving network-wide efficiency
@@ -13,8 +15,6 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-
-
 
 **Hierarchical Structure:**
 

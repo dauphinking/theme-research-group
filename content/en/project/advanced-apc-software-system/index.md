@@ -1,5 +1,6 @@
 ---
 title: Advanced Process Control Software
+authors: ["Dewei LI"]
 date: 2024-12-24T10:56:00.000Z
 summary: >-
   

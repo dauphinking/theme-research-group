@@ -2,7 +2,6 @@
 slides: example
 url_pdf: ""
 summary: 基于激光雷达的系统通过实时检测行人过街并调整信号时序来提高行人安全性。
-authors: []
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""

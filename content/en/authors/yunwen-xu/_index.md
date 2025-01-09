@@ -47,7 +47,7 @@ highlight_name: false
 first_name: Yunxun
 email: willing419@sjtu.edu.cn
 ---
-Yunwen Xu is an Associate Researcher at the Department of Automation, Shanghai Jiao Tong University. She earned her Ph.D. and M.S. in Control Science and Engineering from Shanghai Jiao Tong University and her B.S. in Automation from Nanjing University of Science and Technology. She was a visiting scholar at Purdue University and has held postdoctoral and research positions at Shanghai Jiao Tong University. Her research focuses on predictive control applications, intelligent transportation systems, robot control, embedded predictive control, and intelligent control of complex systems. She has published extensively in top journals and conferences and has been involved in several significant research projects.
+Yunwen Xu is an Associate Researcher at the Department of Automation, Shanghai Jiao Tong University. She earned her Ph.D. and M.S. in Control Science and Engineering. She was a visiting scholar at Purdue University. Her research focuses on intelligent transportation systems, embedded predictive control, and intelligent control of complex systems. She has published extensively in top journals and conferences and has been involved in several significant research projects.
 
 **Full Biography**
 

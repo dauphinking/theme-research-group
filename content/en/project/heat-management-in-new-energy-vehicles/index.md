@@ -1,9 +1,10 @@
 ---
 title: Heat Management in E-Vehicles
+authors: ["Dewei LI"]
 date: 2024-12-24T10:46:00.000Z
 summary: >-
   
-  Developed predictive control strategies for electric vehicle thermal management, covering cooling, heating, dehumidification, and defrosting modes. Utilized MATLAB, Simulink, and Dymola for system modeling and validation, with HIL testing for real-time application. Collaborated with Shanghai Songzhi to create China’s first climate wind tunnel, achieving wind speed stability ±0.5 kph and temperature stability ±0.2°C.
+  Developed predictive control strategies for electric vehicle thermal management, covering cooling, heating, dehumidification, and defrosting modes. Utilized MATLAB, Simulink, and Dymola for system modeling and validation, with HIL testing for real-time application. Collaborated with Shanghai Songzhi to create China's first climate wind tunnel, achieving wind speed stability ±0.5 kph and temperature stability ±0.2°C.
 draft: false
 featured: false
 tags:

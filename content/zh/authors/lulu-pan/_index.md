@@ -5,9 +5,9 @@ role: 助理研究员
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - 隐私保护多方计算
+  - 多智能体协作
   - 群体智能
-  - 数据驱动预测控制
+  - 数据驱动网络控制
 social:
   - display:
       header: false

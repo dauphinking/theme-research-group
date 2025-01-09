@@ -2,7 +2,7 @@
 title: 何邵颖
 role: 博士后
 avatar_filename: avatar.png
-bio: ""
+bio: "研究方向包括机器人和数据驱动控制。上海市自动化学会最佳博士论文获得者，国家博士后创新人才支持计划入选者"
 interests:
   - 机器人
   - 数据驱动控制

@@ -10,6 +10,9 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: Autonomous Underwater Vehicle (AUV)
+authors:
+  - Bihui JIN
+  - Dewei LI
 tags:
   - Robot
 links: []

@@ -1,5 +1,5 @@
 ---
-title: Bihui JIN
+title: 金碧辉
 role: 主任工程师
 avatar_filename: avatar.jpg
 interests:
@@ -13,18 +13,18 @@ social:
     icon_pack: fas
     icon: envelope
 organizations:
-  - name: Shanghai Bidi Technology Co., Ltd.
+  - name: Biditech
     url: https://www.biditech.cn
 education:
   courses:
-    - course: M.S. in renewable energy
-      institution: Ecole Polytechnique, IP Paris
+    - course: 可再生能源科技硕士
+      institution: 巴黎综合理工学院
       year: 2012
-    - course: M.S in robotics and embedded system
-      institution: ENSTA, IP Paris
+    - course: 机器人与嵌入式系统硕士
+      institution: ENSTA，巴黎理工学院
       year: 2011
-    - course: B.S. in Automation
-      institution: Shanghai Jiao Tong University
+    - course: 自动化本科
+      institution: 上海交通大学
       year: 2009
 email: bihui.jin@alumni.sjtu.edu.cn
 superuser: true

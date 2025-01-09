@@ -8,6 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: 城市交通信息估计与预测
+authors: ["Yunwen XU"]
 tags:
   - Traffic
 links: []
