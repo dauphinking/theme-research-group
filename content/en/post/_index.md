@@ -13,7 +13,7 @@ sections:
       count: 5
       filters:
         folders:
-          - /content/en/post
+          - post
         publication_type: ""
         featured_only: false
     design:

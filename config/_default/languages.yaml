@@ -5,7 +5,7 @@
 en:
   languageCode: en-us
   languageName: English
-  contentDir: en
+  contentDir: content/en
   title: SJTU CSC Lab
   weight: 1
   params:
@@ -15,15 +15,15 @@ en:
       copyright:
         notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
 
-# zh:
-#   languageCode: zh-cn
-#   languageName: 中文
-#   contentDir: content/zh
-#   title: 上海交大复杂系统控制实验室
-#   weight: 2
-#   params:
-#     description: 致力于模型预测控制及领域应用的前沿实验室
-#     address_format: zh-CN
-#     footer:
-#       copyright:
-#         notice: '© {year} 上海交通大学复杂系统控制实验室. 保留所有权利.'
+zh:
+  languageCode: zh-cn
+  languageName: 中文
+  contentDir: content/zh
+  title: 上海交大复杂系统控制实验室
+  weight: 2
+  params:
+    description: 致力于模型预测控制及领域应用的前沿实验室
+    address_format: zh-CN
+    footer:
+      copyright:
+        notice: '© {year} 上海交通大学复杂系统控制实验室. 保留所有权利.'
