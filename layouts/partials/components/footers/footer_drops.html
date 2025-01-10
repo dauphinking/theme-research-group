@@ -55,6 +55,12 @@
 </p>
 {{ end }}
 
+{{/* Add ICP registration number for Chinese version */}}
+{{ if eq .Lang "zh" }}
+<p class="powered-by">
+  <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备19005139号</a>
+</p>
+{{ end }}
 
 {{/* Display copyright license. */}}
 {{ partial "site_footer_license" . }}
