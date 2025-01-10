@@ -9,69 +9,55 @@ sections:
       subtitle: Pioneering the Future of Control and Robotics
       text: 'Welcome to our research hub, where innovation meets excellence. Our interdisciplinary team is dedicated to pushing the boundaries of technological advancement across multiple domains. Discover our groundbreaking research initiatives and transformative projects in the sections below.'
    
-  - block: markdown
+  - id: predictive-control
+    block: markdown
     content:
-      title: Model Predictive Control 
+      title: Model Predictive Control
       subtitle: 
       text: |
-        Model Predictive Control (MPC) is an advanced method of process control that has been widely used in industrial applications. Our research particularly focuses on integrating artificial intelligence and data-driven approaches with MPC:
-        
-        - AI-enhanced MPC algorithms
-          * Deep learning for model identification
-          * Reinforcement learning for control policy optimization
-        
-        - Data-driven MPC
-          * Data-efficient model learning
-          * Online adaptation and learning
-        
-        - Real-time MPC research
-          * Real-time optimization and implementation
-          * Distributed and hierarchical MPC
-        
-        - Applications
+        [↓ View Related Projects](/en/project/#projects)
 
-    design:
-      columns: '2'
-    filters:
-      tags: 
-        - 'Predictive Control'  
-    
-  
-  - block: markdown
-    content:
-      title: Autonomous Robot 
-      subtitle: 
-      text: |
-        Our autonomous robotics research focuses on developing intelligent robots that can operate independently in complex environments. Key research areas include:
+        Model Predictive Control (MPC) is an advanced process control method widely used in various industrial fields. Our research focuses on integrating AI and data-driven approaches with MPC:
         
-        - Robot perception and scene understanding
-        - Motion planning and control
-        - Human-robot interaction
-        - Multi-robot coordination
-        - Learning-based robotics
-    design:
-      columns: '2'
-    filters:
-      tags:
-        - 'Robot'
+        - Enhanced AI-MPC Algorithms
+          * Deep Learning for Model Identification
+          * Reinforcement Learning for Control Policy Optimization
+        
+        - Data-Driven MPC
+          * Data-Efficient Model Learning
+          * Online Adaptation and Learning
+        
+        - Real-time MPC Research
+          * Embedded System MPC Optimization and Implementation
+          * Distributed Robotic MPC
 
-  - block: markdown
+  - id: robot
+    block: markdown
     content:
-      title: Intelligent Transportation 
+      title: Autonomous Robots
       subtitle: 
       text: |
-        Our intelligent transportation research aims to develop advanced solutions for future mobility systems. Key research directions include:
+        [↓ View Related Projects](/en/project/#projects)
+
+        Our autonomous robotics research focuses on developing intelligent robots that can operate independently in complex environments. Our key research areas include:
+        - Robot Perception and Scene Understanding
+        - Motion Planning and Control
+        - Multi-Robot Coordination
+
+  - id: traffic
+    block: markdown
+    content:
+      title: Intelligent Transportation
+      subtitle: 
+      text: |
+        [↓ View Related Projects](/en/project/#projects)
+
+        Our intelligent transportation research aims to develop advanced solutions for future transportation systems. Key research directions include:
         
-        - Traffic flow modeling and prediction
-        - Intelligent traffic signal control
-        - Connected and autonomous vehicles
-        - Smart infrastructure systems
-        - Sustainable urban mobility
-    design:
-      columns: '2'
-    filters:
-      tags:
-        - 'Traffic' 
+        - Traffic Flow Modeling and Prediction
+        - Intelligent Traffic Signal Control
+        - Smart Infrastructure Systems
+        - Unmanned Systems and 3D Transportation
 
   - block: portfolio
     id: projects    # 添加 ID 作为锚点
