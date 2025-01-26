@@ -65,11 +65,12 @@
 [css.academicons]
   version = "1.9.4"
   sri = "sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw=="
-  url = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@%s/css/academicons.min.css"
+  url = "/lib/academicons/css/academicons.min.css"
+
 [css.leaflet]
   version = "1.7.1"
   sri = ""  # Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
-  url = "https://cdn.jsdelivr.net/npm/leaflet@%s/dist/leaflet.min.css"
+  url = "/lib/leaflet/leaflet.min.css"
 [css.fancybox]
   version = "3.5.7"
   sri = "sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="

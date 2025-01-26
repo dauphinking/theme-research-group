@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resource Downloader</title>
+    <script>
+        const resources = [
+            {
+                url: 'https://cdn.jsdelivr.net/npm/imagesloaded@4.1.4/imagesloaded.pkgd.min.js',
+                path: '/js/lib/imagesloaded.pkgd.min.js'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js',
+                path: '/js/lib/isotope.pkgd.min.js'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js',
+                path: '/js/lib/leaflet.min.js'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js',
+                path: '/js/lib/fuse.min.js'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js',
+                path: '/js/lib/jquery.mark.min.js'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css',
+                path: '/css/lib/leaflet.min.css'
+            },
+            {
+                url: 'https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css',
+                path: '/css/lib/academicons.min.css'
+            }
+        ];
+
+        async function downloadResources() {
+            const output = document.getElementById('output');
+            for (const resource of resources) {
+                try {
+                    const response = await fetch(resource.url);
+                    const content = await response.text();
+                    
+                    // Create download link
+                    const blob = new Blob([content], { type: 'text/plain' });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = resource.path.split('/').pop();
+                    a.textContent = `Download ${resource.path}`;
+                    a.style.display = 'block';
+                    output.appendChild(a);
+                } catch (error) {
+                    console.error(`Failed to download ${resource.url}:`, error);
+                    const div = document.createElement('div');
+                    div.style.color = 'red';
+                    div.textContent = `Failed to download ${resource.url}: ${error.message}`;
+                    output.appendChild(div);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Resource Downloader</h1>
+    <button onclick="downloadResources()">Download All Resources</button>
+    <div id="output"></div>
+</body>
+</html> 
