@@ -2,23 +2,23 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-en:
-  languageCode: en-us
-  languageName: English
-  contentDir: content/en
-  title: SJTU CSC Lab
-  weight: 1
-  params:
-    description: A premier research facility dedicated to advancing the field of model predictive control.
-    address_format: en-us
-    footer:
-      copyright:
-        notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
+# en:
+#   languageCode: en-us
+#   languageName: English
+#   contentDir: content/en
+#   title: SJTU CSC Lab
+#   weight: 1
+#   params:
+#     description: A premier research facility dedicated to advancing the field of model predictive control.
+#     address_format: en-us
+#     footer:
+#       copyright:
+#         notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
 
 zh:
   languageCode: zh-cn
   languageName: 中文
-  contentDir: content/zh
+  contentDir: content
   title: 上海交大复杂系统控制实验室
   weight: 2
   params:
