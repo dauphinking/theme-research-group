@@ -4,7 +4,7 @@ role: 硕士
 avatar_filename: 王刚.avatar.jpg
 interests:
   - 计算机视觉
-
+  - 百度
 superuser: false
 user_groups:
   - 已毕业

@@ -4,6 +4,7 @@ role: 硕士
 avatar_filename: 张心怡.avatar.jpg
 interests:
   - 智能交通
+  - 小米
 superuser: false
 user_groups:
   - 已毕业
