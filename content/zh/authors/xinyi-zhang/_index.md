@@ -1,16 +1,10 @@
 ---
-title: Xinyi Zhang
-role: master
+title: 张心怡
+role: 硕士
 avatar_filename: 张心怡.avatar.jpg
 interests:
-  - Intelligent Transportation
-social:
-  - display:
-      header: false
-    link: "  mailto contact at sjtu.edu.cn "
-    icon_pack: fas
-    icon: "  envelope"
+  - 智能交通
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

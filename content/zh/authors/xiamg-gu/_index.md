@@ -1,16 +1,10 @@
 ---
-title: Xiang Gu
-role: Phd Student
+title: 顾乡
+role: 博士生
 avatar_filename: 顾乡.avatar.jpg
 interests:
-  - Intelligent Transportation
-social:
-  - display:
-      header: false
-    link: "mailto contact at sjtu.edu.cn "
-    icon: envelopec
-    icon_pack: fas
+  - 智能交通
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

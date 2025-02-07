@@ -21,7 +21,7 @@ sections:
         - 本科生 # Undergraduate Students
         - 行政人员 # Administration
         - 访问学者 # Visitors
-        - 校友 # Alumni
+        - 已毕业 # Alumni
       # user_groups:
       #   - Researchers
       #   - Postdocs

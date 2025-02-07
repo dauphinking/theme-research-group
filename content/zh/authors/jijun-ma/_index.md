@@ -1,17 +1,12 @@
 ---
-title: Jijun Ma
-role: Phd Students
+title: 马纪军
+role: 博士生
 avatar_filename: 马纪军-1-.avatar.jpg
 interests:
-  - Control system design
-  - collaborative control
-social:
-  - display:
-      header: false
-    link: mailto contact at sjtu.edu.cn
-    icon_pack: fas
-    icon: envelope
+  - 控制系统设计
+  - 协同控制
+
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

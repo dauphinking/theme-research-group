@@ -1,16 +1,11 @@
 ---
-title: Haoyu Wei
-role: Phd Student
+title: 魏浩宇
+role: 博士生
 avatar_filename: 魏浩宇-证件照.avatar.jpg
 interests:
-  - distributed control
-social:
-  - display:
-      header: false
-    link: "mailto contact at sjtu.edu.cn  "
-    icon_pack: fas
-    icon: envelope
+  - 分布式控制
+
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

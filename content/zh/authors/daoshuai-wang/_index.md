@@ -1,17 +1,10 @@
 ---
-title: Daoshuai Wang
-role: master
+title: 王道帅
+role: 硕士
 avatar_filename: 王道帅.avatar.jpg
 interests:
-  - Computer vision
-  - skeleton behavior recognition
-social:
-  - display:
-      header: false
-    link: " mailto contact at sjtu.edu.cn  "
-    icon_pack: fas
-    icon: "  envelope"
+  - 行为识别
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

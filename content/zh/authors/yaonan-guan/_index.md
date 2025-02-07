@@ -1,16 +1,11 @@
 ---
-title: Yaonan Guan
-role: PhD
+title: 管耀南
+role: 博士
 avatar_filename: 管耀南.avatar.jpg
 interests:
-  - BigData
-social:
-  - display:
-      header: false
-    link: "mailto:contact@sjtu.edu.cn  "
-    icon_pack: fas
-    icon: " envelope"
+  - 大数据建模
+  - 中国船舶七院
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

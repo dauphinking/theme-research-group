@@ -1,16 +1,10 @@
 ---
-title: Angwei Zhang
-role: master
+title: 张昂巍
+role: 硕士
 avatar_filename: 张昂巍.avatar.jpg
 interests:
-  - swarm intelligence
-social:
-  - display:
-      header: false
-    link: "mailto contact@sjtu.edu.cn  "
-    icon_pack: fas
-    icon: " envelope"
+  - 群体智能
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

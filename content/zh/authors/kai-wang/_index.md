@@ -1,16 +1,10 @@
 ---
-title: Kai Wang
-role: Master Student
+title: 王楷
+role: 硕士生
 avatar_filename: 王楷.avatar.jpg
 interests:
-  - swarm intelligence
-social:
-  - display:
-      header: false
-    link: " mailto contact at sjtu.edu.cn  "
-    icon: envelope
-    icon_pack: fas
+  - 群体智能
 superuser: false
 user_groups:
-  - Master Students
+  - 硕士生
 ---

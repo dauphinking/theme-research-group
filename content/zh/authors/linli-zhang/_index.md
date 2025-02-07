@@ -1,17 +1,12 @@
 ---
-title: Linli Zhang
-role: Phd student
+title: 张临骊
+role: 博士生
 avatar_filename: 张临骊.avatar.jpg
 bio: ""
 interests:
-  - AI
-social:
-  - display:
-      header: false
-    link: mailto contact at sjtu.edu.cn
-    icon_pack: fas
-    icon: envelope
+  - 人工智能
+
 superuser: false
 user_groups:
-  - Phd students
+  - 博士生
 ---

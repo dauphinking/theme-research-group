@@ -1,16 +1,10 @@
 ---
-title: Wanqing Zuo
-role: Master Student
+title: 左婉晴
+role: 硕士生
 avatar_filename: 左婉晴.avatar.jpg
 interests:
-  - Intelligent Transportation
-social:
-  - display:
-      header: false
-    link: mailto contact at sjtu.edu.cn
-    icon: envelope
-    icon_pack: fas
+  - 智能交通
 superuser: false
 user_groups:
-  - Master Students
+  - 硕士生
 ---

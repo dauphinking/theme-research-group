@@ -1,17 +1,10 @@
 ---
-title: Yaru Yu
-role: Phd Student
+title: 余雅茹
+role: 博士生
 avatar_filename: 余雅茹.avatar.jpg
 interests:
-  - Research on sliding mode control algorithm for online learning based on
-    input mapping method
-social:
-  - display:
-      header: false
-    link: mailto:contact@sjtu.edu.cn
-    icon_pack: fas
-    icon: envelope
+  - 基于输入映射方法的在线学习滑模控制算法研究
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

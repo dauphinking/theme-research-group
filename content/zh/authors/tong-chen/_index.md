@@ -1,16 +1,11 @@
 ---
-title: Tong Chen
-role: Phd Student
+title: 陈通
+role: 博士生
 avatar_filename: 陈通照片.avatar.jpg
 interests:
-  - Robot motion control
-social:
-  - display:
-      header: false
-    icon: envelope
-    icon_pack: fas
-    link: mailto contact at sjtu.edu.cn
+  - 机器人运动控制
+
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

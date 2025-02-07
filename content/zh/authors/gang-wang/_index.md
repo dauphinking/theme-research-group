@@ -1,16 +1,11 @@
 ---
-title: Gang Wang
-role: master
+title: 王刚
+role: 硕士
 avatar_filename: 王刚.avatar.jpg
 interests:
-  - Identification of the human skeleton behavior
-social:
-  - display:
-      header: false
-    link: "mailto contact at sjtu.edu.cn  "
-    icon_pack: fas
-    icon: " envelope"
+  - 计算机视觉
+
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

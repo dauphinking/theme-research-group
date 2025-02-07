@@ -1,9 +1,10 @@
 ---
-title: Guangyu Jiao
-role: master
+title: 焦广宇
+role: 硕士
 avatar_filename: 焦广宇.avatar.jpg
 interests:
-  - robot
+  - 机器人
+  - 荣耀上海
 social:
   - display:
       header: false
@@ -15,5 +16,5 @@ organizations:
     name: "Honor "
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

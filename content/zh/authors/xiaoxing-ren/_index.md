@@ -1,9 +1,10 @@
 ---
-title: Xiaoxing Ren
-role: Phd
+title: 任晓星
+role: 博士
 avatar_filename: 任晓星.avatar.jpg
 interests:
-  - Distributed optimization
+  - 分布式优化
+  - 英国帝国理工
 social:
   - display:
       header: false
@@ -15,5 +16,5 @@ organizations:
     url: https://profiles.imperial.ac.uk/xiaoxing.ren
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

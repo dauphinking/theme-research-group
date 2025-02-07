@@ -1,17 +1,11 @@
 ---
-title: Yu liu
-role: Master Student
+title: 刘钰
+role: 硕士生
 avatar_filename: 刘钰.avatar.jpg
 interests:
-  - Predictive control
-  - and iterative learning
-social:
-  - display:
-      header: false
-    link: "   mailto contact at sjtu.edu.cn "
-    icon: " envelope"
-    icon_pack: fas
+  - 预测控制
+  - 迭代学习
 superuser: false
 user_groups:
-  - Master Students
+  - 硕士生
 ---

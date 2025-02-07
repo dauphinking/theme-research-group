@@ -1,16 +1,11 @@
 ---
-title: Chen Zhang
-role: Phd Student
+title: 张辰
+role: 博士生
 avatar_filename: 张辰.avatar.jpg
 interests:
-  - Intelligent Transportation
-social:
-  - display:
-      header: false
-    link: mailto:contact at sjtu.edu.cn
-    icon_pack: fas
-    icon: envelopec
+  - 智能交通
+
 superuser: false
 user_groups:
-  - Phd Students
+  - 博士生
 ---

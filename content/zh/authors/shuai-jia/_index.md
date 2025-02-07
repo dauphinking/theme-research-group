@@ -1,9 +1,10 @@
 ---
-title: Shuai Jia
-role: PhD
+title: 贾帅
+role: 博士
 avatar_filename: 贾帅.avatar.jpg
 interests:
-  - artificial intelligence
+  - 人工智能
+  - 同花顺自营
 social:
   - display:
       header: false
@@ -12,5 +13,5 @@ social:
     icon: "  envelope"
 superuser: false
 user_groups:
-  - Alumni
+  - 已毕业
 ---

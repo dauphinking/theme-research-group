@@ -1,16 +1,10 @@
 ---
-title: Yibo Zhang
-role: Master Student
+title: 张一博
+role: 硕士生
 avatar_filename: 张一博-1-.avatar.jpg
 interests:
-  - computer vision
-social:
-  - display:
-      header: false
-    link: " mailto contact at sjtu.edu.cn"
-    icon: envelope
-    icon_pack: fas
+  - 计算机视觉
 superuser: false
 user_groups:
-  - Master Students
+  - 硕士生
 ---
