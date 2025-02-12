@@ -1,4 +1,5 @@
 ---
+weight: 2 
 title: 代智勇
 role: 合作工程师
 avatar_filename: avatar.png
