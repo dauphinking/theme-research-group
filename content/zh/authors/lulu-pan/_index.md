@@ -1,7 +1,7 @@
 ---
 weight: 6  # 设置数字，数字越小越靠前
 title: 潘鹿鹿
-role: 助理研究员
+role: 副研究员
 avatar_filename: avatar.jpg
 bio: ""
 interests:
