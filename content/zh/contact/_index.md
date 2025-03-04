@@ -11,6 +11,7 @@ sections:
         欢迎对CSC LAB感兴趣的本科/硕士/博士联系。   
         联系人姓名：吴怡君女士 邮箱：wyjzhang@sjtu.edu.cn
         电话（也可微信）：13918876465
+        
         实验室主任：李德伟教授 邮箱：dwli@sjtu.edu.cn
       email: dwli@sjtu.edu.cn
       phone: 0086-21-34204550
