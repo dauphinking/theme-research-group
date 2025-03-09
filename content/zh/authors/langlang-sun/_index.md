@@ -3,7 +3,8 @@ title: 孙浪浪
 role: 硕士生
 avatar_filename: 孙浪浪-1-.avatar.jpg
 interests:
-  - 移动机械臂情境交互感知控制
+  - 机器人
+  - 追觅机器人研发
 social:
   - display:
       header: false
@@ -12,5 +13,5 @@ social:
     icon: " envelope"
 superuser: false
 user_groups:
-  - 硕士生
+  - 已毕业
 ---
