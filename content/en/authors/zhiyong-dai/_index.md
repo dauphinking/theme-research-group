@@ -3,7 +3,7 @@ weight: 14
 title: Zhiyong DAI
 role: "Affiliate Engineer"
 avatar_filename: avatar.png
-bio: Zhiyong Dai is a faculty member in the Department of Information and Intelligent Engineering. He received his Ph.D. from East China University of Science and Technology. He has extensive industry experience, having served as a Senior AI Scientist at Honeywell Integrated Technology (China), Head of Perception Intelligence Research Group at Deep Blue Academy, and Senior Chief Perception Architect in Harman China's intelligent driving team. He has published multiple SCI papers in the field of visual perception with a total impact factor exceeding 30 and has been granted multiple global patents.
+bio: Zhiyong Dai received his Ph.D. from East China University of Science and Technology. He has extensive industry experience, having served as a Senior AI Scientist at Honeywell Integrated Technology (China), Head of Perception Intelligence Research Group at Deep Blue Academy, and Senior Chief Perception Architect in Harman China's intelligent driving team. He has published multiple SCI papers in the field of visual perception and has been granted multiple global patents.
 interests:
   - Visual Perception
   - Artificial Intelligence

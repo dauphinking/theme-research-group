@@ -9,9 +9,10 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: "AI视觉检测机器人"
-authors: ["Bihui JIN"]
+authors: ["Bihui JIN", "Zhiyong DAI"]
 tags:
   - Robot
+  - AI
 links: []
 image:
   caption: 项目图片

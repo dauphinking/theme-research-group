@@ -9,6 +9,20 @@ sections:
       subtitle: Pioneering the Future of Control and Robotics
       text: 'Welcome to our research hub, where innovation meets excellence. Our interdisciplinary team is dedicated to pushing the boundaries of technological advancement across multiple domains. Discover our groundbreaking research initiatives and transformative projects in the sections below.'
    
+  
+  - id: robot
+    block: markdown
+    content:
+      title: Autonomous Robots
+      subtitle: 
+      text: |
+        [↓ View Related Projects](/en/project/#projects)
+
+        Our autonomous robotics research focuses on developing intelligent robots that can operate independently in complex environments. Our key research areas include:
+        - Robot Perception and Scene Understanding
+        - Motion Planning and Control
+        - Multi-Robot Coordination
+
   - id: predictive-control
     block: markdown
     content:
@@ -31,19 +45,6 @@ sections:
           * Embedded System MPC Optimization and Implementation
           * Distributed Robotic MPC
 
-  - id: robot
-    block: markdown
-    content:
-      title: Autonomous Robots
-      subtitle: 
-      text: |
-        [↓ View Related Projects](/en/project/#projects)
-
-        Our autonomous robotics research focuses on developing intelligent robots that can operate independently in complex environments. Our key research areas include:
-        - Robot Perception and Scene Understanding
-        - Motion Planning and Control
-        - Multi-Robot Coordination
-
   - id: traffic
     block: markdown
     content:
@@ -60,7 +61,7 @@ sections:
         - Unmanned Systems and 3D Transportation
 
   - block: portfolio
-    id: projects    # 添加 ID 作为锚点
+    id: projects
     content:
       title: Research Projects
       subtitle: Our main research projects
@@ -71,16 +72,15 @@ sections:
         exclude_folders:
           - publication
       buttons:
-        - name: Predictive Control
-          tag: 'Predictive Control'
-          url: '#projects'    # 添加链接到锚点
         - name: Autonomous Robot
           tag: 'Robot'
-          url: '#projects'    # 添加链接到锚点
+          url: '#projects'
+        - name: Predictive Control
+          tag: 'Predictive Control'
+          url: '#projects'
         - name: Intelligent Transport
           tag: 'Traffic'
-          url: '#projects'    # 添加链接到锚点
-      
+          url: '#projects'
     design:
       columns: '1'
       view: showcase

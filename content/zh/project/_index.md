@@ -6,9 +6,27 @@ sections:
   - block: markdown
     content:
       title: 研究领域
-      subtitle: 引领智能控制/AI机器人/复杂系统的融合
+      subtitle: 预测控制/自主机器人/智能交通
       text: 欢迎来到创新与卓越交融的实验室。我们拥有一支跨学科的顶尖团队，致力于在机器人/智能控制/交通系统的融合创新。请探索以下内容，了解我们的开创性研究计划与变革性项目，共同见证技术革新的力量。实验室不定期提供研究实习课题，长期欢迎优秀的本科/研究生邮件联系。 
-   
+
+  - id: robot
+    block: markdown
+    content:
+      title: 自主机器人
+      subtitle: 
+      text: |
+        [↓ 查看相关项目](#projects)
+
+        我们的自主机器人研究专注于开发能够在复杂环境中独立操作的智能机器人。主要研究领域包括：
+        - 机器人感知与场景理解
+        - 运动规划与控制
+        - 多机器人协调
+    design:
+      columns: '2'
+    filters:
+      tags:
+        - 'Robot'
+
   - id: predictive-control
     block: markdown
     content:
@@ -37,24 +55,6 @@ sections:
       tags: 
         - 'Predictive Control'  
     
-  
-  - id: robot
-    block: markdown
-    content:
-      title: 自主机器人
-      subtitle: 
-      text: |
-        [↓ 查看相关项目](#projects)
-
-        我们的自主机器人研究专注于开发能够在复杂环境中独立操作的智能机器人。主要研究领域包括：
-        - 机器人感知与场景理解
-        - 运动规划与控制
-        - 多机器人协调
-    design:
-      columns: '2'
-    filters:
-      tags:
-        - 'Robot'
 
   - id: traffic
     block: markdown
@@ -86,10 +86,10 @@ sections:
         folders:
           - project
       buttons:
-        - name: 模型预测控制
-          tag: 'Predictive Control'
         - name: 自主机器人
           tag: 'Robot'
+        - name: 模型预测控制
+          tag: 'Predictive Control'
         - name: 智能交通
           tag: 'Traffic'
     design:

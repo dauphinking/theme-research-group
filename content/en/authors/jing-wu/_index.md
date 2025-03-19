@@ -1,5 +1,6 @@
 ---
 weight: 3 # 设置数字，数字越小越靠前
+draft: false  # 设置为false表示显示该页面
 title: Jing WU
 role: Researcher
 avatar_filename: avatar.jpg
