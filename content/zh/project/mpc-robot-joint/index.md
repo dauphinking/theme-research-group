@@ -9,6 +9,7 @@ date: '2024-01-31'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
+authors: ["Bihui JIN"]
 
 image:
   caption: 智能电控模组
@@ -39,14 +40,6 @@ slides: ""
 - **深度算力**
 - **预测性维护智能控制**
 
-## 智能电控模组应用
-
-### 智能协作臂市场
-
-- AI 关节自研驱控
-- 高性价比
-- 教学消费场景
-- 支持深度学习
 
 ## 独特技术壁垒 - 高性价比高动态性能的 AI 电控芯片
 
@@ -62,8 +55,11 @@ slides: ""
 - **该芯片可作为工业互联网基础模块**
 - **支撑语音/视觉等传感器深度分析**
 
-### **核心技术 - MPFOC 电控模组**
-
-- **市面 PID 电控** vs **深度智能 MPFOC**
-
-> 图片待更新 
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1;">
+    {{< figure src="/media/controller.png" title="控制器设计" >}}
+  </div>
+  <div style="flex: 1;">
+    {{< figure src="/media/jointcontrollertest.png" title="关节控制器测试" >}}
+  </div>
+</div> 
