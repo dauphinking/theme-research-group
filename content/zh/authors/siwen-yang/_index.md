@@ -6,5 +6,5 @@ interests:
   - 智能交通
 superuser: false
 user_groups:
-  - 硕士生
+  - 已毕业硕士生
 ---

@@ -15,5 +15,5 @@ organizations:
     url: https://profiles.imperial.ac.uk/xiaoxing.ren
 superuser: false
 user_groups:
-  - Alumni
+  - PhD Alumni
 ---

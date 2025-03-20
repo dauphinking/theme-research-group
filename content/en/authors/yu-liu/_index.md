@@ -4,7 +4,6 @@ role: Master Student
 avatar_filename: 刘钰.avatar.jpg
 interests:
   - Predictive control
-  - and iterative learning
 social:
   - display:
       header: false

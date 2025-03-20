@@ -13,5 +13,5 @@ social:
     icon: "  envelope"
 superuser: false
 user_groups:
-  - 已毕业
+  - 已毕业博士
 ---

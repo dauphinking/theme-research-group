@@ -5,7 +5,7 @@ role: 主任工程师
 avatar_filename: avatar.jpg
 interests:
   - 先进控制系统
-  - 能源与AI交易
+  - 能源与量化交易
 
 social:
   - display:

@@ -3,7 +3,7 @@ title: MPC-Driven Integrated Robot Joint
 summary: Pioneering the global application of non-von Neumann architecture for high-performance intelligent motor control modules, achieving optimal dynamic motor control performance.
 tags:
   - Robot
-  - MPC
+  - Predictive Control
   - Intelligent Control
 date: '2024-01-31'
 

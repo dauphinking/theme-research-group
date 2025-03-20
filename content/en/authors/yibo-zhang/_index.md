@@ -12,5 +12,5 @@ social:
     icon_pack: fas
 superuser: false
 user_groups:
-  - Master Students
+  - Master Alumni
 ---

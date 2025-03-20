@@ -1,10 +1,10 @@
 ---
-title: 王楷
+title: 谢盈曦
 role: 硕士生
-avatar_filename: 王楷.avatar.jpg
+avatar_filename: avatar.jpg
 interests:
-  - 群体智能
+  - 工业预测控制
 superuser: false
 user_groups:
   - 硕士生
----
+--- 

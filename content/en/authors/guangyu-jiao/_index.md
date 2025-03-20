@@ -15,5 +15,5 @@ organizations:
     name: "Honor "
 superuser: false
 user_groups:
-  - Alumni
+  - Master Alumni
 ---

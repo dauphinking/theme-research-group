@@ -13,5 +13,5 @@ social:
     icon_pack: fas
 superuser: false
 user_groups:
-  - 已毕业
+  - 已毕业硕士
 ---

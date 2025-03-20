@@ -19,6 +19,7 @@ sections:
         [↓ View Related Projects](/en/project/#projects)
 
         Our autonomous robotics research focuses on developing intelligent robots that can operate independently in complex environments. Our key research areas include:
+        - MPC Control for Embodied Robots
         - Robot Perception and Scene Understanding
         - Motion Planning and Control
         - Multi-Robot Coordination
