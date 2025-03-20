@@ -48,15 +48,11 @@ header:
 # Site footer
 
 footer:
-  block:  footer_drops
+  block: footer_drops
   show_translations: true
   copyright:
-    notice: '© {year} SJTU CSC Lab. This work is licensed under {license}'
-    license:
-      enable: false
-      allow_derivatives: false
-      share_alike: false
-      allow_commercial: false
+    notice: >-
+      © {year} CSC Lab. This work is licensed under {license}
 
 # Localization
 

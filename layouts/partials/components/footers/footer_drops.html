@@ -3,6 +3,57 @@
 {{ $EUImage := resources.GetMatch "media/partner/nsfc.jpg" }}
 {{ $BMBFImage := resources.GetMatch "media/partner/most.png" }}
 
+<style>
+.partner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.partner-block {
+  text-align: center;
+  flex: 0 1 auto;
+  margin: 0 1rem;
+}
+
+.partner-logo {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.funder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.funder-block {
+  text-align: center;
+  flex: 0 1 auto;
+  margin: 0 1rem;
+}
+
+.funder-logo {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.partner-desc {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  max-width: 200px;
+}
+</style>
 
 <!-- <p id="partners" class="partner-container justify-content-center"> -->
   
@@ -12,6 +63,16 @@
   <div class="partner-block">
   <a href="https://www.seiee.sjtu.edu.cn/" target="_blank"><img class="partner-logo" src="{{ $KITImage.RelPermalink }}" /></a>
   <span class="partner-desc"><a href="https://www.seiee.sjtu.edu.cn/" target="_blank">SEIEE</a></span>
+  </div>
+  <div class="partner-block">
+  <a href="http://www.scip.sjtu.edu.cn/" target="_blank"><img class="partner-logo" src="/media/logoedu.png" /></a>
+  <span class="partner-desc"><a href="http://www.scip.sjtu.edu.cn/" target="_blank">
+  {{ if eq .Lang "zh" }}
+    系统控制与信息处理教育部重点实验室
+  {{ else }}
+    SCIP MoE Key Lab
+  {{ end }}
+  </a></span>
   </div>
 </div>
 <!-- <p id="funders" class="d-flex justify-content-center"> -->
