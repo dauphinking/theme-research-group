@@ -19,7 +19,7 @@ zh:
   languageCode: zh-cn
   languageName: 中文
   contentDir: content/zh
-  title: SJTU CSCLab
+  title: 上海交大 CSCLab
   weight: 2
   params:
     description: 致力于模型预测控制及领域应用的前沿实验室
