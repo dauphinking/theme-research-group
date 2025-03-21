@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://csc-lab.com/zh/sitemap.xml 

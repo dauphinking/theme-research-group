@@ -1,0 +1,146 @@
+{{ define "main" }}
+
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+</div>
+
+<div class="article-container">
+  {{ .Content }}
+
+  {{ range .Params.gallery_categories }}
+  <div class="gallery-section mb-5">
+    <h2 class="mb-4">{{ .title }}</h2>
+    <p class="text-muted">{{ .description }}</p>
+    
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      {{ $files := readDir (printf "static/media/%s" .name) }}
+      {{ range $files }}
+        {{ if or (eq (path.Ext .Name) ".jpg") (eq (path.Ext .Name) ".png") (eq (path.Ext .Name) ".jpeg") }}
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="{{ printf "/media/%s/%s" $.Params.gallery_categories.name .Name }}" 
+                 class="card-img-top" 
+                 alt="{{ .Name }}"
+                 loading="lazy"
+                 data-caption="{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}">
+            <div class="card-body">
+              <p class="card-text">{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}</p>
+              <p class="card-text"><small class="text-muted">{{ .ModTime.Format "2006-01-02" }}</small></p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+<!-- Load Masonry -->
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" 
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" 
+        crossorigin="anonymous" 
+        async></script>
+
+<!-- Load PhotoSwipe -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<!-- PhotoSwipe HTML -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.gallery-section img {
+  transition: transform 0.3s ease;
+}
+.gallery-section img:hover {
+  transform: scale(1.02);
+}
+.card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var galleries = document.querySelectorAll('.gallery-section');
+  
+  galleries.forEach(function(gallery) {
+    var images = gallery.querySelectorAll('img');
+    var items = [];
+    
+    images.forEach(function(img, index) {
+      img.onclick = function(e) {
+        e.preventDefault();
+        openPhotoSwipe(index, items, gallery);
+      };
+      
+      items.push({
+        src: img.src,
+        w: img.naturalWidth,
+        h: img.naturalHeight,
+        title: img.getAttribute('data-caption')
+      });
+    });
+  });
+});
+
+function openPhotoSwipe(index, items, galleryElement) {
+  var pswpElement = document.querySelector('.pswp');
+  var options = {
+    index: index,
+    bgOpacity: 0.9,
+    showHideOpacity: true,
+    shareButtons: [
+      {id:'download', label:'下载图片', url:'{{raw_url}}', download:true}
+    ]
+  };
+  
+  var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+</script>
+
+{{ end }} 

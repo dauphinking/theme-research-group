@@ -1,22 +1,22 @@
 # 导航链接
 main:
   - name: 首页
-    url: tour
+    url: /
     weight: 10
   - name: 新闻
     url: post
     weight: 20
-  - name: 团队
+  - name: 成员
     url: people
     weight: 30
-  - name: 项目
-    url: project
-    weight: 40
   - name: 论文
     url: publication
+    weight: 40
+  - name: 相册
+    url: gallery
     weight: 50
   - name: 联系
-    url:  contact
+    url: contact
     weight: 60 
 
 
