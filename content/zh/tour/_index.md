@@ -7,7 +7,7 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 👋 欢迎来到复杂系统控制实验室
+        - title: 👋 欢迎来到上海交大复杂系统控制实验室
           content: '[了解我们的研究方向和最新进展...](/zh/project/)'
           align: center
           background:
@@ -18,7 +18,7 @@ sections:
             position: right
             color: '#666'
         - title: 研究领域 ⚡️
-          content: '模型预测控制、自主机器人及智慧交通'
+          content: '探索我们的[前沿研究项目](/zh/project/)和技术创新'
           align: left
           background:
             image:
@@ -28,7 +28,7 @@ sections:
             position: center
             color: '#555'
         - title: 加入我们 🌎
-          content: '[欢迎优秀的博后/研究生加入我们的团队](/zh/contact/)'
+          content: '[欢迎优秀的博后/研究生/本科生加入我们的团队](/zh/contact/)'
           align: right
           background:
             image:

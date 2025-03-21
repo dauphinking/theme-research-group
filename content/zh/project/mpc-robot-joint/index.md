@@ -63,38 +63,3 @@ slides: ""
     {{< figure src="/media/jointcontrollertest.png" title="关节控制器测试" >}}
   </div>
 </div>
-
-## 研究领域
-
-预测控制/自主机器人/智能交通
-
-欢迎来到创新与卓越交融的实验室。我们拥有一支跨学科的团队，致力于在机器人/预测控制/智慧交通领域的创新。请探索以下内容，了解我们的开创性研究计划与项目，共同见证技术革新的力量。实验室不定期提供研究实习课题，长期欢迎优秀的本科/研究生邮件联系。
-
-## 赞助商和合作伙伴
-
-在研究领域和自主机器人中，我们与以下机构合作：
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <img src="/media/logos/hkust.png" alt="香港科技大学" style="width: 100px;">
-  <img src="/media/logos/purdue.png" alt="普度大学" style="width: 100px;">
-  <img src="/media/logos/tongji.png" alt="同济大学" style="width: 100px;">
-  <img src="/media/logos/delft.png" alt="代尔夫特理工" style="width: 100px;">
-  <img src="/media/logos/buct.png" alt="北京化工大学" style="width: 100px;">
-  <img src="/media/logos/csu.png" alt="中南大学" style="width: 100px;">
-  <img src="/media/logos/dlut.png" alt="大连理工" style="width: 100px;">
-  <img src="/media/logos/cnpc.png" alt="中石油" style="width: 100px;">
-  <img src="/media/logos/sinopec.png" alt="中石化" style="width: 100px;">
-  <img src="/media/logos/baosteel.png" alt="宝钢股份" style="width: 100px;">
-  <img src="/media/logos/midea.png" alt="美的集团" style="width: 100px;">
-  <img src="/media/logos/shanghai-electric.png" alt="上海电气" style="width: 100px;">
-  <img src="/media/logos/cg-environment.png" alt="中金环境" style="width: 100px;">
-  <img src="/media/logos/cssc.png" alt="中船工业" style="width: 100px;">
-  <img src="/media/logos/norinco.png" alt="中国兵器" style="width: 100px;">
-  <img src="/media/logos/centrale-nantes.png" alt="南特中央理工" style="width: 100px;">
-  <img src="/media/logos/bd-data.png" alt="碧帝数科" style="width: 100px;">
-  <img src="/media/logos/jingrui-vision.png" alt="精锐视觉" style="width: 100px;">
-  <img src="/media/logos/aviation-industry.png" alt="中航工业" style="width: 100px;">
-  <img src="/media/logos/comac.png" alt="中国商飞" style="width: 100px;">
-</div>
-
-<!-- Logos will be displayed here --> 

@@ -7,7 +7,7 @@ bio: 徐云雯是上海交通大学自动化系副研究员。她在上海交通
 interests:
   - 智能交通
   - 嵌入式预测控制
-  - 复杂系统智能控制
+  - 自动驾驶
 social:
   - icon: envelope
     icon_pack: fas
