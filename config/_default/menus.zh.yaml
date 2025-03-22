@@ -9,14 +9,17 @@ main:
   - name: 成员
     url: people
     weight: 30
+  - name: 项目
+    url: project
+    weight: 40
   - name: 论文
     url: publication
-    weight: 40
+    weight: 50
   - name: 相册
     url: gallery
-    weight: 50
+    weight: 60
   - name: 联系
     url: contact
-    weight: 60 
+    weight: 70 
 
 

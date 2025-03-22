@@ -1,0 +1,122 @@
+{{- define "main" -}}
+
+{{/* Contact widget */}}
+{{ $page := . }}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-lg-8">
+      {{/* Main content */}}
+      <div class="article-style">
+        {{ with $page.Content }}{{ . }}{{ end }}
+      </div>
+
+      {{ $contact_widget := .Params.contact }}
+      {{ $autolink := default true $contact_widget.autolink }}
+      {{ $contact_links := .Params.contact.contact_links }}
+
+      {{ with $contact_links }}
+      <div class="contact-links">
+        {{ range . }}
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+            {{ $pack_prefix = "fa" }}
+          {{ end }}
+          {{ $link := .link }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if not $scheme }}
+            {{ $link = .link | relLangURL }}
+          {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <div class="contact-link">
+            <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x"></i>
+            {{with .name}}<span>{{ . | markdownify | emojify }}</span>{{end}}
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+              {{with .link_title}}{{ . | markdownify | emojify }}{{end}}
+            </a>
+          </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="col-12 col-lg-4">
+      {{/* QR Code Section */}}
+      <div class="qrcode-section">
+        <h3>关注我们的公众号</h3>
+        <div class="qrcode-card">
+          <img src="{{ relURL "/media/qrcode.jpg" }}" alt="WeChat QR Code" class="qrcode-image">
+          <p class="qrcode-description">扫描二维码，关注SJTU CSC Lab公众号，获取最新实验室动态</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.contact-links {
+  margin-top: 2rem;
+}
+
+.contact-link {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-link i {
+  color: #07C160;
+  min-width: 2rem;
+}
+
+.contact-link span {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.qrcode-section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+
+.qrcode-section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.qrcode-card {
+  text-align: center;
+}
+
+.qrcode-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.qrcode-description {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .qrcode-section {
+    margin-top: 3rem;
+  }
+}
+</style>
+
+{{- end -}} 

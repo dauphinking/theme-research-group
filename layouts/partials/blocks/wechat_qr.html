@@ -1,0 +1,75 @@
+{{/* WeChat QR Code Sidebar Widget */}}
+
+<div class="wechat-sidebar">
+  <div class="wechat-card">
+    <h3>关注我们的公众号</h3>
+    <div class="qr-wrapper">
+      <img src="{{ relURL "/media/qrcode.jpg" }}" alt="WeChat QR Code" class="qr-image">
+    </div>
+    <p class="qr-description">扫描二维码，关注SJTU CSC Lab公众号</p>
+    <p class="qr-subtitle">获取最新实验室动态</p>
+  </div>
+</div>
+
+<style>
+.wechat-sidebar {
+  position: sticky;
+  top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wechat-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.wechat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.wechat-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.qr-wrapper {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 0 auto 1rem;
+  width: fit-content;
+}
+
+.qr-image {
+  width: 180px;
+  height: 180px;
+  display: block;
+}
+
+.qr-description {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.qr-subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  .wechat-sidebar {
+    position: static;
+    margin: 2rem auto;
+    max-width: 400px;
+  }
+}
+</style> 

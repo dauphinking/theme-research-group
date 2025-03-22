@@ -1,0 +1,172 @@
+{{ $current_page := . }}
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        {{/* Copyright */}}
+        <div class="footer-copyright">
+          {{ with site.Params.footer.copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center">
+        {{/* WeChat QR Code */}}
+        {{ with site.Params.footer.social }}
+        <div class="footer-social">
+          {{ range . }}
+            {{ if eq .icon "wechat" }}
+            <div class="wechat-container">
+              <div class="wechat-icon">
+                <i class="fab fa-weixin fa-2x"></i>
+                <div style="margin-top: 5px; font-weight: 500;">关注我们</div>
+              </div>
+              <div class="wechat-qrcode">
+                <img src="{{ relURL .qrcode }}" alt="WeChat QR Code" style="width: 150px; height: 150px;">
+                <div class="qrcode-caption">
+                  {{ with .description }}{{ . | markdownify }}{{ end }}
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="col-md-4 text-right">
+        <div class="footer-links">
+          <a href="{{ relURL "contact" }}">联系我们</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+.site-footer {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+}
+
+.footer-social {
+  padding: 10px 0;
+}
+
+.wechat-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.wechat-container:hover {
+  background-color: #e8f7ed;
+}
+
+.wechat-icon {
+  color: #07C160;
+  transition: transform 0.3s ease;
+}
+
+.wechat-container:hover .wechat-icon {
+  transform: translateY(-2px);
+}
+
+.wechat-qrcode {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  z-index: 1000;
+  text-align: center;
+  width: 180px;  /* 固定宽度 */
+}
+
+.wechat-qrcode img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.wechat-qrcode:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+}
+
+.wechat-container:hover .wechat-qrcode {
+  display: block;
+  animation: fadeInUp 0.3s ease;
+}
+
+.qrcode-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #07C160;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    text-align: center !important;
+    margin-bottom: 1rem;
+  }
+  
+  .wechat-qrcode {
+    bottom: 70px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 确保二维码不会超出视口
+  const qrcodes = document.querySelectorAll('.wechat-qrcode');
+  qrcodes.forEach(qrcode => {
+    const rect = qrcode.getBoundingClientRect();
+    if (rect.right > window.innerWidth) {
+      qrcode.style.right = (rect.right - window.innerWidth + 10) + 'px';
+    }
+  });
+});
+</script> 
