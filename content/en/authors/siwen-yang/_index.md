@@ -4,6 +4,7 @@ role: Master Student
 avatar_filename: 杨思文.avatar.jpg
 interests:
   - Intelligent Transportation
+  - Purdue University
 social:
   - display:
       header: false
