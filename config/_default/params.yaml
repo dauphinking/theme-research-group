@@ -148,3 +148,27 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
+  # Add new optimizations
+  exif:
+    disableDate: true
+    disableLatLong: true
+  # Enable image processing cache
+  cache:
+    enable: true
+    dir: ":resourceDir/_gen"
+    maxAge: "720h"
+  # Responsive image settings
+  sizes: [300, 500, 800, 1200]
+  # Enable lazy loading
+  lazyload: true
+  # Progressive image loading
+  progressive: true
+  # Compression settings
+  compress:
+    quality: "auto"
+    target:
+      - "image/jpeg"
+      - "image/png"
+      - "image/webp"
+  # Convert images to WebP format
+  format: "webp"
