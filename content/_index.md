@@ -14,9 +14,9 @@ sections:
       text: |
         <br>
         
-        上海交通大学复杂系统控制实验室由金碧辉教授领导，致力于模型预测控制(MPC)等前沿研究。
+        上海交通大学复杂系统控制实验室由李德伟教授领导，致力于机器人和模型预测控制(MPC)等前沿研究。
         
-        Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Bihui Jin, focuses on Model Predictive Control (MPC) research.
+        Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Dewei LI, focuses on Robots and Model Predictive Control (MPC) research.
 
   - block: markdown
     content:
