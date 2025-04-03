@@ -1,7 +1,7 @@
 ---
-title: 研究项目
+title: 研究
 type: landing
-translationKey: project
+translationKey: research
 sections:
   - block: markdown
     content:
@@ -104,7 +104,5 @@ sections:
       columns: '1'
       view: showcase
       flip_alt_rows: false
-
-
 
 ---

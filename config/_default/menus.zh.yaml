@@ -9,9 +9,12 @@ main:
   - name: 成员
     url: people
     weight: 30
-  - name: 项目
+  - name: 研究
     url: project
     weight: 40
+  - name: 项目
+    url: projects
+    weight: 45
   - name: 论文
     url: publication
     weight: 50

@@ -56,19 +56,17 @@ user_groups:
 10. **Prototype System Research on Collaborative Optimization Control of Urban Traffic Networks:** Shanghai Science and Technology Innovation Plan
 11. **Theory and Methods of Human-Machine-Object Collaborative Control and Decision-making in Complex Manufacturing Environments:** Guangdong Province Key R&D Plan Project
 
-
-
 ## Awards and Honors
 
-* **2011:** Shanghai Excellent Doctoral Dissertation Award
-* **2016:** Chinese Association of Automation Natural Science First Prize
-* **2017:** National Natural Science Second Prize
+* **2011:** Shanghai Excellent Doctoral Dissertation Award, Research on Online Optimization Strategies for Predictive Control
+* **2016:** Chinese Association of Automation Natural Science First Prize, Distributed Predictive Control Theory and Methods for Networked Large-scale Systems
+* **2017:** National Natural Science Second Prize, Research on Principles and System Design of Predictive Control
 * **2017:** Shanghai Jiao Tong University Research Achievement Second Prize
 * **2018:** Shanghai Jiao Tong University Research Achievement First Prize
-* **2021:** Chinese Association of Automation Technology Invention Second Prize
-* **2022:** China Invention Association Innovation and Entrepreneurship First Prize
-* **2022:** Shanghai Science and Technology Progress First Prize
-* **2021:** China Association for Science and Technology Excellent Paper Award
+* **2021:** Chinese Association of Automation Technology Invention Second Prize, Research and Application of Key Control Technologies for Rapid Frequency Modulation of Large Thermal Power Units
+* **2021:** China Association for Science and Technology Excellent Paper Award, Metro Energy-saving Optimization Control Algorithm Using Predictive Control
+* **2022:** China Invention Association Innovation and Entrepreneurship First Prize, Research and Application of Key Control Technologies for Rapid Frequency Modulation of Large Thermal Power Units
+* **2022:** Shanghai Science and Technology Progress First Prize, Key Technologies and Applications for Process Operation Optimization in Typical Process Industries
 
 ## Courses Taught
 

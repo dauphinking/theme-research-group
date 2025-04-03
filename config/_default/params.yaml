@@ -20,8 +20,8 @@ marketing:
     site_type: Organization
     local_business_type: 'Research'
     org_name: 'SJTU CSC Lab'
-    description: '上海交通大学复杂系统控制实验室由金碧辉教授领导，致力于模型预测控制(MPC)等前沿研究。Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Bihui Jin, focuses on Model Predictive Control (MPC) research.'
-    keywords: ['上海交通大学机器人', '上海交通大学金碧辉', 'SJTU CSC Lab', '复杂系统控制', 'Prof. Bihui Jin', '模型预测控制', 'Model Predictive Control', 'MPC', 'Complex Systems Control']
+    description: '上海交通大学复杂系统控制实验室由李德伟教授领导，致力于模型预测控制(MPC)等前沿研究。Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Bihui Jin, focuses on Model Predictive Control (MPC) research.'
+    keywords: ['上海交通大学机器人', '上海交通大学金碧辉', 'SJTU CSC Lab', '复杂系统控制', 'Prof. Dewei LI', '模型预测控制', 'Model Predictive Control', 'MPC', 'Complex Systems Control']
   analytics:
     google_analytics: ''
     baidu_tongji: ''
