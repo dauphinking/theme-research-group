@@ -7,7 +7,7 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 👋 欢迎来到上海交大复杂系统控制实验室
+        - title: 👋 欢迎来到上海交大复杂系统智能控制实验室
           content: '[了解我们的研究方向和最新进展...](/zh/project/)'
           align: center
           background:
