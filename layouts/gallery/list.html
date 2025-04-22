@@ -26,6 +26,9 @@
                  loading="lazy"
                  decoding="async"
                  data-caption="{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}">
+            <div class="card-footer">
+              <p class="card-text text-center mb-0">{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}</p>
+            </div>
           </div>
         </div>
         {{ end }}
@@ -91,7 +94,7 @@
   cursor: pointer;
   width: 100%;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;  /* Rounded corners only on top */
 }
 
 /* 设备图片特殊样式 */
@@ -118,6 +121,19 @@
   margin-bottom: 1.5rem;
   border: none;
   background: none;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding: 8px;
+  border-radius: 0 0 4px 4px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
 }
 
 .card:hover {
