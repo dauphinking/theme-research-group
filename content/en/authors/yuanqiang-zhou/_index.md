@@ -1,9 +1,9 @@
 ---
 title: Yuanqiang Zhou
 role: Researcher
-avatar_filename: avatar.jpg
+avatar_filename: avatar.png
 interests:
-  - Process Control and Decision-Making
+  - Tongji University
   - Learning and Optimization
   - Machine Learning
 social:

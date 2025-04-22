@@ -1,11 +1,10 @@
 ---
 title: 周远强
 role: 研究员
-avatar_filename: avatar.jpg
+avatar_filename: avatar.png
 interests:
-  - 过程控制与决策
-  - 学习与优化
-  - 机器学习
+  - 同济大学
+  - 研究员
 social:
   - display:
       header: false
