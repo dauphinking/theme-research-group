@@ -1,6 +1,6 @@
 ---
 title: "Launch Meeting of the National Key R&D Program 'Key Technologies and Equipment for Coal Conversion Process Closed-Loop Control System' Held at Shanghai Jiao Tong University"
-date: 2025-04-29T07:45:00.000Z
+date: 2025-04-28T07:45:00.000Z
 draft: false
 featured: false
 image:
