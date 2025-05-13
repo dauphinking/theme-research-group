@@ -1,6 +1,6 @@
 ---
 title: Postdoctoral Positions Available at Complex Systems and Control Laboratory, Shanghai Jiao Tong University
-date: 2025-01-05T17:08:00.000Z
+date: 2025-04-29T17:08:00.000Z
 draft: false
 featured: false
 authors: ["Dewei LI"]
@@ -55,7 +55,7 @@ We are currently seeking 2-4 postdoctoral researchers to join our team. Research
 
 2. Application Method: Combine all application materials into one PDF file and send to dwli@sjtu.edu.cn with the subject line "Postdoc Application + Name + Research Direction"
 
-3. Deadline: Applications will be accepted until June 2025 or until positions are filled. Early application is encouraged.
+3. Deadline: This recruitment is open on a long-term basis. Early application is encouraged.
 
 ### Contact Information
 

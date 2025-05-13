@@ -12,9 +12,7 @@ social:
     link: mailto:bihui.jin@alumni.polytechnique.edu
     icon_pack: fas
     icon: envelope
-organizations:
-  - name: Shanghai Bidi Technology Co., Ltd.
-    url: https://www.biditech.cn
+
 education:
   courses:
     - course: M.S. in renewable energy

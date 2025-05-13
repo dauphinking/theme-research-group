@@ -13,9 +13,6 @@ social:
     link: mailto:bihui.jin@gmail.com
     icon_pack: fas
     icon: envelope
-organizations:
-  - name: Biditech
-    url: https://www.biditech.cn
 education:
   courses:
     - course: 可再生能源科技硕士
