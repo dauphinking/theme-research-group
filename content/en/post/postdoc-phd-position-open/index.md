@@ -1,6 +1,6 @@
 ---
 title: Postdoctoral Positions Available at Complex Systems and Control Laboratory, Shanghai Jiao Tong University
-date: 2025-04-29T17:08:00.000Z
+date: 2025-05-19T17:08:00.000Z
 draft: false
 featured: false
 authors: ["Dewei LI"]
