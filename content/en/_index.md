@@ -25,7 +25,7 @@ sections:
       title: ""
       text: |
         <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
-          <strong>📰 News:</strong> Lab's paper on flexible robots accepted by TASE
+          <strong>📰 News:</strong> Lab's paper on flexible robots accepted by TASE <span style="color: #666; font-size: 0.9em;">(June 2025)</span>
         </div>
     design:
       columns: '1'

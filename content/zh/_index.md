@@ -19,6 +19,16 @@ sections:
         gradient_start: '#004ba0'
         text_color_light: true
   
+  - block: markdown
+    content:
+      title: ""
+      text: |
+        <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
+          <strong>📰 快讯:</strong> 实验室关于柔性机器人的论文被 TASE 期刊接收 <span style="color: #666; font-size: 0.9em;">(2025年6月)</span>
+        </div>
+    design:
+      columns: '1'
+  
   - block: collection
     id: posts
     content:
