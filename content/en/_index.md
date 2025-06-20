@@ -28,6 +28,9 @@ sections:
         </div>
     design:
       columns: '1'
+      background:
+        color: 'white'
+        text_color_light: false
 
   - block: collection
     id: posts
