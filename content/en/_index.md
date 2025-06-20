@@ -22,15 +22,13 @@ sections:
   
   - block: markdown
     content:
+      title: ""
       text: |
-        <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #007bff; margin-bottom: 20px;">
-          <small>📰 <strong>News:</strong> Lab's paper on flexible robots accepted by TASE</small>
+        <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
+          <strong>📰 News:</strong> Lab's paper on flexible robots accepted by TASE
         </div>
     design:
       columns: '1'
-      background:
-        color: 'white'
-        text_color_light: false
 
   - block: collection
     id: posts

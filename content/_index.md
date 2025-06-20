@@ -33,15 +33,13 @@ sections:
 
   - block: markdown
     content:
+      title: ""
       text: |
-        <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #007bff; margin-bottom: 20px;">
-          <small>📰 <strong>快讯：</strong>实验室关于柔性机器人的论文被 TASE 期刊接收</small>
+        <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
+          <strong>📰 快讯：</strong>实验室关于柔性机器人的论文被 TASE 期刊接收
         </div>
     design:
       columns: '1'
-      background:
-        color: 'white'
-        text_color_light: false
 
   - block: collection
     content:
