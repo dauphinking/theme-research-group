@@ -22,12 +22,12 @@ sections:
   
   - block: markdown
     content:
-      title: Good News
       text: |
-        Congratulations to the lab! One of our papers on flexible robots has been accepted by *IEEE Transactions on Automation Science and Engineering* (TASE).
+        <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #007bff; margin-bottom: 20px;">
+          <small>📰 <strong>News:</strong> Lab's paper on flexible robots accepted by TASE</small>
+        </div>
     design:
       columns: '1'
-      css_class: 'text-center'
 
   - block: collection
     id: posts

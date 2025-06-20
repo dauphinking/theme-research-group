@@ -33,12 +33,12 @@ sections:
 
   - block: markdown
     content:
-      title: 喜报
       text: |
-        祝贺实验室关于柔性机器人的一篇论文被 *IEEE Transactions on Automation Science and Engineering* (TASE) 接收！
+        <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #007bff; margin-bottom: 20px;">
+          <small>📰 <strong>快讯：</strong>实验室关于柔性机器人的论文被 TASE 期刊接收</small>
+        </div>
     design:
       columns: '1'
-      css_class: 'text-center'
 
   - block: collection
     content:
