@@ -45,7 +45,7 @@ sections:
         | Key Technologies and Equipment for Fully Autonomous Welding of Large Ship Multi-segment Dual-arm Robots | National 863 Program | Dewei LI | 2018-2021 |
         | Active Security Control and Self-healing Optimization of Smart Grid with Distributed Energy Access | National Natural Science Foundation Project | Jing WU | 2019-2022 |
         | Stochastic Modeling and Control of Heterogeneous Traffic Flow for Section Speed Regulation | National Natural Science Foundation Youth Project | Yunwen XU | 2020-2023 |
-        | Research on Autonomous Traffic Complex System Architecture | National Key R&D Program Project | Yunwen XU | 2020-2023 |
+        | Research on Autonomous Traffic Complex System Architecture (>4M RMB) | National Key R&D Program Project | Yunwen XU | 2020-2024 |
         | Research on Reinforcement Learning Distributed Model Predictive Control of Hybrid Systems | China Postdoctoral Science Foundation Grant | Aoyun MA | 2021-2023 |
         | Design and Development of Traffic Flow Controller for Urban Mixed Traffic Section Based on Vehicle-Road Coordination | Postdoctoral Special Support | Yunwen XU | 2020-2022 |
         | Research on Output Feedback Predictive Control Theory and Algorithm for Stochastic Systems | National Natural Science Foundation General Project | Dewei LI | 2017-2020 |
@@ -65,4 +65,5 @@ sections:
         | Research and Application of Key Control Technology for Fast Frequency Modulation of Large Thermal Power Units | Industry Project | Dewei LI | 2019-2021 |
         | Power Plant Model Predictive Control Algorithm and Application | Industry Project | Dewei LI | 2018-2020 |
         | Metro Energy-saving Optimization Control Algorithm Research | Industry Project | Dewei LI | 2018-2020 |
+        | Intelligent Algorithm for Microgrid Energy Management of Shanghai Electric Wind Power Group Co., Ltd. | Enterprise Project | Yunwen XU | 2023-2024 |
 --- 
