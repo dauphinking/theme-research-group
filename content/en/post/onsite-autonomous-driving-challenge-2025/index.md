@@ -1,6 +1,6 @@
 ---
 title: CSC Lab's AWESOME Team Wins First Place in the 3rd OnSite Autonomous Driving Algorithm Challenge
-date: 2025-03-27
+date: 2025-05-17
 
 
 ---
