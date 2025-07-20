@@ -2,15 +2,20 @@
 title: CSC Lab's AWESOME Team Wins First Place in the 3rd OnSite Autonomous Driving Algorithm Challenge
 date: 2025-03-27
 image:
+  filename: featured.jpg
   focal_point: 'top'
 
 ---
 
 The defense presentation for the 3rd OnSite Autonomous Driving Algorithm Challenge was recently held in Beijing. The AWESOME team from Shanghai Jiao Tong University, mentored by Associate Professor Yunwen Xu from the School of Automation and Perception, won first place in the parking track. The team, consisting of graduate student Zhang Yifan and undergraduate students Yu Haoran and He Zile, demonstrated exceptional technical prowess through multiple rounds of online algorithm testing and offline defense presentations.
 
+![Prof. Xu Yunwen at the defense presentation](featured.jpg "Prof. Xu Yunwen at the defense presentation")
+
 ## Project Highlights
 
 Automated Valet Parking (AVP), as a typical L4 autonomous driving application scenario, effectively addresses urban parking challenges through autonomous parking space search and precise parking. The Onsite track deeply recreates typical urban parking scenarios, featuring various parking spaces, dynamic obstacles, and cross-floor navigation, simulating extreme parking conditions to verify algorithm robustness and adaptability. The parking track attracted 50 teams from 28 universities, completing 62,200 scenario tests, averaging approximately 1,200 tests per team.
+
+![Dynamic parking test scenario](parking-scenario.jpg "Dynamic parking test scenario")
 
 ## Technical Innovation
 
