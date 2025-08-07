@@ -25,7 +25,7 @@ sections:
       title: ""
       text: |
         <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
-          <strong>📰 News:</strong> Professor Yugeng Xi receives Outstanding Contribution Award from Control Theory Committee <span style="color: #666; font-size: 0.9em;">(July 2025)</span>
+          <strong>📰 News:</strong> Prof. Yugeng Xi receives Outstanding Contribution Award <span style="color: #666; font-size: 0.9em;">(July 2025)</span>
         </div>
     design:
       columns: '1'

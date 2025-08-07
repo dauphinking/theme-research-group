@@ -36,7 +36,7 @@ sections:
       title: ""
       text: |
         <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
-          <strong>📰 快讯：</strong>席裕庚教授获2025控制理论专业委员会杰出贡献奖 <span style="color: #666; font-size: 0.9em;">(2025.7)</span>
+          <strong>📰 快讯：</strong>席裕庚教授荣获控制理论专业委员会杰出贡献奖 <span style="color: #666; font-size: 0.9em;">(2025.7)</span>
         </div>
     design:
       columns: '1'
