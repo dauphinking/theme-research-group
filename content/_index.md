@@ -36,7 +36,7 @@ sections:
       title: ""
       text: |
         <div style="background-color: #e7f3ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #007bff; text-align: center;">
-          <strong>📰 快讯：</strong>实验室关于柔性机器人的论文被 TASE 期刊接收
+          <strong>📰 快讯：</strong>席裕庚教授获2025控制理论专业委员会杰出贡献奖 <span style="color: #666; font-size: 0.9em;">(2025.7)</span>
         </div>
     design:
       columns: '1'
