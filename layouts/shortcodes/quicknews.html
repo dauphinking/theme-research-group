@@ -1,0 +1,22 @@
+{{/* Quick news shortcode: renders N brief items from data/quicknews/{lang}.yaml */}}
+{{ $lang := .Get "lang" | default "zh" }}
+{{ $countParam := .Get "count" }}
+{{ $count := 1 }}
+{{ if $countParam }}
+  {{ $count = int $countParam }}
+{{ end }}
+
+{{ $data := index site.Data.quicknews $lang }}
+{{ if and $data (isset $data "items") }}
+  <div style="background-color: #e7f3ff; padding: 10px 12px; border-radius: 6px; margin: 8px 0 12px; border-left: 4px solid #007bff; text-align: left;">
+    {{ range first $count $data.items }}
+      <div style="margin: 4px 0;">
+        <strong>📰 {{ if eq $lang "en" }}News:{{ else }}快讯：{{ end }}</strong>{{ .text }}{{ if .date }} <span style="color: #666; font-size: 0.9em;">({{ .date }})</span>{{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ else }}
+  <!-- quicknews: no data found for lang={{ $lang }} -->
+{{ end }}
+
+
