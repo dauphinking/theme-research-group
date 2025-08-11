@@ -66,4 +66,6 @@ sections:
         | Power Plant Model Predictive Control Algorithm and Application | Industry Project | Dewei LI | 2018-2020 |
         | Metro Energy-saving Optimization Control Algorithm Research | Industry Project | Dewei LI | 2018-2020 |
         | Intelligent Algorithm for Microgrid Energy Management of Shanghai Electric Wind Power Group Co., Ltd. | Enterprise Project | Yunwen XU | 2023-2024 |
+        | Energy-saving Project for Baosteel Air Compressor Units | Enterprise Project | Dewei LI | 2020-2021 |
+        | Multi-period Demand Forecasting for Energy Markets of ENN Group | Enterprise Project | Dewei LI | <2020 |
 --- 

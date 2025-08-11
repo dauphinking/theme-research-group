@@ -35,8 +35,7 @@ sections:
         Model Predictive Control (MPC) is an advanced process control method widely used in various industrial fields. Our research focuses on integrating AI and data-driven approaches with MPC:
         
         - Enhanced AI-MPC Algorithms
-          * Deep Learning for Model Identification
-          * Reinforcement Learning for Control Policy Optimization
+          * Deep Learning for Model Identification & Policy Optimization
         
         - Data-Driven MPC
           * Data-Efficient Model Learning
@@ -44,7 +43,6 @@ sections:
         
         - Real-time MPC Research
           * Embedded System MPC Optimization and Implementation
-          * Distributed Robotic MPC
 
   - id: traffic
     block: markdown
@@ -56,10 +54,9 @@ sections:
 
         Our intelligent transportation research aims to develop advanced solutions for future transportation systems. Key research directions include:
         
-        - Traffic Flow Modeling and Prediction
-        - Intelligent Traffic Signal Control
-        - Smart Infrastructure Systems
         - Unmanned Systems and 3D Transportation
+        - Traffic Flow Modeling and Prediction
+        - Transportation-Energy Co-optimization
 
   - block: portfolio
     id: projects

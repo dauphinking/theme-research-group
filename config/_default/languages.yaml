@@ -27,3 +27,16 @@ zh:
     footer:
       copyright:
         notice: '© {year} 上海交通大学复杂系统智能控制实验室. 保留所有权利.'
+
+fr:
+  languageCode: fr-fr
+  languageName: Français
+  contentDir: content/fr
+  title: SJTU CSC Lab
+  weight: 3
+  params:
+    description: Un laboratoire de recherche dédié à l’avancement du contrôle prédictif.
+    address_format: fr-FR
+    footer:
+      copyright:
+        notice: '© {year} SJTU CSC Lab. Tous droits réservés.'
