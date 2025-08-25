@@ -60,3 +60,8 @@ Yunwen Xu's research interests include predictive control applications, intellig
 In addition to her academic achievements, Yunwen Xu has been involved in several notable research projects. She has led projects funded by the National Natural Science Foundation of China and the National Key Research and Development Program. She has also contributed to industry projects, such as developing intelligent algorithms for microgrid energy management with Shanghai Electric Wind Power Group Co., Ltd.
 
 Yunwen Xu has been recognized for her outstanding work with awards such as the "Morning Star Postdoctoral" Incentive Program from the School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University. Her dedication and expertise continue to drive advancements in her research areas.
+
+**Industry Projects**
+
+- Localization and detection technology for mowing and garden maintenance robots, 2021-2022, key member.
+- Advanced temperature and humidity control, key member.
