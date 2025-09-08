@@ -15,7 +15,8 @@ pages: "222"
 year: "2013"
 issn: "0254-4156"
 doi: "10.3724/SP.J.1004.2013.00222"
-url: "//www.aas.net.cn/article/doi/10.3724/SP.J.1004.2013.00222"
+# url: "//www.aas.net.cn/article/doi/10.3724/SP.J.1004.2013.00222"  # Commented out to allow internal linking
+external_link: "//www.aas.net.cn/article/doi/10.3724/SP.J.1004.2013.00222"
 keywords:
   - Model Predictive Control
   - Constrained Control

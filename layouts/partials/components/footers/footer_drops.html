@@ -1,5 +1,6 @@
 {{ $UBOImage := resources.GetMatch "media/partner/sjtu.jpg" }}
 {{ $KITImage := resources.GetMatch "media/partner/seiee.jpg" }}
+{{ $SAISImage := resources.GetMatch "media/partner/sais.jpg" }}
 {{ $EUImage := resources.GetMatch "media/partner/nsfc.jpg" }}
 {{ $BMBFImage := resources.GetMatch "media/partner/most.png" }}
 
@@ -62,7 +63,23 @@
   <div class="partner-block"><a href="https://www.sjtu.edu.cn/" target="_blank"><img class="partner-logo" src="{{ $UBOImage.RelPermalink }}"  /></a><span class="partner-desc"><a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a></span></div>
   <div class="partner-block">
   <a href="https://www.seiee.sjtu.edu.cn/" target="_blank"><img class="partner-logo" src="{{ $KITImage.RelPermalink }}" /></a>
-  <span class="partner-desc"><a href="https://www.seiee.sjtu.edu.cn/" target="_blank">SEIEE</a></span>
+  <span class="partner-desc"><a href="https://www.seiee.sjtu.edu.cn/" target="_blank">SEIEE</a></span> 
+  </div>
+  <div class="partner-block">
+  <a href="https://sais.sjtu.edu.cn/" target="_blank">
+  {{ if $SAISImage }}
+    <img class="partner-logo" src="{{ $SAISImage.RelPermalink }}" />
+  {{ else }}
+    <div class="partner-logo-text" style="display: flex; align-items: center; justify-content: center; width: 120px; height: 80px; border: 2px solid #ddd; background-color: #f9f9f9; font-weight: bold; color: #333;">SAIS</div>
+  {{ end }}
+  </a>
+  <span class="partner-desc"><a href="https://sais.sjtu.edu.cn/" target="_blank">
+  {{ if eq .Lang "zh" }}
+    自动化与感知学院
+  {{ else }}
+    SAIS
+  {{ end }}
+  </a></span>
   </div>
   <div class="partner-block">
   <a href="http://www.scip.sjtu.edu.cn/" target="_blank"><img class="partner-logo" src="/media/logoedu.png" /></a>
