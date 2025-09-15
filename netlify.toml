@@ -19,3 +19,14 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+# 重定向规则 - 旧网站URL重定向到新网站
+[[redirects]]
+  from = "/cardshow.htm"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/cardshow.html"
+  to = "/"
+  status = 301
