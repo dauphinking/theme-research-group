@@ -1,6 +1,6 @@
 ---
 title: Yaru Yu
-role: Phd Student
+role: Phd
 avatar_filename: 余雅茹.avatar.jpg
 interests:
   - Research on sliding mode control algorithm for online learning based on
@@ -13,5 +13,5 @@ social:
     icon: envelope
 superuser: false
 user_groups:
-  - Phd Students
+  - PhD Alumni
 ---

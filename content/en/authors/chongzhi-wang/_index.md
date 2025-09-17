@@ -1,6 +1,6 @@
 ---
 title: Chongzhi Wang
-role: "Phd Students "
+role: "PhD"
 avatar_filename: 王冲之-1-.avatar.jpg
 interests:
   - Matrix-weight multi-agent network
@@ -13,5 +13,5 @@ social:
     icon: envelopec
 superuser: false
 user_groups:
-  - Phd Students
+  - PhD Alumni
 ---

@@ -4,8 +4,9 @@ role: 博士生
 avatar_filename: 王冲之-1-.avatar.jpg
 interests:
   - 多智能体网络
+  - 墨尔本大学联授博士
 
 superuser: false
 user_groups:
-  - 博士生
+  - 已毕业博士
 ---
