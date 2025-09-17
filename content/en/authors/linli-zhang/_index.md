@@ -1,17 +1,18 @@
 ---
 title: Linli Zhang
-role: Phd student
+role: Phd
 avatar_filename: 张临骊.avatar.jpg
 bio: ""
 interests:
   - AI
+  - https://fcai.fi/
 social:
   - display:
       header: false
-    link: mailto contact at sjtu.edu.cn
+    link: mailto https://fcai.fi/
     icon_pack: fas
     icon: envelope
 superuser: false
 user_groups:
-  - Phd students
+  - Phd Alumni
 ---
