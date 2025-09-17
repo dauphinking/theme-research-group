@@ -5,7 +5,7 @@ avatar_filename: 张临骊.avatar.jpg
 bio: ""
 interests:
   - 人工智能
-  - 芬兰AI中心
+  - Aalto大学/芬兰AI中心
 
 superuser: false
 user_groups:

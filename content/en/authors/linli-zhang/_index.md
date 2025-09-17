@@ -5,11 +5,10 @@ avatar_filename: 张临骊.avatar.jpg
 bio: ""
 interests:
   - AI
-  - https://fcai.fi/
+  - Aalto University /FCAI-FI
 social:
   - display:
       header: false
-    link: mailto https://fcai.fi/
     icon_pack: fas
     icon: envelope
 superuser: false
