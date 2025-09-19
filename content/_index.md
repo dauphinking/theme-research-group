@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        上海交通大学复杂系统智能控制实验室由李德伟教授领导，致力于机器人、模型预测控制、人工智能等前沿领域研究。
+        上海交通大学复杂系统智能控制实验室由李德伟长聘教授领导，致力于机器人、模型预测控制、人工智能等前沿领域研究。
         
         Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Dewei LI, focuses on robotics, Model Predictive Control (MPC), and artificial intelligence research.
 
