@@ -3,8 +3,7 @@ title: Yaru Yu
 role: Phd
 avatar_filename: 余雅茹.avatar.jpg
 interests:
-  - Research on sliding mode control algorithm for online learning based on
-    input mapping method
+  - Research on sliding mode control 
 social:
   - display:
       header: false
