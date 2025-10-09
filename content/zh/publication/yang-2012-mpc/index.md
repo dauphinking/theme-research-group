@@ -41,7 +41,7 @@ links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S0967066112001347
 
-url_pdf: 'MPC_FPGA.pdf'
+url_pdf: '/media/MPC_FPGA.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
