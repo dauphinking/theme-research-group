@@ -24,8 +24,8 @@ education:
     - course: M.S in Automation
       institution: Shanghai Jiao Tong University
     - course: B.S.
-      year: 1978
-      institution: Harbin Institute of Technology
+      year: 1968
+      institution: Harbin Military Engineering Institute
 email: ""
 superuser: true
 user_groups:

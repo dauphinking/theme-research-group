@@ -23,7 +23,7 @@ education:
     - course: 硕士 (自动化)
       institution: 上海交通大学
     - course: 学士 (工学学士)
-      year: 1978
+      year: 1968
       institution: 哈尔滨军事工程学院
 email: ""
 superuser: true
