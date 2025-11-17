@@ -18,9 +18,6 @@ education:
     - course: 可再生能源科技硕士
       institution: 巴黎综合理工学院
       year: 2012
-    - course: 机器人与嵌入式系统硕士
-      institution: ENSTA，巴黎理工学院
-      year: 2011
     - course: 自动化（联读班）本科
       institution: 上海交通大学
       year: 2009
