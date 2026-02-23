@@ -5,10 +5,9 @@ role: 长聘教授 | 实验室主任
 avatar_filename: avatar.jpg
 bio: 现为中国自动化学会预测控制及智能决策专委会主任，控制理论与应用教育工作组委员，国际著名刊物Control Engineering Practice 编委，主持科技部重点研发计划项目、国家自然科学基金重点、面上及国际合作基金、国家863项目课题等20余项国家级项目，承担重点企业委托项目20余项
 interests:
-  - 复杂系统优化与控制
+  - 系统优化与控制
   - 自主机器人
   - 智能交通
-  - 能源互联网
 social:
   - display:
       header: false

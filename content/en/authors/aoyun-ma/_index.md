@@ -6,7 +6,7 @@ avatar_filename: avatar.jpeg
 bio: ""
 interests:
   - Predictive Control
-  - Optimization and Control of Complex Systems
+  - System Optimization and Control
 social:
   - display:
       header: false
@@ -34,7 +34,7 @@ user_groups:
 ## Research Interests
 
 * Predictive Control
-* Optimization and Control of Complex Systems
+* System Optimization and Control
 
 ## Academic and Professional Experience
 

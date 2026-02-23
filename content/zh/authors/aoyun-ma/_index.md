@@ -6,7 +6,7 @@ avatar_filename: avatar.jpeg
 bio: ""
 interests:
   - 预测控制
-  - 复杂系统优化与控制
+  - 系统优化与控制
 social:
   - display:
       header: false

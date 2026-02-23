@@ -14,10 +14,9 @@ bio: Yunwen Xu is an Associate Professor at the Department of Automation,
   has published extensively in top journals and conferences and has been
   involved in several significant research projects.
 interests:
-  - Predictive Control Applications
-  - Intelligent Transportation Systems
-  - Embedded Predictive Control
-  - Intelligent Control of Complex Systems
+  - Autonomous Driving
+  - Robotics
+  - Traffic Predictive Control
 social:
   - icon: envelope
     icon_pack: fas

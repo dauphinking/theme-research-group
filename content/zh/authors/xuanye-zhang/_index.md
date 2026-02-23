@@ -4,7 +4,7 @@ role: 硕士
 avatar_filename: avatar.jpg
 interests:
   - 深度强化学习
-  - 金山/字节
+  - 金山软件
 superuser: false
 user_groups:
   - 已毕业硕士

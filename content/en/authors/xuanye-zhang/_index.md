@@ -4,7 +4,7 @@ role: Master
 avatar_filename: avatar.jpg
 interests:
   - Deep Reinforcement Learning
-  - WPS / ByteDance
+  - Kingsoft Software
 superuser: false
 user_groups:
   - Master Alumni

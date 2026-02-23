@@ -3,7 +3,7 @@ title: Huiling Dong
 role: Phd Student
 avatar_filename: 董慧灵.avatar.jpg
 interests:
-  - Optimization
+  - Data Optimization
 social:
   - display:
       header: false
