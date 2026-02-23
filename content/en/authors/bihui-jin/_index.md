@@ -3,9 +3,9 @@ title: Bihui JIN
 role: Staff Engineer
 avatar_filename: avatar.jpg
 interests:
-  - process control
-  - robotics 
-  - energy management and trading
+  - AI 1.0 + 2.0
+  - Advanced control systems
+  - Energy quantitative trading
 social:
   - display:
       header: false

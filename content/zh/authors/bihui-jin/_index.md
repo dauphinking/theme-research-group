@@ -4,8 +4,9 @@ title: 金碧辉
 role: 主任工程师
 avatar_filename: avatar.jpg
 interests:
+  - AI 1.0 + 2.0
   - 先进控制系统
-  - 能源与量化交易
+  - 能源量化交易
 
 social:
   - display:
