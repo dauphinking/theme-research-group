@@ -15,8 +15,11 @@ social:
 
 education:
   courses:
-    - course: M.S. in renewable energy
-      institution: Ecole Polytechnique, IP Paris
+    - course: Engineer degree (robotics and optimization)
+      institution: Institut Polytechnique de Paris - ENSTA
+      year: 2011
+    - course: M.S. in renewable energy science and technology
+      institution: École Polytechnique, IP Paris
       year: 2012
     - course: B.S. in Automation
       institution: Shanghai Jiao Tong University
@@ -26,5 +29,4 @@ superuser: true
 user_groups:
   - Engineers
 ---
-* As the Chief Engineer at Shanghai Bidi Technology Co., Ltd., he holds a high technical position with extensive practical experiences in the industry, including multinational corporations, listed companies, and startups, leading teams of 20-100 people. 
-* Concurrently, he serves as an affiliate Engineer at the Complex System Control Laboratory, indicating a strong connection between academic research and engineering applications.
+Holds an Engineer degree and M.S. in robotics, optimization, and energy. He has extensive industry experience in the high-tech sector and is skilled at technology transfer and industrial deployment. His research interests include robotics, energy management and trading, and related areas. He holds 7 authorized invention patents.
