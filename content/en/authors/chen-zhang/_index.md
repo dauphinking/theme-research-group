@@ -1,9 +1,10 @@
 ---
 title: Chen Zhang
-role: Phd Student
+role: PhD
 avatar_filename: 张辰.avatar.jpg
 interests:
   - Intelligent Transportation
+  - China Electric Equipment Group
 social:
   - display:
       header: false
@@ -12,5 +13,5 @@ social:
     icon: envelopec
 superuser: false
 user_groups:
-  - Phd Students
+  - PhD Alumni
 ---
