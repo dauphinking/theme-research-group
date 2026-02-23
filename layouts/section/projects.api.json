@@ -1,0 +1,18 @@
+{{- /* en/fr use "projects" section name */ -}}
+{{- $items := slice -}}
+{{- range .Pages -}}
+  {{- $items = $items | append (dict
+    "slug" .File.BaseFileName
+    "title" .Title
+    "summary" (default "" .Params.summary)
+    "authors" (default slice .Params.authors)
+    "tags" (default slice .Params.tags)
+    "date" (default "" (.Date.Format "2006-01-02"))
+    "image" (default (dict) .Params.image)
+    "url_code" (default "" .Params.url_code)
+    "url_pdf" (default "" .Params.url_pdf)
+    "url" .Permalink
+    "language" .Lang
+  ) -}}
+{{- end -}}
+{{- dict "items" $items "language" .Lang "count" (len $items) | jsonify -}}

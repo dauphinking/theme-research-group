@@ -1,0 +1,14 @@
+{{- $base := strings.TrimSuffix "/" site.BaseURL -}}
+{{- $lang := .Lang -}}
+{{- $langs := slice -}}
+{{- range site.Languages -}}
+  {{- $langs = $langs | append .Lang -}}
+{{- end -}}
+{{- $site := dict "title" site.Title "base_url" site.BaseURL "language" $lang "languages" $langs -}}
+{{- $endpoints := dict
+  "publications" (printf "%s/%s/publication/index.json" $base $lang)
+  "authors" (printf "%s/%s/authors/index.json" $base $lang)
+  "projects" (printf "%s/%s/project/index.json" $base $lang)
+  "posts" (printf "%s/%s/post/index.json" $base $lang)
+ -}}
+{{- dict "site" $site "endpoints" $endpoints | jsonify -}}

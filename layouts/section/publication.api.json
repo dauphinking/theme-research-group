@@ -1,0 +1,19 @@
+{{- $items := slice -}}
+{{- range .Pages -}}
+  {{- $items = $items | append (dict
+    "slug" .File.BaseFileName
+    "title" .Title
+    "summary" (.Summary | plainify)
+    "authors" (default slice .Params.authors)
+    "date" (default "" (.Date.Format "2006-01-02"))
+    "publish_date" (default "" (.PublishDate.Format "2006-01-02T15:04:05Z07:00"))
+    "publication" (default "" .Params.publication)
+    "publication_types" (default slice .Params.publication_types)
+    "volume" (default "" .Params.volume)
+    "number" (default "" .Params.number)
+    "pages" (default "" .Params.pages)
+    "url" .Permalink
+    "language" .Lang
+  ) -}}
+{{- end -}}
+{{- dict "items" $items "language" .Lang "count" (len $items) | jsonify -}}

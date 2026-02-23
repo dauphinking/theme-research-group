@@ -35,9 +35,17 @@ permalinks:
   categories: 'category/:slug/'
   publication_types: 'publication-type/:slug/'
 disableAliases: true
+
+# Static API for MCP / AI consumption (JSON per section)
+outputFormats:
+  api:
+    baseName: index
+    mediaType: application/json
+    suffix: json
+    isPlainText: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
+  section: [HTML, RSS, api]
 imaging:
   resampleFilter: lanczos
   quality: 75

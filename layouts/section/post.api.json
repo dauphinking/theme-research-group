@@ -1,0 +1,14 @@
+{{- $items := slice -}}
+{{- range .Pages -}}
+  {{- $items = $items | append (dict
+    "slug" .File.BaseFileName
+    "title" .Title
+    "summary" (.Summary | plainify)
+    "date" (default "" (.Date.Format "2006-01-02"))
+    "featured" (default false .Params.featured)
+    "image" (default (dict) .Params.image)
+    "url" .Permalink
+    "language" .Lang
+  ) -}}
+{{- end -}}
+{{- dict "items" $items "language" .Lang "count" (len $items) | jsonify -}}

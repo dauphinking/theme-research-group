@@ -1,0 +1,15 @@
+{{- $items := slice -}}
+{{- range .Pages -}}
+  {{- $items = $items | append (dict
+    "slug" .File.BaseFileName
+    "title" .Title
+    "role" (default "" .Params.role)
+    "email" (default "" .Params.email)
+    "interests" (default slice .Params.interests)
+    "user_groups" (default slice .Params.user_groups)
+    "summary" (.Summary | plainify)
+    "url" .Permalink
+    "language" .Lang
+  ) -}}
+{{- end -}}
+{{- dict "items" $items "language" .Lang "count" (len $items) | jsonify -}}
