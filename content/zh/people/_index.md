@@ -37,4 +37,13 @@ sections:
       show_interests: true
       show_role: true
       show_social: true
+  - block: markdown
+    content:
+      title: 2020年以前人员
+      text: |
+        ### 2010–2020
+
+        ### 2000–2010
+
+        ### 2000年以前
 ---
