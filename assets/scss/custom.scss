@@ -14,4 +14,61 @@
 
 .nav-item.dropdown .fas {
   margin-right: 0.5rem;
-} 
+}
+
+/* Historical members (pre-2022) — illustrative era cards on People page */
+.people-era-archive__intro {
+  max-width: 48rem;
+  margin-bottom: 1.5rem;
+  color: var(--bs-secondary-color, #6c757d);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.people-era-archive__grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .people-era-archive__grid {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+  }
+}
+
+.people-era-archive__card {
+  height: 100%;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--bs-border-color, rgba(0, 0, 0, 0.125));
+  border-radius: 0.5rem;
+  background-color: var(--bs-body-bg, #fff);
+  transition: box-shadow 0.2s ease;
+}
+
+.people-era-archive__card:hover {
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.06);
+}
+
+.people-era-archive__period {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.people-era-archive__summary {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bs-body-color, #212529);
+}
+
+.people-era-archive__hint {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--bs-secondary-color, #6c757d);
+  font-style: italic;
+}
