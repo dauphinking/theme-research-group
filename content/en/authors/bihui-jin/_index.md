@@ -4,7 +4,7 @@ role: Staff Engineer
 avatar_filename: avatar.jpg
 interests:
   - AI 1.0 + 2.0
-  - Advanced control systems
+  - Precision control
   - Energy quantitative trading
 social:
   - display:
@@ -18,7 +18,7 @@ education:
     - course: Engineer degree (robotics and optimization)
       institution: Institut Polytechnique de Paris - ENSTA
       year: 2011
-    - course: M.S. in renewable energy science and technology
+    - course: M.S. in energy
       institution: École Polytechnique, IP Paris
       year: 2012
     - course: B.S. in Automation
