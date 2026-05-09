@@ -18,7 +18,7 @@ education:
     - course: 工程师学位（机器人及优化运筹）
       institution: 巴黎理工学院 - ENSTA
       year: 2011
-    - course: 硕士学位（新能源科学及技术）
+    - course: 硕士学位（能源）
       institution: 巴黎理工学院 (École Polytechnique)
       year: 2012
     - course: 自动化（联读班）本科
