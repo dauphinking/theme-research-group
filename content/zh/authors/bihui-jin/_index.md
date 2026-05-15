@@ -21,7 +21,7 @@ education:
     - course: 硕士学位（能源）
       institution: 巴黎理工学院 (École Polytechnique)
       year: 2012
-    - course: 自动化（联读班）本科
+    - course: 自动化/教改联读班本科
       institution: 上海交通大学
       year: 2009
 email: bihui.jin@gmail.com
