@@ -29,4 +29,4 @@ superuser: true
 user_groups:
   - Engineers
 ---
-Holds an Engineer degree and M.S. in robotics, optimization, and energy. He has extensive industry experience in the high-tech sector and is skilled at technology transfer and industrial deployment. His research interests include thermal dynamic precision control, AI 1.0 + 2.0, and world model predictive control. He holds 7 authorized invention patents.
+Holds an Engineer degree and M.S. in robotics, optimization, and energy. He has extensive industry experience in the high-tech sector and is skilled at technology transfer and industrial deployment. His research interests include robotics, energy management and trading, and related areas. He holds 7 authorized invention patents.
