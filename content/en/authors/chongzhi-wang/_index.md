@@ -1,17 +1,15 @@
 ---
 title: Chongzhi Wang
-role: "PhD"
+role: Postdoc
 avatar_filename: 王冲之-1-.avatar.jpg
 interests:
   - Matrix-weight multi-agent network
   - the Kuramoto model
-social:
-  - display:
-      header: false
-    link: mailto contact at sjtu.edu.cn
-    icon_pack: fas
-    icon: envelopec
-superuser: false
+organizations:
+  - name: Shanghai Jiao Tong University
+    url: https://automation.sjtu.edu.cn
+superuser: true
 user_groups:
-  - PhD Alumni
+  - Postdocs
 ---
+Chongzhi Wang is a postdoctoral researcher at the Department of Automation, Shanghai Jiao Tong University. His research interests include matrix-weight multi-agent networks and the Kuramoto model. He previously completed a joint PhD program between Shanghai Jiao Tong University and the University of Melbourne.
