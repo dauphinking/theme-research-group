@@ -6,7 +6,6 @@ avatar_filename: avatar.jpg
 interests:
   - 热动力精密控制
   - AI 1.0 + 2.0
-  - 世界模型预测控制
 
 social:
   - display:
