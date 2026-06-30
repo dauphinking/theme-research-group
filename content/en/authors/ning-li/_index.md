@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 3
 title: Ning LI
 role: Tenured Professor
 avatar_filename: avatar.jpg

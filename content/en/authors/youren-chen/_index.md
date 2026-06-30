@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 5
 title: Youren CHEN
 role: Senior Laboratory Engineer
 avatar_filename: avatar.jpg
@@ -20,6 +20,6 @@ organizations:
 email: yrchen@sjtu.edu.cn
 superuser: true
 user_groups:
-  - Engineers
+  - Researchers
 ---
 Youren Chen is a Senior Laboratory Engineer at the School of Automation and Sensing, Shanghai Jiao Tong University (Room 2-424, Telecom Building). His research areas include intelligent transportation systems, information fusion, and green energy.
