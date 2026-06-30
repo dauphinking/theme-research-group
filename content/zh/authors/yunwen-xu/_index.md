@@ -1,5 +1,5 @@
 ---
-weight: 4  # 设置数字，数字越小越靠前
+weight: 6  # 设置数字，数字越小越靠前
 title: 徐云雯
 role: 副研究员
 avatar_filename: avatar.jpg

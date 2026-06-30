@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 3
 title: 李柠
 role: 长聘教授
 avatar_filename: avatar.jpg

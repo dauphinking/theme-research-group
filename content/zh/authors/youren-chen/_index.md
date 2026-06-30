@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 5
 title: 陈友仁
 role: 高级实验师
 avatar_filename: avatar.jpg
