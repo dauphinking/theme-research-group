@@ -20,6 +20,6 @@ organizations:
 email: yrchen@sjtu.edu.cn
 superuser: true
 user_groups:
-  - 工程师
+  - 实验室导师
 ---
 陈友仁，上海交通大学自动化与感知学院高级实验师，通讯地址：电信群楼2-424。研究方向包括智能交通系统、信息融合与绿色能源。
