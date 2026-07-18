@@ -3,6 +3,7 @@ title: 2026年成员学术动态：邬晶、马奥运
 date: 2026-06-10
 lastmod: 2026-06-10
 translationKey: member-academic-updates-2026
+authors: []
 summary: 邬晶研究员参加YAC 2026优秀青年人才论坛，马奥运助理研究员获Control Theory and Technology年度优秀审稿人。
 tags:
   - 学术动态

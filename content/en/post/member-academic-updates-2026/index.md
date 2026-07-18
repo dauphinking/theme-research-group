@@ -3,6 +3,7 @@ title: '2026 Member Updates: Jing Wu and Aoyun Ma'
 date: 2026-06-10
 lastmod: 2026-06-10
 translationKey: member-academic-updates-2026
+authors: []
 summary: Jing Wu spoke at the YAC 2026 Outstanding Young Talents Forum, while Aoyun Ma was named an Outstanding Reviewer by Control Theory and Technology.
 tags:
   - Academic updates

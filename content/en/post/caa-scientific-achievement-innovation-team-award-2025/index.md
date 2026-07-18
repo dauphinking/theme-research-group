@@ -3,6 +3,7 @@ title: Team Including CSC Lab Members Receives CAA Scientific and Technological 
 date: 2025-06-01
 lastmod: 2025-06-01
 translationKey: caa-scientific-achievement-innovation-team-award-2025
+authors: []
 summary: Professors Yugeng Xi and Dewei Li and Researcher Jing Wu were among the contributors recognized by the Chinese Association of Automation's Innovation Team award.
 tags:
   - Chinese Association of Automation
