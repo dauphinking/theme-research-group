@@ -35,7 +35,7 @@ education:
       institution: 青岛科技大学
       year: 1996
 email: ning_li@sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
   - 实验室导师
 ---

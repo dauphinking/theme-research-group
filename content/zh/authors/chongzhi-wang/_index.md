@@ -8,7 +8,7 @@ interests:
 organizations:
   - name: 上海交通大学
     url: https://automation.sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
   - 博士后
 ---

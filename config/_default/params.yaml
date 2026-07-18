@@ -19,9 +19,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: 'Research'
-    org_name: '上海交通大学复杂系统智能控制实验室（SJTU CSC Lab）'
-    description: '上海交通大学复杂系统智能控制实验室（CSC Lab）由李德伟长聘教授领导，研究模型预测控制、机器人与智能交通，并与产业伙伴推进 QD-APC、工业高级过程控制及水务控制技术的工程转化。'
-    keywords: ['上海交通大学复杂系统智能控制实验室', 'SJTU CSC Lab', '李德伟', '金碧辉', '上海碧帝数据科技有限公司', '碧帝数科', 'QD-APC', '模型预测控制', 'Model Predictive Control', 'MPC', '高级过程控制', 'APC', '水厂MPC', '泵站优化', '水务先进控制', '煤化工过程控制', '工业软件']
+    org_name: 'SJTU CSC Lab'
+    description: '上海交通大学复杂系统智能控制实验室由李德伟长聘教授领导，致力于机器人、模型预测控制、人工智能等前沿领域研究。Complex Systems Control Laboratory at Shanghai Jiao Tong University, led by Prof. Dewei LI, focuses on robotics, Model Predictive Control (MPC), and artificial intelligence research.'
+    keywords: ['上海交通大学机器人', '上海交通大学金碧辉', 'SJTU CSC Lab', '复杂系统控制', 'Prof. Dewei LI', '模型预测控制', 'Model Predictive Control', 'MPC', 'Complex Systems Control', '上海 APC', 'APC', '先进控制', '工业软件']
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -68,7 +68,7 @@ footer:
 # Localization
 
 locale:
-  date_format: '2006年1月2日'
+  date_format: 'Jan 2, 2024'
   time_format: '3:04 PM'
   address_format: en-us
 

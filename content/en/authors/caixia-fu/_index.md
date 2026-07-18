@@ -27,7 +27,7 @@ education:
     - course: B.S. in Environmental Engineering
       institution: Shandong Agricultural University
       year: 2012
-superuser: false
+superuser: true
 user_groups:
   - Postdocs
 ---

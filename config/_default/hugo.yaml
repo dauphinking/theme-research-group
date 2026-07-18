@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'SJTU CSC Lab'  # Website name
-baseURL: 'https://csc-lab.com/' # Canonical website URL
+baseURL: 'https://www.csc-lab.com/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -70,12 +70,11 @@ related:
 security:
   _merge: deep
 sitemap:
-  changeFreq: weekly
-  priority: 0.5
-  filename: sitemap.xml
+  _merge: deep
 
 module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
       disable: false
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+

@@ -1,7 +1,6 @@
 ---
 weight: 2 # 设置数字，数字越小越靠前
 title: Dewei LI
-summary: Prof. Dewei Li is the director of SJTU CSC Lab. His research covers model predictive control, intelligent robotics, transportation systems, and process optimization.
 role: Professor | Lab Leader
 avatar_filename: avatar.jpg
 bio: Currently serves as the Director of the Technical Committee on Predictive Control and Intelligent Decision of Chinese Association of Automation, Member of the Control Theory and Applications Education Working Group, and Editorial Member of Control Engineering Practice. He has led over 20 national-level projects, including Key Projects, General Projects and International Cooperation Projects from NSFC, Key Research and Development Programs from MOST. He has also undertaken more than 20 commissioned projects from key enterprises.

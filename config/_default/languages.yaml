@@ -9,11 +9,8 @@ en:
   title: SJTU CSC Lab
   weight: 1
   params:
-    description: SJTU CSC Lab researches model predictive control, robotics, and intelligent transportation, and works with industry partners on QD-APC and industrial advanced process control.
+    description: A premier research facility dedicated to advancing the field of model predictive control.
     address_format: en-us
-    locale:
-      date_format: 'Jan 2, 2006'
-      time_format: '3:04 PM'
     footer:
       copyright:
         notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
@@ -25,11 +22,8 @@ zh:
   title: 上海交大CSC Lab
   weight: 2
   params:
-    description: 上海交通大学复杂系统智能控制实验室研究模型预测控制、机器人与智能交通，并推进QD-APC、水务和流程工业先进控制技术的工程转化。
+    description: 致力于模型预测控制及领域应用的前沿实验室
     address_format: zh-CN
-    locale:
-      date_format: '2006年1月2日'
-      time_format: '15:04'
     footer:
       copyright:
         notice: '© {year} 上海交通大学复杂系统智能控制实验室. 保留所有权利.'
@@ -43,9 +37,6 @@ fr:
   params:
     description: Un laboratoire de recherche dédié à l’avancement du contrôle prédictif.
     address_format: fr-FR
-    locale:
-      date_format: '2 Jan 2006'
-      time_format: '15:04'
     footer:
       copyright:
         notice: '© {year} SJTU CSC Lab. Tous droits réservés.'

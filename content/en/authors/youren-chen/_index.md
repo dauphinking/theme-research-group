@@ -18,7 +18,7 @@ organizations:
   - name: Shanghai Jiao Tong University
     url: https://sais.sjtu.edu.cn/faculty/chenyouren.html
 email: yrchen@sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
   - Researchers
 ---

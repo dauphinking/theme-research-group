@@ -18,7 +18,7 @@ organizations:
   - name: 上海交通大学
     url: https://sais.sjtu.edu.cn/faculty/chenyouren.html
 email: yrchen@sjtu.edu.cn
-superuser: false
+superuser: true
 user_groups:
   - 实验室导师
 ---
