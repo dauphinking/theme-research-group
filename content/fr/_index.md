@@ -6,12 +6,13 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        <span style="font-size: 24px; font-weight: bold;">Complex System and Control</span>
+      title: CSC Lab
       image:
         filename: welcome.jpg
       text: |
-        Bienvenue au **CSC Laboratory** de l'Université Jiao Tong de Shanghai. Notre équipe interdisciplinaire mène des recherches en robotique, commande prédictive et intelligence artificielle.
+        **Laboratoire de commande des systèmes complexes**
+
+        Dirigé par le professeur Dewei Li à l'Université Jiao Tong de Shanghai, le CSC Lab mène des recherches en commande prédictive, robotique autonome, transport intelligent et optimisation des procédés industriels.
     design:
       background:
         gradient_end: '#1976d2'
