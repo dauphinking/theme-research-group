@@ -27,7 +27,7 @@ education:
       year: 1968
       institution: Harbin Military Engineering Institute
 email: ""
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---

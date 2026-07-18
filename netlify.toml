@@ -30,3 +30,9 @@
   from = "/cardshow.html"
   to = "/"
   status = 301
+
+[[redirects]]
+  from = "https://www.csc-lab.com/*"
+  to = "https://csc-lab.com/:splat"
+  status = 301
+  force = true

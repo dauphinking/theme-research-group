@@ -15,6 +15,9 @@ main:
   - name: 项目
     url: projects
     weight: 45
+  - name: 产业合作
+    url: industry
+    weight: 47
   - name: 论文
     url: publication
     weight: 50
@@ -24,5 +27,4 @@ main:
   - name: 联系
     url: contact
     weight: 70 
-
 

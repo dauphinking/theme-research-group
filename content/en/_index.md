@@ -1,7 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2026-07-18
+summary: SJTU CSC Lab researches model predictive control, robotics, and intelligent transportation, and works with Shanghai Bidi Data Technology and other industry partners on QD-APC and industrial control deployment.
 type: landing
 
 sections:
@@ -19,6 +20,20 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+
+  - block: markdown
+    id: technology-transfer
+    content:
+      title: From Predictive Control Research to Industrial Deployment
+      subtitle: CSC Lab × Industry Partners
+      text: |
+        CSC Lab conducts research in model predictive control (MPC), data-driven control, and real-time optimization. Its engineers and industry partners translate these methods into deployable advanced process control (APC) systems.
+
+        Lab director [Prof. Dewei Li](/en/author/dewei-li/) leads research in complex-system optimization and control. [Bihui Jin](/en/author/bihui-jin/) works on the engineering of control algorithms, edge controllers, and industrial software. The team collaborates with [Shanghai Bidi Data Technology](https://biditech.cn/) and other partners on **QD-APC**, water and pumping optimization, and energy-efficient process control.
+
+        [Read the technology transfer and industry collaboration statement →](/en/industry/)
+    design:
+      columns: '1'
   
   - block: markdown
     content:
@@ -44,4 +59,4 @@ sections:
     design:
       view: card
       columns: '1'
---- 
+---

@@ -34,7 +34,7 @@ education:
       institution: 南昌大学
       year: 2000
 email: jingwu@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - 实验室导师
 ---

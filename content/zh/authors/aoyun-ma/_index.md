@@ -27,7 +27,7 @@ education:
       year: 2020
       institution: 北京理工大学
 email: aoyun_ma@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - 实验室导师
 ---

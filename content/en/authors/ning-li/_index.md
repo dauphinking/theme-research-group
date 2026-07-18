@@ -35,7 +35,7 @@ education:
       institution: Qingdao Institute of Science and Technology
       year: 1996
 email: ning_li@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---
