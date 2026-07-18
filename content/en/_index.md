@@ -7,12 +7,13 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        <span style="font-size: 24px; font-weight: bold;">Complex System and Control</span>
+      title: CSC Lab
       image:
         filename: welcome.jpg
       text: |
-        Welcome to our research hub **CSC Laboratory**, where innovation meets excellence. Our interdisciplinary team is dedicated to pushing the boundaries of technological advancement across multiple domains. 
+        **Complex Systems & Control Laboratory**
+
+        Led by Prof. Dewei Li at Shanghai Jiao Tong University, CSC Lab conducts research in model predictive control, autonomous robotics, intelligent transportation, and industrial process optimization and control.
 
     design:
       background:

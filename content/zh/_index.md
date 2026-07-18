@@ -7,11 +7,13 @@ type: landing
 sections:
   - block: hero
     content:
-      title: CSC-Lab
+      title: CSC Lab
       image:
         filename: welcome.jpg
       text: |
-        欢迎来到上海交大CSC实验室。我们拥有跨领域的学术与技术团队，致力于在突破自主机器人/先进控制领域边界，共创未来。
+        **Complex Systems & Control Laboratory**
+
+        上海交通大学复杂系统智能控制实验室由李德伟长聘教授领导，围绕模型预测控制、自主机器人、智能交通与工业过程优化控制开展研究。
 
     design:
       background:

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="44" viewBox="0 0 218 44" role="img" aria-labelledby="title desc">
+  <title id="title">SJTU CSC Lab</title>
+  <desc id="desc">Complex Systems and Control Laboratory at Shanghai Jiao Tong University</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 9.5a15 15 0 1 0 0 25" stroke="#a51c30" stroke-width="3.2"/>
+    <path d="M32 9.5l-1.1 5.1 5-1.5" fill="#a51c30" stroke="#a51c30" stroke-width="1"/>
+    <path d="M12.5 22h9.5m0 0 6.5-7m-6.5 7 6.5 7" stroke="#087da8" stroke-width="1.8"/>
+  </g>
+  <g fill="#087da8">
+    <circle cx="12.5" cy="22" r="2.7"/>
+    <circle cx="22" cy="22" r="2.7"/>
+    <circle cx="28.5" cy="15" r="2.7"/>
+    <circle cx="28.5" cy="29" r="2.7"/>
+  </g>
+
+  <text x="44" y="25" fill="#102f4a" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="760" letter-spacing="0.4">CSC LAB</text>
+  <rect x="44" y="30" width="164" height="1.4" rx="0.7" fill="#a51c30"/>
+  <text x="44" y="40" fill="#3d5d72" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.32">SJTU · COMPLEX SYSTEMS &amp; CONTROL</text>
+</svg>
