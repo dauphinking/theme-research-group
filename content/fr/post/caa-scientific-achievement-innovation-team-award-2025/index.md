@@ -3,7 +3,7 @@ title: Une équipe comprenant des membres du CSC Lab reçoit un prix de la CAA
 date: 2025-06-01
 lastmod: 2025-06-01
 translationKey: caa-scientific-achievement-innovation-team-award-2025
-authors: []
+authors: ["csc-lab"]
 summary: Les professeurs Yugeng Xi et Dewei Li ainsi que Jing Wu figurent parmi les contributeurs récompensés par le prix « Équipe d'innovation » de l'Association chinoise d'automatisation.
 tags:
   - Association chinoise d'automatisation

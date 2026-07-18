@@ -3,7 +3,7 @@ title: 'Actualités académiques 2026 : Jing Wu et Aoyun Ma'
 date: 2026-06-10
 lastmod: 2026-06-10
 translationKey: member-academic-updates-2026
-authors: []
+authors: ["csc-lab"]
 summary: Jing Wu est intervenue au forum YAC 2026 des jeunes talents, tandis qu'Aoyun Ma a été nommé évaluateur exceptionnel par Control Theory and Technology.
 tags:
   - Actualités académiques
