@@ -1,7 +1,7 @@
 ---
 weight: 1  # 设置数字，数字越小越靠前
 title: 金碧辉
-role: 主任工程师
+role: 工程师
 avatar_filename: avatar.jpg
 interests:
   - 热动力精密控制
@@ -25,7 +25,7 @@ education:
       institution: 上海交通大学
       year: 2009
 email: bihui.jin@gmail.com
-superuser: true
+superuser: false
 user_groups:
   - 工程师
 ---

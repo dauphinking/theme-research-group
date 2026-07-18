@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: The book "Predictive Control" officially published.
 date: 2021-01-29T17:08:00.000Z
 draft: false

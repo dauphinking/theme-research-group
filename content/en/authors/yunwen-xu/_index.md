@@ -38,7 +38,7 @@ education:
     - course: "BSc in Automation "
       institution: Nanjing University of Science and Technology
       year: 2012
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 last_name: XU

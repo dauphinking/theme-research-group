@@ -27,11 +27,11 @@ education:
       year: 1968
       institution: Harbin Military Engineering Institute
 email: ""
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---
-Professor Yugeng Xi is a distinguished scholar and leader in the field of automation and control systems.  
+Professor Yugeng Xi is a distinguished scholar and leader in the field of automation and control systems.
 
 **Honors**
 

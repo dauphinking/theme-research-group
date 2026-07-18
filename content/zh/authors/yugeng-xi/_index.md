@@ -26,11 +26,11 @@ education:
       year: 1968
       institution: 哈尔滨军事工程学院
 email: ""
-superuser: true
+superuser: false
 user_groups:
   - 实验室导师
 ---
-席裕庚教授是自动化与控制系统的杰出学者和领导者。  
+席裕庚教授是自动化与控制系统的杰出学者和领导者。
 
 **荣誉**
 
@@ -58,4 +58,3 @@ user_groups:
 #### 出版物
 
 发表过300多篇期刊论文，主要在模型预测控制、大规模复杂系统、智能机器人等领域。
-

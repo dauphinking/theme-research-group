@@ -1,6 +1,6 @@
 ---
 title: Bihui JIN
-role: Staff Engineer
+role: Engineer
 avatar_filename: avatar.jpg
 interests:
   - Thermal dynamic precision control
@@ -25,7 +25,7 @@ education:
       institution: Shanghai Jiao Tong University
       year: 2009
 email: bihui.jin@alumni.polytechnique.edu
-superuser: true
+superuser: false
 user_groups:
   - Engineers
 ---

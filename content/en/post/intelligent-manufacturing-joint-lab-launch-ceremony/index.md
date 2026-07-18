@@ -3,7 +3,7 @@ title: Intelligent Manufacturing Joint Laboratory Launch Ceremony Successfully H
 date: 2025-01-04T10:00:00.000Z
 draft: false
 featured: false
-authors: ["Dewei LI"]
+authors: ["dewei-li"]
 image:
   filename: featured.jpg
   focal_point: Smart

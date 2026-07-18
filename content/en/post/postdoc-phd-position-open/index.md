@@ -3,7 +3,7 @@ title: Postdoctoral Positions Available at Complex Systems and Control Laborator
 date: 2025-05-18T17:08:00.000Z
 draft: false
 featured: false
-authors: ["Dewei LI"]
+authors: ["dewei-li"]
 image:
   filename: 22.png
   focal_point: Smart
@@ -64,4 +64,4 @@ We are currently seeking 2-4 postdoctoral researchers to join our team. Research
 - **Address**: Building 2, School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai
 - **Lab Website**: [https://www.csc-lab.com](https://www.csc-lab.com)
 
-> Join us to explore the academic frontiers of robotics and process control! 
+> Join us to explore the academic frontiers of robotics and process control!

@@ -1,4 +1,5 @@
 ---
+authors: ["dewei-li"]
 title: 上海交通大学复杂系统智能控制实验室博士后招聘启事
 date: 2025-05-18T17:08:00.000Z
 draft: false

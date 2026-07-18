@@ -19,7 +19,7 @@ education:
   courses:
     - course: Ph.D.
       institution: East China University of Science and Technology
-superuser: true
+superuser: false
 user_groups:
   - Engineers
 last_name: DAI

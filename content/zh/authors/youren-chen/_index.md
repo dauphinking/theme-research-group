@@ -20,7 +20,7 @@ organizations:
   - name: 上海交通大学宁波人工智能研究院
     url: https://naii.sjtu.edu.cn/
 email: yrchen@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - 实验室导师
 ---

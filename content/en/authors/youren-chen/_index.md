@@ -20,7 +20,7 @@ organizations:
   - name: SJTU Ningbo Artificial Intelligence Institute
     url: https://naii.sjtu.edu.cn/
 email: yrchen@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---

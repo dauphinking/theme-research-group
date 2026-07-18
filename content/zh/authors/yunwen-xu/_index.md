@@ -32,7 +32,7 @@ education:
     - course: 访问学者
       institution: 美国普渡大学土木工程学院
       year: 2017
-superuser: true
+superuser: false
 user_groups:
   - 实验室导师
 last_name: XU
@@ -67,6 +67,5 @@ email: willing419@sjtu.edu.cn
 [1] 上海电气风电集团有限公司，微网能量管理智能算法，结题，项目骨干。
 [2] 割草、园林维护机器人的定位与检测识别技术项目，2021-2022，项目骨干。
 [3] 温湿度先进控制，项目骨干。
-
 
 

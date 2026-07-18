@@ -27,7 +27,7 @@ education:
       year: 2020
       institution: Beijing Institute of Technology
 email: aoyun_ma@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---

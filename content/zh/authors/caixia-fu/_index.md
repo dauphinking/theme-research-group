@@ -27,7 +27,7 @@ education:
     - course: 学士
       year: 2012
       institution: 山东农业大学
-superuser: true
+superuser: false
 user_groups:
   - 博士后
 ---

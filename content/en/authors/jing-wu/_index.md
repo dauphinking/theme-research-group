@@ -10,7 +10,7 @@ bio: Main research areas include distributed networked system control and
   smart ships, and smart factories.
 interests:
   - Distributed networked system control and optimization
-  - Security control 
+  - Security control
   - Applications in smart grids, smart ships
 social:
   - display:
@@ -38,7 +38,7 @@ education:
       institution: Nanchang University
       year: 2000
 email: jingwu@sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - Researchers
 ---
