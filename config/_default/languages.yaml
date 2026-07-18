@@ -11,6 +11,9 @@ en:
   params:
     description: A premier research facility dedicated to advancing the field of model predictive control.
     address_format: en-us
+    locale:
+      date_format: 'Jan 2, 2006'
+      time_format: '3:04 PM'
     footer:
       copyright:
         notice: '© {year} SJTU CSC Lab. All Rights Reserved.'
@@ -24,6 +27,9 @@ zh:
   params:
     description: 致力于模型预测控制及领域应用的前沿实验室
     address_format: zh-CN
+    locale:
+      date_format: '2006年1月2日'
+      time_format: '15:04'
     footer:
       copyright:
         notice: '© {year} 上海交通大学复杂系统智能控制实验室. 保留所有权利.'
@@ -37,6 +43,9 @@ fr:
   params:
     description: Un laboratoire de recherche dédié à l’avancement du contrôle prédictif.
     address_format: fr-FR
+    locale:
+      date_format: '2 Jan 2006'
+      time_format: '15:04'
     footer:
       copyright:
         notice: '© {year} SJTU CSC Lab. Tous droits réservés.'
