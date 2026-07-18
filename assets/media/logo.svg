@@ -16,5 +16,5 @@
 
   <text x="44" y="25" fill="#102f4a" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="760" letter-spacing="0.4">CSC LAB</text>
   <rect x="44" y="30" width="164" height="1.4" rx="0.7" fill="#a51c30"/>
-  <text x="44" y="39" fill="#486477" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="6.4" font-weight="650" letter-spacing="0.72">SJTU · COMPLEX SYSTEMS &amp; CONTROL</text>
+  <text x="44" y="40" fill="#3d5d72" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.32">SJTU · COMPLEX SYSTEMS &amp; CONTROL</text>
 </svg>
