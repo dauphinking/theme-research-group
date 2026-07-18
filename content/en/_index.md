@@ -24,7 +24,7 @@ sections:
     content:
       title: ""
       text: |
-        {{< quicknews lang="en" count="2" >}}
+        {{< quicknews lang="en" count="3" >}}
     design:
       columns: '1'
 
@@ -44,4 +44,4 @@ sections:
     design:
       view: card
       columns: '1'
---- 
+---

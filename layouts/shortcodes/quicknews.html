@@ -11,12 +11,11 @@
   <div style="background-color: #e7f3ff; padding: 10px 12px; border-radius: 6px; margin: 8px 0 12px; border-left: 4px solid #007bff; text-align: left;">
     {{ range first $count $data.items }}
       <div style="margin: 4px 0;">
-        <strong>📰 {{ if eq $lang "en" }}News:{{ else }}快讯：{{ end }}</strong>{{ .text }}{{ if .date }} <span style="color: #666; font-size: 0.9em;">({{ .date }})</span>{{ end }}
+        <strong>📰 {{ if eq $lang "en" }}News:{{ else if eq $lang "fr" }}Actualité :{{ else }}快讯：{{ end }}</strong>{{ .text }}{{ if .date }} <span style="color: #666; font-size: 0.9em;">({{ .date }})</span>{{ end }}
       </div>
     {{ end }}
   </div>
 {{ else }}
   <!-- quicknews: no data found for lang={{ $lang }} -->
 {{ end }}
-
 
