@@ -29,7 +29,7 @@ education:
       institution: 上海交通大学
       year: 2019
 email: " heshaoying19941204@sjtu.edu.cn"
-superuser: true
+superuser: false
 user_groups:
   - 博士后
 ---

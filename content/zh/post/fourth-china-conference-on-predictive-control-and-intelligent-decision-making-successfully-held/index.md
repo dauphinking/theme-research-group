@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: 第四届中国预测控制与智能决策学术会议在杭州成功举办
 date: 2024-12-10T14:34:00.000Z
 draft: false

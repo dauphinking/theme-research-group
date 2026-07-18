@@ -8,7 +8,7 @@ interests:
 organizations:
   - name: Shanghai Jiao Tong University
     url: https://automation.sjtu.edu.cn
-superuser: true
+superuser: false
 user_groups:
   - Postdocs
 ---

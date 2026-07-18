@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: 喜获亚洲控制协会会士荣誉
 subtitle: ""
 date: 2024-12-28T00:00:00.000Z

@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: "Launch Meeting of the National Key R&D Program 'Key Technologies and Equipment for Coal Conversion Process Closed-Loop Control System' Held at Shanghai Jiao Tong University"
 date: 2025-04-28T07:45:00.000Z
 draft: false
@@ -23,4 +24,4 @@ Subsequently, Yuan Zhihong, Chen Xiaofang, Wang Mengzhi, and Huang Zhenlin prese
 
 {{< figure src="experts.jpg" caption="Expert panel discussions" >}}
 
-The expert panel highly endorsed the project's overall technical approach, considering the implementation plan to be systematic, complete, and feasible, with reasonable technical routes, correct research methods, and appropriate progress arrangements. After deliberation, the expert panel unanimously agreed that the project implementation plan passed the demonstration and provided constructive suggestions from multiple dimensions such as financial management, acceptance standards, and risk prevention mechanisms. In the future, the project team will comprehensively review and implement the experts' opinions and suggestions, accelerate the high-quality implementation of the project, and expedite the cultivation and transformation of achievements. 
+The expert panel highly endorsed the project's overall technical approach, considering the implementation plan to be systematic, complete, and feasible, with reasonable technical routes, correct research methods, and appropriate progress arrangements. After deliberation, the expert panel unanimously agreed that the project implementation plan passed the demonstration and provided constructive suggestions from multiple dimensions such as financial management, acceptance standards, and risk prevention mechanisms. In the future, the project team will comprehensively review and implement the experts' opinions and suggestions, accelerate the high-quality implementation of the project, and expedite the cultivation and transformation of achievements.

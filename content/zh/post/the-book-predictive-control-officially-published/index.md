@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: 我实验室教授所著书籍《Predictive Control》正式出版
 date: 2021-01-29T17:08:00.000Z
 draft: false

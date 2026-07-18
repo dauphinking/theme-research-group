@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: 钢铁厂空压机站运行优化系统成功投运
 date: 2021-12-08T16:59:00.000Z
 draft: false

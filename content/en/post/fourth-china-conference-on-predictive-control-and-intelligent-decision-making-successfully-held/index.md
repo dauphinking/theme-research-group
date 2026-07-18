@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: Fourth China Conference on Predictive Control and Intelligent
   Decision-Making Successfully Held
 date: 2024-12-10T14:34:00.000Z

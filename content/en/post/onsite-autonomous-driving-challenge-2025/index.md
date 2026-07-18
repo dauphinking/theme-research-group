@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: CSC Lab's AWESOME Team Wins First Place in the 3rd OnSite Autonomous Driving Algorithm Challenge
 date: 2025-05-17
 
@@ -37,4 +38,4 @@ Since its launch in March 2025, the competition scale includes:
 - 418 participating teams
 - 873 contestants
 - Over 2,000 algorithm updates
-- More than 1.5 million autonomous driving algorithm tests 
+- More than 1.5 million autonomous driving algorithm tests

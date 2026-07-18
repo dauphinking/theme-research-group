@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: ACA Fellow Award Recipient, Congratulations to Professor Yugeng Xi
 subtitle: ""
 date: 2024-12-28T00:00:00.000Z

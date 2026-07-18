@@ -1,4 +1,5 @@
 ---
+authors: ["csc-lab"]
 title: The 5th China Model Predictive Control and Intelligent Decision Conference Held in Shanghai
 date: 2025-05-16T00:00:00.000Z
 draft: false
@@ -37,4 +38,4 @@ In addition, after on-site defense by the authors and careful review by the conf
 
 {{< figure src="ceremony.jpg" >}}
 
-At the closing ceremony, Conference Chair Yang Bo handed over the flag to Professor Hu Chaofang of Tianjin University, the next host. 
+At the closing ceremony, Conference Chair Yang Bo handed over the flag to Professor Hu Chaofang of Tianjin University, the next host.
