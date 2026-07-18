@@ -1,7 +1,7 @@
 ---
 title: 实验室成员所在团队获中国自动化学会科技成就奖（创新团队）
-date: 2025-06-01
-lastmod: 2025-06-01
+date: 2025-06-05
+lastmod: 2025-06-05
 translationKey: caa-scientific-achievement-innovation-team-award-2025
 authors: ["csc-lab"]
 summary: 席裕庚、李德伟、邬晶作为团队完成人，共同获得2024年度中国自动化学会科技成就奖（创新团队）。
