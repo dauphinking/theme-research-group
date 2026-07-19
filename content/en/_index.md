@@ -7,13 +7,13 @@ type: landing
 sections:
   - block: hero
     content:
-      title: CSC Lab
+      title: SJTU CSC Lab
       image:
         filename: welcome.jpg
       text: |
         **Complex Systems & Control Laboratory**
 
-        Led by Prof. Dewei Li at Shanghai Jiao Tong University, CSC Lab conducts research in model predictive control, autonomous robotics, intelligent transportation, and industrial process optimization and control.
+        Shanghai Jiao Tong University's research laboratory focusing on model predictive control, autonomous robotics, and complex industrial systems control.
 
     design:
       background:
