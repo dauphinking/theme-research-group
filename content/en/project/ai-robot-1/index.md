@@ -8,7 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: "Rail-mounted AI Inspection Robot System"
-authors: ["Bihui JIN"]
+authors: ["CSC Lab"]
 tags:
   - Robot
 links: []

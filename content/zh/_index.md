@@ -13,14 +13,14 @@ sections:
       text: |
         **Complex Systems & Control Laboratory**
 
-        上海交通大学复杂系统智能控制实验室，围绕模型预测控制、自主机器人、复杂工业系统控制开展研究。
+        上海交通大学复杂系统智能控制实验室拥有四十余年研究积淀，重点开展模型预测控制、自主机器人与复杂系统优化控制研究。
 
     design:
       background:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-  
+   
   - block: markdown
     content:
       title: ""
@@ -28,7 +28,7 @@ sections:
         {{< quicknews lang="zh" count="3" >}}
     design:
       columns: '1'
-   
+  
   - block: collection
     id: posts
     content:

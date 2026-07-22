@@ -9,7 +9,7 @@ draft: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
-authors: ["Bihui JIN"]
+authors: ["CSC Lab"]
 
 image:
   caption: 智能电控模组

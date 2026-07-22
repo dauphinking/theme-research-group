@@ -2,7 +2,7 @@
 slides: example
 url_pdf: ""
 summary: 在空分系统、注塑系统、光伏逆变器系统和锅炉燃烧系统等多个工业领域的新型MPC设计与工程实现
-authors: ["Bihui JIN", "Dewei LI"]
+authors: ["Dewei LI"]
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""
