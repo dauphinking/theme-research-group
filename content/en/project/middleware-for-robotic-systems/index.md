@@ -1,5 +1,5 @@
 ---
-authors: ["Bihui JIN", "Dewei LI"]
+authors: ["Dewei LI"]
 slides: example
 url_pdf: ""
 summary: >-

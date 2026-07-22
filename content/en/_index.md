@@ -13,7 +13,7 @@ sections:
       text: |
         **Complex Systems & Control Laboratory**
 
-        Shanghai Jiao Tong University's research laboratory focusing on model predictive control, autonomous robotics, and complex industrial systems control.
+        With more than four decades of research heritage, the Complex Systems & Control Laboratory at Shanghai Jiao Tong University focuses on model predictive control, autonomous robotics, and optimization and control of complex systems.
 
     design:
       background:

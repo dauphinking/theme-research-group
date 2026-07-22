@@ -20,7 +20,7 @@ marketing:
     site_type: Organization
     local_business_type: 'Research'
     org_name: 'SJTU CSC Lab'
-    description: '上海交通大学复杂系统智能控制实验室，专注于模型预测控制、自主机器人、复杂工业系统控制等领域研究。Shanghai Jiao Tong University Complex Systems Control Laboratory, focusing on model predictive control, autonomous robotics, and complex industrial systems control.'
+    description: 'SJTU CSC Lab（上海交通大学复杂系统智能控制实验室）拥有四十余年研究积淀，重点开展模型预测控制、自主机器人与复杂系统优化控制研究。With more than four decades of research heritage, SJTU CSC Lab focuses on model predictive control, autonomous robotics, and optimization and control of complex systems.'
     keywords: ['上海交通大学', 'SJTU CSC Lab', '复杂系统控制', '模型预测控制', 'Model Predictive Control', 'MPC', 'Complex Systems Control', '自主机器人', 'Autonomous Robotics', '工业系统控制']
   analytics:
     google_analytics: ''

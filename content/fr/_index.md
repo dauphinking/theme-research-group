@@ -6,13 +6,13 @@ type: landing
 sections:
   - block: hero
     content:
-      title: CSC Lab
+      title: SJTU CSC Lab
       image:
         filename: welcome.jpg
       text: |
         **Laboratoire de commande des systèmes complexes**
 
-        Dirigé par le professeur Dewei Li à l'Université Jiao Tong de Shanghai, le CSC Lab mène des recherches en commande prédictive, robotique autonome, transport intelligent et optimisation des procédés industriels.
+        Fort de plus de quarante ans de recherche, le Laboratoire de commande des systèmes complexes de l'Université Jiao Tong de Shanghai se consacre à la commande prédictive, à la robotique autonome ainsi qu'à l'optimisation et à la commande des systèmes complexes.
     design:
       background:
         gradient_end: '#1976d2'
