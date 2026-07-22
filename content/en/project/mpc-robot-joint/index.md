@@ -9,7 +9,7 @@ date: '2024-01-31'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
-authors: ["CSC Lab"]
+authors: ["Bihui JIN"]
 image:
   caption: Intelligent Motor Control Module
   focal_point: Smart

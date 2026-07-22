@@ -2,7 +2,7 @@
 slides: example
 url_pdf: ""
 summary: The LiDAR-based system enhances pedestrian safety by real-time detection and signal timing adjustment.
-authors: ["CSC Lab"]
+authors: ["Bihui JIN"]
 url_video: ""
 date: 2024-03-27T00:00:00.000Z
 external_link: ""

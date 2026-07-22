@@ -9,7 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: "轨道式AI巡检机器人系统"
-authors: ["CSC Lab"]
+authors: ["Bihui JIN"]
 tags:
   - Robot
 links: []

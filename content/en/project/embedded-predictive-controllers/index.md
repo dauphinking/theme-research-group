@@ -1,6 +1,6 @@
 ---
 title: Embedded Predictive Controllers
-authors: ["Dewei LI"]
+authors: ["Bihui JIN", "Dewei LI"]
 date: 2024-12-24T10:33:00.000Z
 summary: >-
   

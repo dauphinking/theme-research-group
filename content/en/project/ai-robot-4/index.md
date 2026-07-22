@@ -8,7 +8,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: "AI Vision Inspection Robot"
-authors: ["CSC Lab"]
+authors: ["Bihui JIN"]
 tags:
   - Robot
 links: []
