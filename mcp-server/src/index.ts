@@ -74,7 +74,7 @@ async function getItemBySlug(
 
 const optionalLang = z.string().optional().describe("Language: zh, en, fr");
 const optionalLimit = z.number().optional().describe("Max items to return");
-const slugParam = z.string().describe("Slug (e.g. yang-2025-input, dewei-li)");
+const slugParam = z.string().describe("Slug (e.g. yang-2025-input, bihui-jin)");
 
 const mcpServer = new McpServer({
   name: "csc-lab",
@@ -140,7 +140,7 @@ mcpServer.registerTool(
 mcpServer.registerTool(
   "csc_lab_get_author",
   {
-    description: "Get one author by slug (e.g. dewei-li).",
+    description: "Get one author by slug (e.g. bihui-jin).",
     inputSchema: {
       slug: slugParam,
       lang: optionalLang,

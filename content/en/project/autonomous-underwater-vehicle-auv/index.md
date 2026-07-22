@@ -11,6 +11,7 @@ external_link: ""
 url_slides: ""
 title: Autonomous Underwater Vehicle (AUV)
 authors:
+  - Bihui JIN
   - Dewei LI
 tags:
   - Robot

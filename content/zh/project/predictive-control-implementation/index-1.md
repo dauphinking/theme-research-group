@@ -8,7 +8,7 @@ summary: Noval MPC design and Project Implementation in various industrial
   fiels, including Air Separation system,Injection Molding system, PV Inverter
   system and Boiler Combustion system
 authors:
-  - CSC Lab
+  - Bihui JIN
 url_video: ""
 featured: false
 external_link: ""

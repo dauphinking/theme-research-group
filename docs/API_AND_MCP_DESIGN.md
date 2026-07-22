@@ -98,7 +98,7 @@ csc-lab/
 | `csc_lab_list_publications` | 列出出版物 | `lang` (optional): 语言代码；`limit` (optional): 条数上限，默认 50 |
 | `csc_lab_get_publication` | 按 slug 获取单条出版物 | `slug`: 出版物 slug（如 yang-2025-input）；`lang` (optional) |
 | `csc_lab_list_authors` | 列出作者 | `lang` (optional)；`limit` (optional)，默认 100 |
-| `csc_lab_get_author` | 按 slug 获取单条作者 | `slug`: 作者 slug（如 dewei-li）；`lang` (optional) |
+| `csc_lab_get_author` | 按 slug 获取单条作者 | `slug`: 作者 slug（如 bihui-jin）；`lang` (optional) |
 | `csc_lab_list_projects` | 列出项目 | `lang` (optional)；`limit` (optional)，默认 50 |
 | `csc_lab_get_project` | 按 slug 获取单条项目 | `slug`；`lang` (optional) |
 | `csc_lab_list_posts` | 列出新闻/动态 | `lang` (optional)；`limit` (optional)，默认 20 |

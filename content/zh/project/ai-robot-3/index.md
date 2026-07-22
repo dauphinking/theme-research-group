@@ -9,7 +9,7 @@ date: 2024-03-27T00:00:00.000Z
 external_link: ""
 url_slides: ""
 title: "AI视觉清洗机器人"
-authors: ["Zhiyong DAI"]
+authors: ["Bihui JIN", "Zhiyong DAI"]
 tags:
   - Robot
   - AI

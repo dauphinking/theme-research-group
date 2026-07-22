@@ -1,6 +1,6 @@
 ---
 title: Energy Efficiency in Industrial Processes
-authors: ["CSC Lab"]
+authors: ["Bihui JIN"]
 date: 2024-12-24T10:37:00.000Z
 summary: >-
   
