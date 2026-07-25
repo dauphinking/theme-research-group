@@ -3,7 +3,6 @@ title: Monocular 3D reconstruction of human body
 authors:
 - Yuqi Zhang
 - Dewei Li
-- Bihui Jin
 - Yunwen Xu
 - Shibei Xue
 date: '2019-01-01'
