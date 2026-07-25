@@ -2,7 +2,6 @@
 title: Model and Collision Avoidance for Motion Planning of Rigid-Soft Robot With Continuous Expression and Input Mapping
 authors:
 - Shaoying He
-- Bihui Jin
 - Tong Chen
 - Yunwen Xu
 - Dewei Li
