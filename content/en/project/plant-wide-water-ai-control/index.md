@@ -14,6 +14,11 @@ tags:
   - Predictive Maintenance
   - Water Treatment
   - Wastewater Treatment
+image:
+  filename: featured.png
+  focal_point: Center
+  preview_only: false
+  caption: Concept interface for the plant-wide AIPC platform
 ---
 
 ## Project Overview
@@ -21,6 +26,8 @@ tags:
 This project establishes a plant-wide closed-loop AI control system spanning sensing, forecasting, decision-making, control, and performance evaluation for drinking-water and wastewater treatment plants. It unifies time-series foundation models, soft sensors, multivariable model predictive control (MPC), real-time optimization (RTO), and prognostics and health management (PHM) within one industrial control architecture.
 
 The platform integrates with existing PLC, SCADA, DCS, OPC UA, and industrial data systems. Existing safety interlocks and operator authority remain in place, while AI control strategies run online with continuous performance evaluation and model adaptation.
+
+{{< figure src="plant-wide-ai-architecture.svg" title="Plant-wide closed-loop AI architecture for water and wastewater treatment" alt="A plant-wide closed-loop architecture connecting field data, time-series foundation models, predictive control, process execution, and operating outcomes" >}}
 
 ## Core Technical Architecture
 
@@ -54,6 +61,14 @@ Operating and condition-monitoring data are combined for pumps, blowers, mixers,
 - Early warning of vibration, temperature, current, pressure, and operating anomalies
 - Fault-risk forecasting and maintenance-window recommendations
 - Coordination between equipment operating strategy and process-control strategy
+
+## Engineering Implementation and Software Interface
+
+The system combines modular engineering software with edge controllers. Model configuration, control simulation, constraint management, and performance evaluation are completed in the engineering environment, while real-time control strategies are connected to the plant through industrial controllers. Each water project is configured for its actual process stages, instrumentation, access control, and industrial communication protocols.
+
+{{< figure src="engineering-control-interface.webp" title="Predictive-control engineering software and embedded controller" alt="Predictive-control modeling and simulation software with controller hardware and an embedded industrial control unit" >}}
+
+The image shows the laboratory's existing predictive-control software and controller engineering foundation; it is not a screenshot from any specific water-treatment plant.
 
 ## Main Application Modules
 

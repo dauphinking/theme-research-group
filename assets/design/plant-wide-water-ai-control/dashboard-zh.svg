@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">自来水与污水全厂 AIPC 控制平台界面示意</title>
+  <desc id="desc">展示水质与负荷预测、模型预测控制、关键流程状态和设备预测性维护的全厂控制平台。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef7f8"/>
+      <stop offset="1" stop-color="#f4f7fb"/>
+    </linearGradient>
+    <linearGradient id="nav" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102f43"/>
+      <stop offset="1" stop-color="#0b2537"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00a6a6"/>
+      <stop offset="1" stop-color="#38c6bb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#17384b" flood-opacity=".16"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#17384b" flood-opacity=".09"/>
+    </filter>
+    <style>
+      text{font-family:"Noto Sans SC","Microsoft YaHei",Arial,sans-serif;fill:#163247}
+      .muted{fill:#708493}.tiny{font-size:16px}.small{font-size:18px}.label{font-size:20px;font-weight:600}.card-title{font-size:21px;font-weight:700}.metric{font-size:34px;font-weight:750}.white{fill:#fff}.navtext{fill:#c7d8df;font-size:20px}.navactive{fill:#fff;font-size:20px;font-weight:700}.grid{stroke:#dce7eb;stroke-width:1}.axis{fill:#81939f;font-size:14px}.pill{font-size:15px;font-weight:700}.status{fill:#1b7c68;font-size:15px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1470" cy="80" r="180" fill="#d9f0ee" opacity=".7"/>
+  <circle cx="115" cy="820" r="150" fill="#deebf6" opacity=".7"/>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="45" width="1470" height="810" rx="28" fill="#fff"/>
+    <path d="M93 45h1414a28 28 0 0 1 28 28v62H65V73a28 28 0 0 1 28-28z" fill="#0c2d42"/>
+    <rect x="65" y="135" width="245" height="720" fill="url(#nav)"/>
+    <path d="M65 827h245v28H93a28 28 0 0 1-28-28z" fill="#0b2537"/>
+  </g>
+
+  <!-- Browser header -->
+  <circle cx="101" cy="90" r="8" fill="#ff6f76"/>
+  <circle cx="128" cy="90" r="8" fill="#ffc45b"/>
+  <circle cx="155" cy="90" r="8" fill="#45c98d"/>
+  <rect x="190" y="67" width="48" height="48" rx="14" fill="url(#aqua)"/>
+  <path d="M204 92c6-13 15-16 21-10-2 16-9 23-21 23 5-4 8-8 9-13-4 4-7 5-9 0z" fill="#fff"/>
+  <text x="252" y="87" class="white" font-size="23" font-weight="750">SJTU CSC Lab</text>
+  <text x="252" y="111" fill="#9fc0cc" font-size="15">全厂 AIPC 控制平台 · Plant-wide AI Control</text>
+  <rect x="1196" y="68" width="142" height="42" rx="21" fill="#153f55"/>
+  <circle cx="1222" cy="89" r="7" fill="#49d4a0"/>
+  <text x="1238" y="96" class="white" font-size="16">闭环运行</text>
+  <rect x="1352" y="68" width="145" height="42" rx="21" fill="#153f55"/>
+  <text x="1375" y="96" class="white" font-size="16">2026-08-07</text>
+
+  <!-- Navigation -->
+  <text x="100" y="185" fill="#6e97a7" font-size="14" letter-spacing="2">OPERATIONS</text>
+  <rect x="84" y="207" width="207" height="52" rx="13" fill="#17475c"/>
+  <circle cx="111" cy="233" r="10" fill="#30c1b4"/>
+  <path d="M104 234l5 5 10-13" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="136" y="241" class="navactive">全厂总览</text>
+  <circle cx="111" cy="295" r="10" fill="none" stroke="#6d98a8" stroke-width="2"/>
+  <path d="M104 298l5-6 5 3 6-10" fill="none" stroke="#8fb4c1" stroke-width="2"/>
+  <text x="136" y="303" class="navtext">时序预测</text>
+  <circle cx="111" cy="357" r="10" fill="none" stroke="#6d98a8" stroke-width="2"/>
+  <path d="M105 357h12m-6-6v12" stroke="#8fb4c1" stroke-width="2"/>
+  <text x="136" y="365" class="navtext">工艺优化</text>
+  <circle cx="111" cy="419" r="10" fill="none" stroke="#6d98a8" stroke-width="2"/>
+  <path d="M106 419l3 3 7-8" fill="none" stroke="#8fb4c1" stroke-width="2"/>
+  <text x="136" y="427" class="navtext">设备健康</text>
+  <circle cx="111" cy="481" r="10" fill="none" stroke="#6d98a8" stroke-width="2"/>
+  <rect x="105" y="474" width="12" height="14" rx="2" fill="none" stroke="#8fb4c1" stroke-width="2"/>
+  <text x="136" y="489" class="navtext">运行评价</text>
+  <text x="100" y="573" fill="#6e97a7" font-size="14" letter-spacing="2">SYSTEM</text>
+  <text x="101" y="618" class="navtext">数据接入</text>
+  <text x="101" y="663" class="navtext">模型管理</text>
+  <text x="101" y="708" class="navtext">权限与审计</text>
+  <rect x="90" y="774" width="195" height="50" rx="13" fill="#123b4f"/>
+  <circle cx="116" cy="799" r="9" fill="#48d2a0"/>
+  <text x="137" y="806" fill="#cfe6eb" font-size="16">PLC / SCADA 正常</text>
+
+  <!-- Metric cards -->
+  <g filter="url(#soft)">
+    <rect x="338" y="162" width="272" height="103" rx="17" fill="#fff"/>
+    <rect x="627" y="162" width="272" height="103" rx="17" fill="#fff"/>
+    <rect x="916" y="162" width="272" height="103" rx="17" fill="#fff"/>
+    <rect x="1205" y="162" width="290" height="103" rx="17" fill="#fff"/>
+  </g>
+  <rect x="338" y="162" width="7" height="103" rx="4" fill="#16b5ac"/>
+  <text x="365" y="193" class="small muted">出水合格率</text><text x="365" y="238" class="metric">100.0%</text><text x="523" y="237" class="status">稳定</text>
+  <rect x="627" y="162" width="7" height="103" rx="4" fill="#3f80d1"/>
+  <text x="654" y="193" class="small muted">单位水量能耗</text><text x="654" y="238" class="metric">0.31</text><text x="747" y="237" class="tiny muted">kWh/m³</text>
+  <rect x="916" y="162" width="7" height="103" rx="4" fill="#8b70d6"/>
+  <text x="943" y="193" class="small muted">综合药耗指数</text><text x="943" y="238" class="metric">−8.6%</text><text x="1095" y="237" class="status">优化</text>
+  <rect x="1205" y="162" width="7" height="103" rx="4" fill="#ee9d43"/>
+  <text x="1232" y="193" class="small muted">关键设备健康度</text><text x="1232" y="238" class="metric">96.8%</text><text x="1393" y="237" class="status">正常</text>
+
+  <!-- Forecast chart -->
+  <g filter="url(#soft)"><rect x="338" y="285" width="765" height="280" rx="18" fill="#fff"/></g>
+  <text x="365" y="323" class="card-title">水质与负荷时序预测</text>
+  <text x="365" y="348" class="tiny muted">Time-Series Foundation Model · 未来 6 小时</text>
+  <circle cx="848" cy="315" r="5" fill="#16b5ac"/><text x="860" y="321" class="tiny muted">实测</text>
+  <circle cx="925" cy="315" r="5" fill="#4c7bd9"/><text x="937" y="321" class="tiny muted">预测</text>
+  <line x1="395" y1="390" x2="1063" y2="390" class="grid"/>
+  <line x1="395" y1="438" x2="1063" y2="438" class="grid"/>
+  <line x1="395" y1="486" x2="1063" y2="486" class="grid"/>
+  <line x1="395" y1="526" x2="1063" y2="526" class="grid"/>
+  <line x1="395" y1="372" x2="395" y2="526" stroke="#cddbe1"/>
+  <line x1="736" y1="372" x2="736" y2="526" stroke="#b9cbd2" stroke-dasharray="6 6"/>
+  <text x="690" y="370" class="axis">当前时刻</text>
+  <path d="M395 485 C430 468 456 475 486 451 S544 420 579 432 S642 472 679 445 S715 416 736 425" fill="none" stroke="#16b5ac" stroke-width="5" stroke-linecap="round"/>
+  <path d="M736 425 C775 405 804 398 836 421 S901 474 940 445 S1003 390 1063 405" fill="none" stroke="#4c7bd9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M736 442 C782 418 812 420 844 439 S904 493 944 462 S1007 409 1063 422 L1063 389 C1015 375 974 407 937 428 S877 426 842 404 S774 389 736 409z" fill="#4c7bd9" opacity=".1"/>
+  <circle cx="736" cy="425" r="7" fill="#fff" stroke="#16b5ac" stroke-width="4"/>
+  <text x="385" y="548" class="axis">00:00</text><text x="545" y="548" class="axis">02:00</text><text x="715" y="548" class="axis">04:00</text><text x="885" y="548" class="axis">06:00</text><text x="1025" y="548" class="axis">08:00</text>
+  <rect x="960" y="339" width="103" height="30" rx="15" fill="#eef4ff"/><text x="979" y="360" fill="#416cc1" class="pill">误差 2.1%</text>
+
+  <!-- Optimization stack -->
+  <g filter="url(#soft)"><rect x="1122" y="285" width="373" height="280" rx="18" fill="#fff"/></g>
+  <text x="1148" y="323" class="card-title">全厂协同优化</text>
+  <text x="1148" y="348" class="tiny muted">预测—优化—控制—评价闭环</text>
+  <rect x="1148" y="374" width="321" height="47" rx="12" fill="#e8f8f6"/><circle cx="1173" cy="398" r="10" fill="#16b5ac"/><text x="1194" y="405" class="label">时序大模型 / 软测量</text><text x="1418" y="404" class="status">在线</text>
+  <path d="M1308 423v18" stroke="#8eb1bb" stroke-width="2"/><path d="M1301 437l7 8 7-8" fill="none" stroke="#8eb1bb" stroke-width="2"/>
+  <rect x="1148" y="445" width="321" height="47" rx="12" fill="#edf3fc"/><circle cx="1173" cy="469" r="10" fill="#4c7bd9"/><text x="1194" y="476" class="label">MPC + 实时优化 RTO</text><text x="1418" y="475" fill="#416cc1" class="pill">闭环</text>
+  <path d="M1308 494v18" stroke="#8eb1bb" stroke-width="2"/><path d="M1301 508l7 8 7-8" fill="none" stroke="#8eb1bb" stroke-width="2"/>
+  <rect x="1148" y="516" width="321" height="32" rx="12" fill="#f4f0fc"/><circle cx="1173" cy="532" r="8" fill="#8b70d6"/><text x="1194" y="538" class="small" font-weight="650">BD-PHM 设备健康管理</text>
+
+  <!-- Process lane -->
+  <g filter="url(#soft)"><rect x="338" y="585" width="765" height="238" rx="18" fill="#fff"/></g>
+  <text x="365" y="623" class="card-title">关键流程协同状态</text>
+  <rect x="955" y="598" width="120" height="32" rx="16" fill="#eaf8f1"/><circle cx="976" cy="614" r="6" fill="#42ba85"/><text x="991" y="620" class="status">全部正常</text>
+  <path d="M397 706h637" stroke="#b9d8da" stroke-width="4" stroke-linecap="round"/>
+  <g>
+    <circle cx="408" cy="706" r="27" fill="#e6f7f5" stroke="#20b5ab" stroke-width="3"/><path d="M399 708c5-13 13-17 20-8-2 13-9 20-20 18 5-3 8-7 9-11-4 3-7 4-9 1z" fill="#16a89f"/><text x="377" y="758" class="label">进水预测</text><text x="382" y="783" class="tiny muted">负荷稳定</text>
+    <circle cx="557" cy="706" r="27" fill="#eef3fc" stroke="#4c7bd9" stroke-width="3"/><path d="M549 695h16v22h-16zM553 690h8v6" fill="none" stroke="#4c7bd9" stroke-width="3"/><text x="526" y="758" class="label">智能加药</text><text x="530" y="783" class="tiny muted">自动优化</text>
+    <circle cx="706" cy="706" r="27" fill="#f2effb" stroke="#8b70d6" stroke-width="3"/><path d="M693 713c8-20 18-23 27-8M693 705h26" fill="none" stroke="#8b70d6" stroke-width="3"/><text x="675" y="758" class="label">沉淀过滤</text><text x="680" y="783" class="tiny muted">水质受控</text>
+    <circle cx="855" cy="706" r="27" fill="#fff5e9" stroke="#ee9d43" stroke-width="3"/><circle cx="849" cy="707" r="4" fill="#ee9d43"/><circle cx="860" cy="698" r="5" fill="#ee9d43"/><circle cx="864" cy="715" r="3" fill="#ee9d43"/><text x="824" y="758" class="label">曝气生化</text><text x="829" y="783" class="tiny muted">DO 跟踪</text>
+    <circle cx="1004" cy="706" r="27" fill="#eaf8f1" stroke="#42ba85" stroke-width="3"/><path d="M993 706l8 8 15-18" fill="none" stroke="#42ba85" stroke-width="4" stroke-linecap="round"/><text x="973" y="758" class="label">稳定出水</text><text x="978" y="783" class="tiny muted">达标运行</text>
+  </g>
+
+  <!-- PHM panel -->
+  <g filter="url(#soft)"><rect x="1122" y="585" width="373" height="238" rx="18" fill="#fff"/></g>
+  <text x="1148" y="623" class="card-title">预测性维护</text><text x="1394" y="622" class="tiny muted">BD-PHM</text>
+  <line x1="1148" y1="645" x2="1469" y2="645" class="grid"/>
+  <text x="1148" y="674" class="small">送水泵 #03</text><rect x="1301" y="661" width="109" height="12" rx="6" fill="#e2ecef"/><rect x="1301" y="661" width="101" height="12" rx="6" fill="#39bd88"/><text x="1424" y="675" class="status">92%</text>
+  <text x="1148" y="714" class="small">鼓风机 #02</text><rect x="1301" y="701" width="109" height="12" rx="6" fill="#e2ecef"/><rect x="1301" y="701" width="94" height="12" rx="6" fill="#39bd88"/><text x="1424" y="715" class="status">86%</text>
+  <text x="1148" y="754" class="small">加药泵 #05</text><rect x="1301" y="741" width="109" height="12" rx="6" fill="#e2ecef"/><rect x="1301" y="741" width="83" height="12" rx="6" fill="#e9a044"/><text x="1424" y="755" fill="#c47a23" font-size="15" font-weight="700">76%</text>
+  <rect x="1148" y="778" width="321" height="28" rx="10" fill="#fff7e8"/><circle cx="1165" cy="792" r="5" fill="#eba044"/><text x="1178" y="798" fill="#8b641e" font-size="15">建议 48 小时内检查加药泵轴承</text>
+</svg>
