@@ -79,6 +79,9 @@ sections:
         - name: Intelligent Transport
           tag: 'Traffic'
           url: '#projects'
+        - name: Water & Wastewater AI
+          tag: 'Water AI'
+          url: '#projects'
     design:
       columns: '1'
       view: showcase
