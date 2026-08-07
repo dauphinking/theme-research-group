@@ -97,8 +97,6 @@ sections:
           tag: 'Predictive Control'
         - name: 智能交通
           tag: 'Traffic'
-        - name: 水务全厂AI
-          tag: 'Water AI'
     design:
       columns: '1'
       view: showcase
