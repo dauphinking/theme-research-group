@@ -22,12 +22,12 @@
           <div class="card">
             <img src="{{ printf "/media/%s/%s" $category .Name | safeURL }}" 
                  class="card-img-top" 
-                 alt="{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}"
+                 alt="{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}"
                  loading="lazy"
                  decoding="async"
-                 data-caption="{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}">
+                 data-caption="{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}">
             <div class="card-footer">
-              <p class="card-text text-center mb-0">{{ .Name | replaceRE "\\.[^.]+$" "" | humanize }}</p>
+              <p class="card-text text-center mb-0">{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}</p>
             </div>
           </div>
         </div>
