@@ -1,6 +1,6 @@
 ---
 title: Yu liu
-role: Master Student
+role: Master Alumnus
 avatar_filename: 刘钰.avatar.jpg
 interests:
   - Predictive control
@@ -12,5 +12,5 @@ social:
     icon_pack: fas
 superuser: false
 user_groups:
-  - Master Students
+  - Master Alumni
 ---

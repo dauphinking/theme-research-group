@@ -1,6 +1,6 @@
 ---
 title: Yang Yang
-role: Master Student
+role: Master Alumnus
 avatar_filename: 杨洋.avatar.png
 interests:
   - Intelligent Transportation
@@ -12,5 +12,5 @@ social:
     icon: envelope
 superuser: false
 user_groups:
-  - Master Students
+  - Master Alumni
 ---

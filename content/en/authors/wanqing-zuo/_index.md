@@ -1,6 +1,6 @@
 ---
 title: Wanqing Zuo
-role: Master Student
+role: Master Alumnus
 avatar_filename: 左婉晴.avatar.jpg
 interests:
   - Intelligent Transportation
@@ -12,5 +12,5 @@ social:
     icon_pack: fas
 superuser: false
 user_groups:
-  - Master Students
+  - Master Alumni
 ---
