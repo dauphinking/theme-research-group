@@ -1,6 +1,6 @@
 ---
 title: Shaoying HE
-role: Postdoctor
+role: PhD Alumnus
 avatar_filename: avatar.png
 bio: ""
 interests:
@@ -32,6 +32,6 @@ education:
 email: " heshaoying19941204@sjtu.edu.cn"
 superuser: false
 user_groups:
-  - Postdocs
+  - PhD Alumni
 ---
 Shaoying He  received the master's degree in automation from Shanghai Jiao Tong University, Shanghai, China, in 2019. He is currently a postdoctor with the Department of Automation, Shanghai Jiao Tong University.,His research interests include predictive control and robot

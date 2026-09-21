@@ -1,6 +1,6 @@
 ---
 title: Xin Zhang
-role: Master Student
+role: Master Alumnus
 avatar_filename: 张鑫.avatar.jpg
 interests:
   - swarm intelligence
@@ -12,5 +12,5 @@ social:
     icon: "  envelope"
 superuser: false
 user_groups:
-  - Master Students
+  - Master Alumni
 ---
