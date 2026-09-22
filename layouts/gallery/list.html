@@ -15,20 +15,26 @@
     
     <div class="row" data-masonry='{"percentPosition": true }'>
       {{ $category := .name }}
+      {{ $categoryTitle := .title }}
       {{ $files := readDir (printf "static/media/%s" .name) }}
       {{ range $files }}
         {{ if or (eq (path.Ext .Name) ".jpg") (eq (path.Ext .Name) ".png") (eq (path.Ext .Name) ".jpeg") }}
+        {{ $baseName := .Name | replaceRE "\\.[^.]+$" "" }}
+        {{ $label := $baseName | replaceRE "_" " " }}
+        {{ $isOpaqueName := gt (len (findRE "^[0-9_-]+$" $baseName)) 0 }}
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
           <div class="card">
             <img src="{{ printf "/media/%s/%s" $category .Name | safeURL }}" 
                  class="card-img-top" 
-                 alt="{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}"
+                 alt="{{ if $isOpaqueName }}{{ $categoryTitle }}{{ else }}{{ $label }}{{ end }}"
                  loading="lazy"
                  decoding="async"
-                 data-caption="{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}">
+                 data-caption="{{ if not $isOpaqueName }}{{ $label }}{{ end }}">
+            {{ if not $isOpaqueName }}
             <div class="card-footer">
-              <p class="card-text text-center mb-0">{{ .Name | replaceRE "\\.[^.]+$" "" | replaceRE "_" " " }}</p>
+              <p class="card-text text-center mb-0">{{ $label }}</p>
             </div>
+            {{ end }}
           </div>
         </div>
         {{ end }}

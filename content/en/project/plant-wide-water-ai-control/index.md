@@ -70,6 +70,10 @@ The system combines modular engineering software with edge controllers. Model co
 
 The image shows the laboratory's existing predictive-control software and controller engineering foundation; it is not a screenshot from any specific water-treatment plant.
 
+{{< figure src="dcs-control-system.jpg" title="DCS experimental platform" alt="A distributed control system platform for industrial process control and algorithm validation" >}}
+
+The DCS platform supports closed-loop validation of multiloop process control, APC/MPC, and integration with PLC, DCS, and SCADA systems.
+
 ## Main Application Modules
 
 | Module | Controlled objects | Main capabilities |
