@@ -5,7 +5,7 @@ type: gallery
 gallery_categories:
   - name: computing
     title: 计算资源
-    description: 实验室单机 GPU 服务器显存超过 200GB，合作方服务器可支持大模型级训练。
+    description: 实验室单台 NVLink GPU 服务器显存超过 200GB，合作方服务器可支持大模型级训练。
   - name: equipment
     title: 实验设备
     description: 展示实验室的先进设备和研究平台。

@@ -5,7 +5,7 @@ type: gallery
 gallery_categories:
   - name: computing
     title: Computing Resources
-    description: The lab's single-node GPU server provides more than 200 GB of GPU memory, while partner computing resources support large-model training.
+    description: The lab's single NVLink GPU server provides more than 200 GB of GPU memory, while partner computing resources support large-model training.
   - name: equipment
     title: Lab Equipment
     description: Showcasing our advanced equipment and research platforms.
