@@ -14,6 +14,7 @@ sections:
         |--------------|--------------|----------------------|---------|
         | Key Technologies and Equipment Development for Full Closed-loop Control Systems in Coal Conversion Processes | National Key R&D Program - Clean and Efficient Coal Utilization | Dewei LI | 2024-2027 |
         | Optimization and Control Theory of Complex Hybrid Traffic Systems in Internet of Vehicles Environment | National Natural Science Foundation Key Project | Dewei LI | 2023-2025 |
+        | Distributed Online Data Learning Algorithms for Complex Dynamic Optimization Problems | National Natural Science Foundation of China Project | Ning LI | 2023.01-2026.12 |
         | Real-time Data-driven Multi-stage Batch Process Collaborative Optimization Control Design and Application Research | NSFC-RGC Joint Research Fund | Dewei LI | 2022-2025 |
         | Key Technologies for Intelligent Dynamic Risk Control in Process Industry | National Key R&D Program Project | Jing WU | 2024-2027 |
         | Collaborative Attack Detection and Resilient Security Control of Smart Grid with Incomplete Information | National Natural Science Foundation Project | Jing WU | 2023-2026 |
@@ -43,6 +44,7 @@ sections:
         |--------------|--------------|----------------------|---------|
         | Integrated Design Method for Distributed Predictive Control of Large-scale Hybrid Systems | National Natural Science Foundation General Project | Dewei LI | 2019-2022 |
         | Key Technologies and Equipment for Fully Autonomous Welding of Large Ship Multi-segment Dual-arm Robots | National 863 Program | Dewei LI | 2018-2021 |
+        | R&D of Network-based Device Servitization Encapsulation and Interactive Management Components | National Key R&D Program of the Ministry of Science and Technology | Ning LI | 2019.05-2022.04 |
         | Active Security Control and Self-healing Optimization of Smart Grid with Distributed Energy Access | National Natural Science Foundation Project | Jing WU | 2019-2022 |
         | Stochastic Modeling and Control of Heterogeneous Traffic Flow for Section Speed Regulation | National Natural Science Foundation Youth Project | Yunwen XU | 2020-2023 |
         | Research on Autonomous Traffic Complex System Architecture (>4M RMB) | National Key R&D Program Project | Yunwen XU | 2020-2024 |
