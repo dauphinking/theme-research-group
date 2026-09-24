@@ -13,6 +13,10 @@ gallery_categories:
     title: Lab Activities
     description: Capturing memorable moments of our lab members in various activities
 
+gallery_descriptions:
+  "移动操作机器人实验平台": "Integrates a mobile base, six-axis robotic arm, machine vision, and edge control for autonomous navigation, target recognition, grasping, and validation of robot-control algorithms."
+  "六轴机器人控制实验平台": "An experimental platform for validating robot motion control, trajectory planning, vision guidance, and intelligent-control algorithms."
+
 design:
   columns: '2'
   view: masonry
