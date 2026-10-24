@@ -26,7 +26,6 @@ education:
       year: 2009
 email: bihui.jin@gmail.com
 superuser: false
-user_groups:
-  - 工程师
+user_groups: []
 ---
 拥有机器人、优化和能源等多个方向的工程师/硕士学位，在高科技领域拥有丰富产业从业经验，擅长先进技术的产业落地；主要研究方向包括尖端精密控制、机器人等。授权发明专利7项。

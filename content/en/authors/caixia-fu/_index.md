@@ -29,7 +29,7 @@ education:
       year: 2012
 superuser: false
 user_groups:
-  - Postdocs
+  - Postdocs and Engineers
 ---
 ## Professional Experience
 
