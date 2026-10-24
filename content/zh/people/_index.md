@@ -14,8 +14,7 @@ sections:
            # 添加中文显示名称映射
       user_groups:
         - 实验室导师 # Researchers
-        - 博士后 # Postdocs
-        - 工程师 # Engineers
+        - 博士后与工程师 # Postdocs and Engineers
         - 博士生 # Phd Students
         - 硕士生 # Master Students
         - 本科生 # Undergraduate Students

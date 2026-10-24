@@ -12,8 +12,7 @@ sections:
       sort_ascending: true
       user_groups:
         - Researchers
-        - Postdocs
-        - Engineers
+        - Postdocs and Engineers
         - Phd Students
         - Master Students
         - Undergraduate Students

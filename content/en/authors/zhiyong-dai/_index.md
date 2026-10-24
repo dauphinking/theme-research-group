@@ -21,7 +21,7 @@ education:
       institution: East China University of Science and Technology
 superuser: false
 user_groups:
-  - Engineers
+  - Postdocs and Engineers
 last_name: DAI
 highlight_name: false
 first_name: Zhiyong

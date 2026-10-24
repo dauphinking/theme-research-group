@@ -29,7 +29,7 @@ education:
       institution: 山东农业大学
 superuser: false
 user_groups:
-  - 博士后
+  - 博士后与工程师
 ---
 ## 专业经历
 
