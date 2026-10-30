@@ -9,6 +9,11 @@ interests:
 social:
   - display:
       header: false
+    link: https://www.eyecoming.com/
+    icon_pack: fas
+    icon: globe
+  - display:
+      header: false
     link: mailto:bihui.jin@gmail.com
     icon_pack: fas
     icon: envelope
@@ -28,4 +33,4 @@ superuser: false
 user_groups:
   - Postdocs and Engineers
 ---
-Bihui Jin holds engineering and master's degrees in robotics and operations research, and in energy. He has extensive industry experience in high-tech fields, with a focus on translating advanced technologies into industrial applications. His interests include precision control and robotics. He holds seven granted invention patents.
+Bihui Jin holds engineering and master's degrees in robotics and operations research, and in energy. He has extensive industry experience in high-tech fields, with a focus on translating advanced technologies into industrial applications. His interests include precision control and robotics. He holds seven granted invention patents. He also contributes to [EyeComing](https://www.eyecoming.com/), a remote assistance app that helps connect people across China with community support.
