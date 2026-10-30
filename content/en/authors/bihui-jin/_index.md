@@ -9,6 +9,11 @@ interests:
 social:
   - display:
       header: false
+    link: https://www.eyecoming.com/
+    icon_pack: fas
+    icon: globe
+  - display:
+      header: false
     link: mailto:bihui.jin@gmail.com
     icon_pack: fas
     icon: envelope
