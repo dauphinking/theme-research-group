@@ -1,4 +1,5 @@
 ---
+draft: true
 weight: 1  # 设置数字，数字越小越靠前
 title: 金碧辉
 role: 主任工程师
